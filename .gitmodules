@@ -1,0 +1,3 @@
+[submodule "DeepDFA"]
+	path = DeepDFA
+	url = https://github.com/whitemech/DeepDFA.git
