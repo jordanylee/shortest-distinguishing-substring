@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "results_id": "2026-11-15_01-51-53-783405_UTC",
+  "source_run_id": "2026-11-15_00-36-37-375402_UTC",
+  "source_run_dir": "data/alphabet_2/states_20/2026-11-15_00-36-37-375402_UTC",
+  "source_sha256": {
+    "manifest.json": "4e6fcfddef97bce217d2a97ce91f13090b08949a5d0f3235a70c4be39b4c7032",
+    "dfas_alphabet-2_states-20_count-500_2026-11-15_00-36-37-375402_UTC.jsonl": "9a4f9aac1c5e56eda16e2091a7c88e01ceb8dad1b6bb8a9aaaea2a85609a1293"
+  },
+  "alphabet": [
+    "0",
+    "1"
+  ],
+  "alphabet_size": 2,
+  "state_count": 20,
+  "dfa_count": 500,
+  "pairing_scheme": "all unordered within-batch pairs, a<b by id",
+  "pair_key": "(a, b): the two DFA record ids from the source batch with a < b; identical to the key used by similarity-metric results",
+  "expected_pair_count": 124750,
+  "pair_count": 124750,
+  "pairs_file": "pairs.jsonl.gz",
+  "pairs_layout": {
+    "a": "DFA id (smaller)",
+    "b": "DFA id (larger)",
+    "length": "shortest distinguishing length, null if equivalent",
+    "witness": "shortlex-smallest shortest distinguishing string as a list of alphabet symbols, null if equivalent"
+  },
+  "dfa_stats_file": "dfa_stats.jsonl.gz",
+  "dfa_stats_layout": {
+    "id": "DFA id",
+    "n_states": "raw state count",
+    "reachable": "states reachable from the initial state",
+    "minimal": "states in the minimal complete DFA"
+  },
+  "compression": "gzip",
+  "equivalent_pair_count": 0,
+  "length_zero_pair_count": 62356,
+  "max_finite_length": 5,
+  "length_histogram": {
+    "0": 62356,
+    "1": 46680,
+    "2": 14659,
+    "3": 1044,
+    "4": 10,
+    "5": 1
+  },
+  "reachable_histogram": {
+    "4": 1,
+    "6": 1,
+    "7": 1,
+    "8": 3,
+    "9": 5,
+    "10": 16,
+    "11": 20,
+    "12": 21,
+    "13": 41,
+    "14": 69,
+    "15": 75,
+    "16": 100,
+    "17": 75,
+    "18": 42,
+    "19": 23,
+    "20": 7
+  },
+  "minimal_histogram": {
+    "4": 1,
+    "6": 1,
+    "7": 1,
+    "8": 5,
+    "9": 4,
+    "10": 20,
+    "11": 19,
+    "12": 31,
+    "13": 47,
+    "14": 71,
+    "15": 79,
+    "16": 89,
+    "17": 68,
+    "18": 38,
+    "19": 20,
+    "20": 6
+  },
+  "witness_rule": "BFS over state pairs from (initial, initial), symbols expanded in manifest alphabet order, visited marked at enqueue",
+  "repo_commit": "d763ecff69899a0940c35e2941787df69111b67d",
+  "repo_dirty": false,
+  "python_version": "3.12.13",
+  "python_implementation": "CPython",
+  "started_utc": "2026-11-15T01:51:55.217113+00:00",
+  "finished_utc": "2026-11-15T01:51:56.767188+00:00",
+  "elapsed_seconds": 1.555,
+  "status": "complete"
+}
