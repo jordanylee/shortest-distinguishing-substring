@@ -1,6 +1,6 @@
 # Current Project Status
 
-Last updated: November 14, 2026, 19:55 (America/Chicago).
+Last updated: November 14, 2026, 20:50 (America/Chicago).
 
 The DeepDFA generator has been implemented and validated. Open `/data/DFA_Generator.ipynb`, edit the first cell, and run all cells. `/data/DFA_Generator.py` is the matching notebook-style Python companion. DeepDFA is present as a Git submodule in `/DeepDFA`, and the `/data`, `/code`, and `/agentLogs` directories exist.
 
@@ -10,9 +10,11 @@ Two runs with these defaults are committed under `data/alphabet_<A>/states_<S>/`
 
 The shortest-distinguishing-string code from [code/IMPLEMENTATION_PLAN.md](code/IMPLEMENTATION_PLAN.md) is **implemented and tested** (`code/loader.py`, `distinguish.py`, `dfa_stats.py`, `pairs.py`, driver `run_pairs.py`; tests via `python3.12 -m unittest discover -s code/tests -t code`, 32 tests, about 3 s). Use `python3.12`; the default `python3` on this machine is 3.10. A separate plan for similarity metrics is in [similarity-metrics.md](similarity-metrics.md) (not yet implemented).
 
+A code review of this implementation was triaged and resolved; see [code/REVIEW_FIXES.md](code/REVIEW_FIXES.md) (six fixes applied in `bebf5d6`, four declined). The fixes do not change results: rerunning the canonical batches with the fixed code reproduced the committed pair and stats files byte for byte, in about 7 s instead of about 10 s.
+
 ## Exploratory Results (canonical run)
 
-Results id `2026-11-15_01-51-53-783405_UTC`, stored at `data/alphabet_<A>/states_<S>/2026-11-15_00-36-37-375402_UTC/pairs/2026-11-15_01-51-53-783405_UTC/` (`pairs.jsonl.gz` with length and shortlex-smallest witness per pair, `dfa_stats.jsonl.gz` with reachable and minimal sizes, `manifest.json` with histograms and provenance). Produced from clean commit `d763ecf`; the full run took about 13 s. No visualizations yet.
+Results id `2026-11-15_01-51-53-783405_UTC`, stored at `data/alphabet_<A>/states_<S>/2026-11-15_00-36-37-375402_UTC/pairs/2026-11-15_01-51-53-783405_UTC/` (`pairs.jsonl.gz` with length and shortlex-smallest witness per pair, `dfa_stats.jsonl.gz` with reachable and minimal sizes, `manifest.json` with histograms and provenance). Produced from clean commit `d763ecf`; the full run took about 13 s. No visualizations yet. Analysis code should load results by this explicit results id, not by globbing `pairs/*`, so a stray or partial result set cannot be double-counted.
 
 | Alphabet | States | Equivalent pairs | Length histogram (0, 1, 2, 3, 4, 5, 6) | Max length |
 |---|---|---|---|---|
