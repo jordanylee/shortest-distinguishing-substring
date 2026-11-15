@@ -14,3 +14,10 @@
 
 - Checked CLAUDE.md content against `README.md` and `time-sensitive.md`. Documentation only; no tests run.
 - `time-sensitive.md` unchanged: project status and next steps are unaffected.
+
+## Follow-up: Distinguishing-String Implementation Plan
+
+- Clarified design choices with the user: all unordered pairs within a single batch; save lengths and witness strings; store results under `<run_id>/pairs/<results_id>/` without overwriting; record reachable and minimal state counts per DFA; isolate the on-disk format behind a small loader; on alphabet mismatch, log an error and abort the run.
+- Discussed module vs. `# %%` layout: importable modules for the algorithm, loader, stats, and runner; a thin `# %%` driver for interactive runs.
+- Created `code/IMPLEMENTATION_PLAN.md` (no code written). Updated `time-sensitive.md` to reference it.
+- Outstanding: implementation; reconcile loader field names with the generator once written; decide whether `data/` outputs are committed.

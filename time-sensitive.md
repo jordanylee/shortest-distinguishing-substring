@@ -4,7 +4,7 @@ Last updated: November 14, 2026 (America/Chicago).
 
 The DeepDFA generation workflow has been inspected, and the user has approved the generator plan below. DeepDFA is present as a Git submodule in `/DeepDFA`, and the `/data`, `/code`, and `/agentLogs` directories exist. The root README records the research question, experimental approach, and repository guidelines.
 
-No project experiment code, generated datasets, results, or visualizations are present in `/code` or `/data` yet. The exploratory run has not been carried out, and no empirical hypothesis has been formed.
+An implementation plan for the distinguishing-string algorithm is recorded in `code/IMPLEMENTATION_PLAN.md` (not yet implemented). No project experiment code, generated datasets, results, or visualizations are present in `/code` or `/data` yet. The exploratory run has not been carried out, and no empirical hypothesis has been formed.
 
 ## Generator Findings
 
@@ -44,6 +44,6 @@ No project experiment code, generated datasets, results, or visualizations are p
 
 1. Implement and validate the approved generator notebook-style Python file.
 2. Select exploratory state counts, alphabet sizes, pairing strategy, and random seeds; sample count is fixed at 500 per combination.
-3. Implement and validate code in `/code` to detect equivalent pairs and find shortest distinguishing strings for non-equivalent pairs.
+3. Implement and validate code in `/code` to detect equivalent pairs and find shortest distinguishing strings for non-equivalent pairs, following the approved plan in [code/IMPLEMENTATION_PLAN.md](code/IMPLEMENTATION_PLAN.md). This can proceed before the generator exists; its loader field names must be reconciled with the generator output afterward.
 4. Run the exploratory simulations and save results and visualizations in `/data`.
 5. Form a hypothesis from the observed distributions and design tailored follow-up simulations.
