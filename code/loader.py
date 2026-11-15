@@ -117,6 +117,8 @@ def load_batch(run_dir: Path) -> Batch:
                 rec = json.loads(line)
             except json.JSONDecodeError as e:
                 _fail(BatchFormatError, run_dir, f"line {line_no}: invalid JSON ({e})")
+            if not isinstance(rec, dict):
+                _fail(BatchFormatError, run_dir, f"line {line_no}: record is not a JSON object")
 
             # ---- Format mapping: one record -> DFA ------------------------------------
             rid = rec.get("id")

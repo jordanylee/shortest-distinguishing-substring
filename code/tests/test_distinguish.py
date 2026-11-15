@@ -1,7 +1,7 @@
 import random
 import unittest
 
-from distinguish import shortest_distinguishing
+from distinguish import shortest_distinguishing, shortest_distinguishing_from
 from loader import AlphabetMismatchError
 from tests.helpers import brute_force, make_dfa, random_dfa, run
 
@@ -59,6 +59,23 @@ class HandMade(unittest.TestCase):
             shortest_distinguishing(a, b, 2)
         with self.assertRaises(AlphabetMismatchError):
             shortest_distinguishing(a, a, 3)
+
+    def test_start_state_range(self):
+        a = make_dfa([[0], [1]], [True, False])
+        b = make_dfa([[0], [1], [2]], [True, False, False])
+        for p0, q0 in ((0, 3), (0, -1), (2, 0), (-1, 0)):
+            with self.assertRaises(ValueError):
+                shortest_distinguishing_from(a, p0, b, q0, 1)
+        bad = make_dfa([[0], [1]], [True])
+        with self.assertRaises(ValueError):
+            shortest_distinguishing(bad, a, 1)
+
+    def test_check_false_matches(self):
+        rng = random.Random(7)
+        for _ in range(200):
+            a, b = random_dfa(rng, 4, 2), random_dfa(rng, 5, 2)
+            self.assertEqual(shortest_distinguishing(a, b, 2),
+                             shortest_distinguishing(a, b, 2, check=False))
 
 
 class BruteForce(unittest.TestCase):

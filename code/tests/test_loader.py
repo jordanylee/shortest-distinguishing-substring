@@ -106,6 +106,12 @@ class LoaderTests(unittest.TestCase):
 
         self._expect(BatchFormatError, [good_record(3), good_record(3)], bad_id=3)
 
+    def test_non_object_record(self):
+        for rec in ([], 5, "x"):
+            d = write_raw_batch(self.tmp / f"nonobj-{type(rec).__name__}", [rec], ["0", "1"], 2)
+            with self.assertLogs("loader", level="ERROR"), self.assertRaises(BatchFormatError):
+                load_batch(d)
+
     def test_valid_raw(self):
         d = write_raw_batch(self.tmp / "ok", [good_record(0), good_record(1)], ["0", "1"], 2)
         self.assertEqual(len(load_batch(d).dfas), 2)

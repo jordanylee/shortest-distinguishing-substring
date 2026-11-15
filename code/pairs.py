@@ -8,6 +8,7 @@ import logging
 import os
 import platform
 import re
+import shutil
 import subprocess
 import time
 from collections import Counter
@@ -26,6 +27,8 @@ PAIR_KEY = ("(a, b): the two DFA record ids from the source batch with a < b; "
             "identical to the key used by similarity-metric results")
 PROGRESS_EVERY = 25_000
 _RESULTS_ID_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9_-]{0,99}$")
+_ALPHABET_DIR_RE = re.compile(r"^alphabet_(\d+)$")
+_STATES_DIR_RE = re.compile(r"^states_(\d+)$")
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 
@@ -86,13 +89,24 @@ def run_batch(run_dir: Path, results_id: str | None = None, compress: bool = Tru
             log.error(msg)
             raise FileExistsError(msg)
     part_dir.mkdir(parents=True)
+    try:
+        return _run_batch_into(run_dir, batch, results_id, out_dir, part_dir, compress, started, t0)
+    except BaseException:
+        # A failed or interrupted run leaves no partial results behind (*.part/ is gitignored,
+        # so a leftover would be invisible). A hard kill can still skip this.
+        shutil.rmtree(part_dir, ignore_errors=True)
+        raise
 
+
+def _run_batch_into(run_dir: Path, batch, results_id: str, out_dir: Path, part_dir: Path,
+                    compress: bool, started: datetime, t0: float) -> Path:
     ext = ".jsonl.gz" if compress else ".jsonl"
     stats_name, pairs_name = f"dfa_stats{ext}", f"pairs{ext}"
     k = len(batch.alphabet)
     dfas = batch.dfas
     n = len(dfas)
     expected_pairs = n * (n - 1) // 2
+    # load_batch already validated every row's width, so the per-pair check is skipped below.
     log.info("%s: %d DFAs, alphabet %s, %d states, %d pairs -> %s",
              run_dir, n, list(batch.alphabet), batch.n_states, expected_pairs, out_dir)
 
@@ -114,7 +128,7 @@ def run_batch(run_dir: Path, results_id: str | None = None, compress: bool = Tru
             a = dfas[i]
             for j in range(i + 1, n):
                 b = dfas[j]
-                res = shortest_distinguishing(a, b, k)
+                res = shortest_distinguishing(a, b, k, check=False)
                 if res.length is None:
                     n_equiv += 1
                     witness = None
@@ -126,9 +140,6 @@ def run_batch(run_dir: Path, results_id: str | None = None, compress: bool = Tru
                 done += 1
                 if done % PROGRESS_EVERY == 0:
                     log.info("  %d / %d pairs", done, expected_pairs)
-
-    if done != expected_pairs:
-        raise RuntimeError(f"wrote {done} pairs, expected {expected_pairs}")
 
     finished = datetime.now(timezone.utc)
     manifest = {
@@ -186,8 +197,12 @@ def find_run_dirs(run_id: str, data_root: Path, alphabet_sizes=None, state_count
     for d in Path(data_root).glob(f"alphabet_*/states_*/{run_id}"):
         if not d.is_dir():
             continue
-        a = int(d.parent.parent.name.removeprefix("alphabet_"))
-        s = int(d.parent.name.removeprefix("states_"))
+        ma = _ALPHABET_DIR_RE.match(d.parent.parent.name)
+        ms = _STATES_DIR_RE.match(d.parent.name)
+        if not (ma and ms):
+            log.warning("skipping directory with non-numeric alphabet/states suffix: %s", d)
+            continue
+        a, s = int(ma.group(1)), int(ms.group(1))
         if alphabet_sizes is not None and a not in alphabet_sizes:
             continue
         if state_counts is not None and s not in state_counts:

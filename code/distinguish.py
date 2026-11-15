@@ -29,19 +29,35 @@ def _check_width(d: DFA, n_symbols: int, label: str) -> None:
             raise AlphabetMismatchError(msg)
 
 
-def shortest_distinguishing(a: DFA, b: DFA, n_symbols: int) -> Result:
-    return shortest_distinguishing_from(a, a.initial, b, b.initial, n_symbols)
+def _check_start(d: DFA, state: int, label: str) -> None:
+    if len(d.accept) != len(d.delta):
+        raise ValueError(f"DFA id={d.id} ({label}) has {len(d.delta)} transition rows "
+                         f"but {len(d.accept)} acceptance flags")
+    if not 0 <= state < len(d.delta):
+        raise ValueError(f"DFA id={d.id} ({label}) start state {state} out of range "
+                         f"0..{len(d.delta) - 1}")
 
 
-def shortest_distinguishing_from(a: DFA, p0: int, b: DFA, q0: int, n_symbols: int) -> Result:
+def shortest_distinguishing(a: DFA, b: DFA, n_symbols: int, check: bool = True) -> Result:
+    return shortest_distinguishing_from(a, a.initial, b, b.initial, n_symbols, check=check)
+
+
+def shortest_distinguishing_from(a: DFA, p0: int, b: DFA, q0: int, n_symbols: int,
+                                 check: bool = True) -> Result:
     """BFS from state pair (p0, q0); return the shortlex-smallest distinguishing string.
 
     Symbols are expanded in index order and pairs are marked visited at first enqueue,
     so the first mismatching pair dequeued yields the lexicographically smallest
     shortest witness.
+
+    `check=False` skips the per-call input validation; pass it only for DFAs that were
+    already validated against `n_symbols` (e.g. by `load_batch`).
     """
-    _check_width(a, n_symbols, "a")
-    _check_width(b, n_symbols, "b")
+    if check:
+        _check_width(a, n_symbols, "a")
+        _check_width(b, n_symbols, "b")
+        _check_start(a, p0, "a")
+        _check_start(b, q0, "b")
 
     da, db = a.delta, b.delta
     fa, fb = a.accept, b.accept

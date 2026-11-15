@@ -8,7 +8,7 @@ The notebook is ready to run with 500 DFAs per combination. Its editable startin
 
 Two runs with these defaults are committed under `data/alphabet_<A>/states_<S>/`: `2026-11-15_00-30-21-627385_UTC` (gzip) and `2026-11-15_00-36-37-375402_UTC` (plain `.jsonl`). Their records are identical (same master seed), so they are not independent samples. **Use the newer `2026-11-15_00-36-37-375402_UTC` run as the canonical exploratory input.**
 
-The shortest-distinguishing-string code from [code/IMPLEMENTATION_PLAN.md](code/IMPLEMENTATION_PLAN.md) is **implemented and tested** (`code/loader.py`, `distinguish.py`, `dfa_stats.py`, `pairs.py`, driver `run_pairs.py`; tests via `python3.12 -m unittest discover -s code/tests -t code`, 27 tests, about 3 s). Use `python3.12`; the default `python3` on this machine is 3.10. A separate plan for similarity metrics is in [similarity-metrics.md](similarity-metrics.md) (not yet implemented).
+The shortest-distinguishing-string code from [code/IMPLEMENTATION_PLAN.md](code/IMPLEMENTATION_PLAN.md) is **implemented and tested** (`code/loader.py`, `distinguish.py`, `dfa_stats.py`, `pairs.py`, driver `run_pairs.py`; tests via `python3.12 -m unittest discover -s code/tests -t code`, 32 tests, about 3 s). Use `python3.12`; the default `python3` on this machine is 3.10. A separate plan for similarity metrics is in [similarity-metrics.md](similarity-metrics.md) (not yet implemented).
 
 ## Exploratory Results (canonical run)
 
