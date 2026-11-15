@@ -1,0 +1,210 @@
+{
+  "created_utc": "2026-11-15T18:16:47.203377+00:00",
+  "source_id": "2026-11-15_00-36-37-375402_UTC",
+  "h4_results_id": "2026-11-15_17-55-16-095569_UTC",
+  "h3_results_id": "2026-11-15_17-35-18-493520_UTC",
+  "pairs_h4": 748500,
+  "dfas": 3000,
+  "seed": 42,
+  "subsampling": "none; all observations used",
+  "validation": "Manifest counts, unique complete pair keys, scoped IDs, matched SDS/stats, metric identities, SDS agreement bound",
+  "python": "3.12.2 | packaged by conda-forge | (main, Feb 16 2024, 20:42:31) [MSC v.1937 64 bit (AMD64)]",
+  "pandas": "2.2.3",
+  "numpy": "2.2.4",
+  "matplotlib": "3.10.9",
+  "inputs": [
+    {
+      "path": "data\\alphabet_2\\states_10\\2026-11-15_00-36-37-375402_UTC\\manifest.json",
+      "sha256": "d99ec9fee5fadc00218e07df7dd658888c29d8cdfa6c1a389f0fffe7ebdbb3cd"
+    },
+    {
+      "path": "data\\alphabet_2\\states_10\\2026-11-15_00-36-37-375402_UTC\\dfas_alphabet-2_states-10_count-500_2026-11-15_00-36-37-375402_UTC.jsonl",
+      "sha256": "8c4a324f8de7f37badb1a597020ec4f801613621a84a7f4ed9b04807b6cc42bd"
+    },
+    {
+      "path": "data\\alphabet_2\\states_10\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-55-16-095569_UTC\\manifest.json",
+      "sha256": "6c8b3f52fc3d31a6807e968f36bb1c9dde08b404ac1bf1f863d96671d07b6828"
+    },
+    {
+      "path": "data\\alphabet_2\\states_10\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-35-18-493520_UTC\\manifest.json",
+      "sha256": "e8c4c1f94802e06d7d21ae4f3a4874441dc6b6336b5346734a66642b3f4e0e50"
+    },
+    {
+      "path": "data\\alphabet_2\\states_10\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-55-16-095569_UTC\\pairs.jsonl.gz",
+      "sha256": "b12e5755ec49d76734938172affc7cfbb17a437ad09840749f2c76bfe8bad548"
+    },
+    {
+      "path": "data\\alphabet_2\\states_10\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-55-16-095569_UTC\\dfa_stats.jsonl.gz",
+      "sha256": "7b57810506ef4686e3304a58d197a64c30b9c69f9c21e79c8633307a8f2fa80a"
+    },
+    {
+      "path": "data\\alphabet_2\\states_10\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-35-18-493520_UTC\\pairs.jsonl.gz",
+      "sha256": "a8561a0c85a238a82eb8df082e6f47df177fafd8cb0ee0c097f18914e0fcf606"
+    },
+    {
+      "path": "data\\alphabet_2\\states_10\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-35-18-493520_UTC\\dfa_stats.jsonl.gz",
+      "sha256": "7b57810506ef4686e3304a58d197a64c30b9c69f9c21e79c8633307a8f2fa80a"
+    },
+    {
+      "path": "data\\alphabet_2\\states_20\\2026-11-15_00-36-37-375402_UTC\\manifest.json",
+      "sha256": "db81cc64b7d1269255c5260377c81156603d5ea741fbf715b116a513587a2953"
+    },
+    {
+      "path": "data\\alphabet_2\\states_20\\2026-11-15_00-36-37-375402_UTC\\dfas_alphabet-2_states-20_count-500_2026-11-15_00-36-37-375402_UTC.jsonl",
+      "sha256": "2ce8f9189a8b57b17574dc1afbd5d5bb03e959e4186ec170b41ee0431c318871"
+    },
+    {
+      "path": "data\\alphabet_2\\states_20\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-55-16-095569_UTC\\manifest.json",
+      "sha256": "f779d423bfa0edc5b8582a2c471bfddb0548addd857edb61ce7f9f36de77a3c1"
+    },
+    {
+      "path": "data\\alphabet_2\\states_20\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-35-18-493520_UTC\\manifest.json",
+      "sha256": "7e4555390fc7d8bfad15589f3ce0b99c386d96cbbbce1401a4a546dc1c6cc3ce"
+    },
+    {
+      "path": "data\\alphabet_2\\states_20\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-55-16-095569_UTC\\pairs.jsonl.gz",
+      "sha256": "2d8b9089197dfa28c37a1f120cbd27213718ed6de816520f8f05653504b1d6fe"
+    },
+    {
+      "path": "data\\alphabet_2\\states_20\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-55-16-095569_UTC\\dfa_stats.jsonl.gz",
+      "sha256": "aee181c5fc0b5e21a000e648d0129772d63988fdc01c045eee61cccac5fe4ade"
+    },
+    {
+      "path": "data\\alphabet_2\\states_20\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-35-18-493520_UTC\\pairs.jsonl.gz",
+      "sha256": "64ef76280dce25c18b7e234af603788af7f82a16f270501752124837a958d489"
+    },
+    {
+      "path": "data\\alphabet_2\\states_20\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-35-18-493520_UTC\\dfa_stats.jsonl.gz",
+      "sha256": "aee181c5fc0b5e21a000e648d0129772d63988fdc01c045eee61cccac5fe4ade"
+    },
+    {
+      "path": "data\\alphabet_2\\states_30\\2026-11-15_00-36-37-375402_UTC\\manifest.json",
+      "sha256": "ef62c3d2915e00329045ce2651719cb4b6de2d056f2f3c217f8775f710bf36c1"
+    },
+    {
+      "path": "data\\alphabet_2\\states_30\\2026-11-15_00-36-37-375402_UTC\\dfas_alphabet-2_states-30_count-500_2026-11-15_00-36-37-375402_UTC.jsonl",
+      "sha256": "5c1881a2c64893491fb633fa2b8e0b1419fca6f685b82340335aa671853459ff"
+    },
+    {
+      "path": "data\\alphabet_2\\states_30\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-55-16-095569_UTC\\manifest.json",
+      "sha256": "07af185054d557dc41b2cce49bfe300e00606f04eafb7ac8fd19697459cf1aae"
+    },
+    {
+      "path": "data\\alphabet_2\\states_30\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-35-18-493520_UTC\\manifest.json",
+      "sha256": "a6347a2a2c486479a98f0e3c8a217a6cd81981b8eb2c10a01260f30fac17c422"
+    },
+    {
+      "path": "data\\alphabet_2\\states_30\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-55-16-095569_UTC\\pairs.jsonl.gz",
+      "sha256": "37475a4ee85c32a841eb77c68858699d7b30d96886a029790596496b13239464"
+    },
+    {
+      "path": "data\\alphabet_2\\states_30\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-55-16-095569_UTC\\dfa_stats.jsonl.gz",
+      "sha256": "e2325b511c2154a8ac4d253331b915e3f6666ed56142609f1bcd85a9f77238bd"
+    },
+    {
+      "path": "data\\alphabet_2\\states_30\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-35-18-493520_UTC\\pairs.jsonl.gz",
+      "sha256": "dc7fd00f2dd933e50aa7db59c1b3a8c9379c3ad2287f28707661f6c022d2cfff"
+    },
+    {
+      "path": "data\\alphabet_2\\states_30\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-35-18-493520_UTC\\dfa_stats.jsonl.gz",
+      "sha256": "e2325b511c2154a8ac4d253331b915e3f6666ed56142609f1bcd85a9f77238bd"
+    },
+    {
+      "path": "data\\alphabet_3\\states_10\\2026-11-15_00-36-37-375402_UTC\\manifest.json",
+      "sha256": "f63fb7e2c03ef49d7b3c8500f0789950d7c1c7e63677042599f4a99811dd0275"
+    },
+    {
+      "path": "data\\alphabet_3\\states_10\\2026-11-15_00-36-37-375402_UTC\\dfas_alphabet-3_states-10_count-500_2026-11-15_00-36-37-375402_UTC.jsonl",
+      "sha256": "8bd6ec8d2075326ce91f858feaae16780e3d675a01fe5f47546b4b79a5fac3b3"
+    },
+    {
+      "path": "data\\alphabet_3\\states_10\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-55-16-095569_UTC\\manifest.json",
+      "sha256": "ef690a0e0cfd1c38591213732409e4c7293a04c177172f789c0560e7ec9e68bd"
+    },
+    {
+      "path": "data\\alphabet_3\\states_10\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-35-18-493520_UTC\\manifest.json",
+      "sha256": "7c51f721ff99ca043b80fb254624363224ccaf39d9e1088240d5604a6b83a9d5"
+    },
+    {
+      "path": "data\\alphabet_3\\states_10\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-55-16-095569_UTC\\pairs.jsonl.gz",
+      "sha256": "e9f0e555c0bad300d6bc03598d2660fa8885559ade555b0bf866b050ebc1262a"
+    },
+    {
+      "path": "data\\alphabet_3\\states_10\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-55-16-095569_UTC\\dfa_stats.jsonl.gz",
+      "sha256": "e7d8be42b4e4ee4a70a0dc9c1734c4d113dbf437f39360f1c9311817cfdc0cff"
+    },
+    {
+      "path": "data\\alphabet_3\\states_10\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-35-18-493520_UTC\\pairs.jsonl.gz",
+      "sha256": "3593f639e4a4ff26da1bf9d27efe1d0ba718b4d3f82de040aab6cd5917677375"
+    },
+    {
+      "path": "data\\alphabet_3\\states_10\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-35-18-493520_UTC\\dfa_stats.jsonl.gz",
+      "sha256": "e7d8be42b4e4ee4a70a0dc9c1734c4d113dbf437f39360f1c9311817cfdc0cff"
+    },
+    {
+      "path": "data\\alphabet_3\\states_20\\2026-11-15_00-36-37-375402_UTC\\manifest.json",
+      "sha256": "62f497d2c3d7000ff2ca2ed69ffd70954ee5d449b21ce9d6f63e0b456b640df8"
+    },
+    {
+      "path": "data\\alphabet_3\\states_20\\2026-11-15_00-36-37-375402_UTC\\dfas_alphabet-3_states-20_count-500_2026-11-15_00-36-37-375402_UTC.jsonl",
+      "sha256": "bbebffca0109c7a62fc6a48826754acdd275653205161e7c18b07e37b6e68821"
+    },
+    {
+      "path": "data\\alphabet_3\\states_20\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-55-16-095569_UTC\\manifest.json",
+      "sha256": "226e18322fd95a57e88c4ec9fb2d74892a0e9fa837a78914edc38a735c88b288"
+    },
+    {
+      "path": "data\\alphabet_3\\states_20\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-35-18-493520_UTC\\manifest.json",
+      "sha256": "4febf5e701c6d22d75ee166070dc9137fd49a8ed606982b8b79292add16c6392"
+    },
+    {
+      "path": "data\\alphabet_3\\states_20\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-55-16-095569_UTC\\pairs.jsonl.gz",
+      "sha256": "f14fa22088bc63e13d2b56bbb62090d8526ceeb09a23faa21a55beef6a3927a6"
+    },
+    {
+      "path": "data\\alphabet_3\\states_20\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-55-16-095569_UTC\\dfa_stats.jsonl.gz",
+      "sha256": "be6f08d71461aa431a5cf794b83217240736a27da35ccc4ea281f539e1085c2c"
+    },
+    {
+      "path": "data\\alphabet_3\\states_20\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-35-18-493520_UTC\\pairs.jsonl.gz",
+      "sha256": "f08ae1974e97a78c9d9f8741b6a6743097137f4f887ec6472c3f9329f3d0a3d8"
+    },
+    {
+      "path": "data\\alphabet_3\\states_20\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-35-18-493520_UTC\\dfa_stats.jsonl.gz",
+      "sha256": "be6f08d71461aa431a5cf794b83217240736a27da35ccc4ea281f539e1085c2c"
+    },
+    {
+      "path": "data\\alphabet_3\\states_30\\2026-11-15_00-36-37-375402_UTC\\manifest.json",
+      "sha256": "5afc7c72a974e8d912f9b94f6b52f03e5d7ae675d27d9447efa9c344a4cf617d"
+    },
+    {
+      "path": "data\\alphabet_3\\states_30\\2026-11-15_00-36-37-375402_UTC\\dfas_alphabet-3_states-30_count-500_2026-11-15_00-36-37-375402_UTC.jsonl",
+      "sha256": "3fee8cedcf85212ac6abe895cc00ee447591daf0346415dbd3c234d89edcaf7a"
+    },
+    {
+      "path": "data\\alphabet_3\\states_30\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-55-16-095569_UTC\\manifest.json",
+      "sha256": "b95ff921ff8f5c4d676c5c758d82fa017e1f9c8877b066b72529f1933ad8ccf6"
+    },
+    {
+      "path": "data\\alphabet_3\\states_30\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-35-18-493520_UTC\\manifest.json",
+      "sha256": "c605d2fa7f3a174786785e093a2a030a45c52cff115a467ec50ac1911bbbde61"
+    },
+    {
+      "path": "data\\alphabet_3\\states_30\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-55-16-095569_UTC\\pairs.jsonl.gz",
+      "sha256": "20bc758cc0bb659ff19ba15440b493471a1472527faab2b04a99d2a8953edaae"
+    },
+    {
+      "path": "data\\alphabet_3\\states_30\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-55-16-095569_UTC\\dfa_stats.jsonl.gz",
+      "sha256": "0bb7595c7e18d8b55e378c2f121b98b357b2e7ecc424610e6f11804b599b3e12"
+    },
+    {
+      "path": "data\\alphabet_3\\states_30\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-35-18-493520_UTC\\pairs.jsonl.gz",
+      "sha256": "11d88850c94aa1d4d9cd1d141c6021e8ac5ecdcf119dfa3c1923a9b2bbe1a19c"
+    },
+    {
+      "path": "data\\alphabet_3\\states_30\\2026-11-15_00-36-37-375402_UTC\\comparisons\\2026-11-15_17-35-18-493520_UTC\\dfa_stats.jsonl.gz",
+      "sha256": "0bb7595c7e18d8b55e378c2f121b98b357b2e7ecc424610e6f11804b599b3e12"
+    }
+  ],
+  "analysis_sha256": "7d08fc7a6600a15f939eb02301c2fd58e92e5be6fb6270d49d60a7b3e9a69ec0"
+}
