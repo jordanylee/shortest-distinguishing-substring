@@ -1,14 +1,29 @@
 # Current Project Status
 
-Last updated: November 14, 2026 (America/Chicago).
+Last updated: November 14, 2026, 19:55 (America/Chicago).
 
 The DeepDFA generator has been implemented and validated. Open `/data/DFA_Generator.ipynb`, edit the first cell, and run all cells. `/data/DFA_Generator.py` is the matching notebook-style Python companion. DeepDFA is present as a Git submodule in `/DeepDFA`, and the `/data`, `/code`, and `/agentLogs` directories exist.
 
 The notebook is ready to run with 500 DFAs per combination. Its editable starting defaults are state counts `[10, 20, 30]`, alphabet sizes `[2, 3]`, and master seed `42` (3,000 DFAs total); these are starting settings, not a finalized experimental design. Tests used temporary output directories, which were removed. The exploratory run has not been carried out, and no empirical hypothesis has been formed.
 
-Two runs with these defaults are committed under `data/alphabet_<A>/states_<S>/`: `2026-11-15_00-30-21-627385_UTC` (gzip) and `2026-11-15_00-36-37-375402_UTC` (plain `.jsonl`). Their records are identical (same master seed), so they are not independent samples. **Use the newer `2026-11-15_00-36-37-375402_UTC` run as the canonical exploratory input.** No comparison results or visualizations exist yet.
+Two runs with these defaults are committed under `data/alphabet_<A>/states_<S>/`: `2026-11-15_00-30-21-627385_UTC` (gzip) and `2026-11-15_00-36-37-375402_UTC` (plain `.jsonl`). Their records are identical (same master seed), so they are not independent samples. **Use the newer `2026-11-15_00-36-37-375402_UTC` run as the canonical exploratory input.**
 
-An implementation plan for the shortest-distinguishing-string code is recorded in [code/IMPLEMENTATION_PLAN.md](code/IMPLEMENTATION_PLAN.md) (not yet implemented). A separate plan for similarity metrics is in [similarity-metrics.md](similarity-metrics.md).
+The shortest-distinguishing-string code from [code/IMPLEMENTATION_PLAN.md](code/IMPLEMENTATION_PLAN.md) is **implemented and tested** (`code/loader.py`, `distinguish.py`, `dfa_stats.py`, `pairs.py`, driver `run_pairs.py`; tests via `python3.12 -m unittest discover -s code/tests -t code`, 27 tests, about 3 s). Use `python3.12`; the default `python3` on this machine is 3.10. A separate plan for similarity metrics is in [similarity-metrics.md](similarity-metrics.md) (not yet implemented).
+
+## Exploratory Results (canonical run)
+
+Results id `2026-11-15_01-51-53-783405_UTC`, stored at `data/alphabet_<A>/states_<S>/2026-11-15_00-36-37-375402_UTC/pairs/2026-11-15_01-51-53-783405_UTC/` (`pairs.jsonl.gz` with length and shortlex-smallest witness per pair, `dfa_stats.jsonl.gz` with reachable and minimal sizes, `manifest.json` with histograms and provenance). Produced from clean commit `d763ecf`; the full run took about 13 s. No visualizations yet.
+
+| Alphabet | States | Equivalent pairs | Length histogram (0, 1, 2, 3, 4, 5, 6) | Max length |
+|---|---|---|---|---|
+| 2 | 10 | 37 | 62499, 46613, 14400, 1124, 68, 0, 9 | 6 |
+| 2 | 20 | 0 | 62356, 46680, 14659, 1044, 10, 1, 0 | 5 |
+| 2 | 30 | 0 | 62244, 46914, 14608, 975, 9, 0, 0 | 4 |
+| 3 | 10 | 0 | 61971, 54625, 8077, 77, 0, 0, 0 | 3 |
+| 3 | 20 | 0 | 62356, 54649, 7724, 21, 0, 0, 0 | 3 |
+| 3 | 30 | 0 | 62451, 54576, 7700, 23, 0, 0, 0 | 3 |
+
+Each batch has 124,750 pairs (dependent observations; see below). Equivalent counts and max lengths match GPT's earlier benchmark. Preliminary observations, not yet a hypothesis: about half of pairs differ on the empty string; lengths are very short and the maximum *decreases* as state count grows; a larger alphabet shortens lengths further. The 37 equivalent pairs in alphabet 2/states 10 involve DFAs with trivial languages (11 DFAs there have minimal size 1). Minimal sizes are typically somewhat below the raw state count, mostly because of unreachable states (see the `minimal_histogram` and `reachable_histogram` fields in each results manifest).
 
 ## Generator Validation
 
@@ -54,7 +69,7 @@ An implementation plan for the shortest-distinguishing-string code is recorded i
 4. Report the shortest-length distribution for non-equivalent pairs, retaining empty-string distinctions at length zero. Also report the equivalent-pair count and rate. A distribution conditional on positive distinguishing length can supplement the full distribution.
 5. Treat comparisons sharing a DFA as dependent observations. The 124,750 comparisons are not 124,750 independent samples. For later hypothesis testing, account for this dependence, for example by repeating the experiment with independently generated batches.
 
-Implementation of this approved testing plan is still pending; the generator's storage and replay checks do not perform these experiments.
+This testing plan is implemented in `/code` and has been run on the canonical batches.
 
 ## Testing Considerations
 
@@ -66,7 +81,7 @@ Implementation of this approved testing plan is still pending; the generator's s
 
 1. Review the notebook's starting state counts, alphabet sizes, and master seed for the exploratory run; sample count is fixed at 500 per combination.
 2. Generate production batches if the defaults change; otherwise use the canonical run above. The exploratory pairing strategy is the approved within-batch all-pairs plan above.
-3. Implement and validate code in `/code` to detect equivalent pairs and find shortest distinguishing strings for non-equivalent pairs, following [code/IMPLEMENTATION_PLAN.md](code/IMPLEMENTATION_PLAN.md).
-4. Run the exploratory simulations and save results and visualizations in `/data`.
+3. Done: distinguishing-string code implemented and run on the canonical batches (see "Exploratory Results").
+4. Analyze and visualize the saved results (save plots in `/data`), including the conditional positive-length distribution and how length relates to the per-DFA minimal sizes. Account for within-batch dependence (for example, independently seeded batches or disjoint-pair subsampling).
    - Deferred by user decision: choosing the similarity-metric horizon `H` (see `similarity-metrics.md`). That plan asks for `H` to be fixed before distinguishing lengths are examined. If `H` is chosen after these results are seen, record that the similarity metrics are descriptive, not a pre-registered test.
 5. Form a hypothesis from the observed distributions and design tailored follow-up simulations.

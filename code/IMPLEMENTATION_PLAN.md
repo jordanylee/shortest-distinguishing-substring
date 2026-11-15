@@ -1,6 +1,6 @@
 # Implementation Plan: Shortest Distinguishing Strings
 
-Status: approved design, not yet implemented. Written November 14, 2026, and revised the same day after the generator and the first DFA batches were merged.
+Status: **implemented** November 14, 2026 (commit `d763ecf`); canonical results are in `pairs/2026-11-15_01-51-53-783405_UTC/` under each canonical batch. Written November 14, 2026, and revised the same day after the generator and the first DFA batches were merged. One deviation: the brute-force test's equivalence bound is n₁+n₂ (above the classical n₁+n₂−2 bound) instead of n₁·n₂, which made the suite about 30× faster.
 
 Related documents:
 - `time-sensitive.md`, section "Approved Exploratory Testing Plan": the experiment-level decisions this plan implements.
