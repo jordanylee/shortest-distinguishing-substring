@@ -2,6 +2,8 @@
 
 Last updated: November 15, 2026 (America/Chicago).
 
+Visualization update: complete H=3 (`2026-11-15_17-35-18-493520_UTC`) and H=4 (`2026-11-15_17-55-16-095569_UTC`) comparison runs exist for all six canonical batches; earlier statements below that no similarity run exists are superseded. The user requested `dataviz/` for analysis code and exports. See [dataviz/README.md](dataviz/README.md), its parameter notebook, the generated report/gallery (20 PNG/SVG figures), and [initial findings](dataviz/FINDINGS.md). Each horizon has 748,500 validated, matched pairs; these are descriptive analyses. All nine binary/10-state length-6 pairs share DFA 458. No new generation or pair calculations were performed.
+
 The DeepDFA generator has been implemented and validated. Open `/data/DFA_Generator.ipynb`, edit the first cell, and run all cells. `/data/DFA_Generator.py` is the matching notebook-style Python companion. DeepDFA is present as a Git submodule in `/DeepDFA`, and the `/data`, `/code`, and `/agentLogs` directories exist.
 
 The generator notebook is ready to run with 500 DFAs per combination. Its editable starting defaults are state counts `[10, 20, 30]`, alphabet sizes `[2, 3]`, and master seed `42` (3,000 DFAs total); these are starting settings, not a finalized experimental design. The canonical exploratory SDS run has been completed (results below); no empirical hypothesis has been formed.
