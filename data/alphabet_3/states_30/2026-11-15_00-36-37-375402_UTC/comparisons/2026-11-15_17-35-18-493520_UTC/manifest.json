@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "results_kind": "dfa_comparisons",
+  "results_id": "2026-11-15_17-35-18-493520_UTC",
+  "source_run_id": "2026-11-15_00-36-37-375402_UTC",
+  "source_run_dir": "C:\\Users\\hmark\\CS_Projects\\shortest-distinguishing-substring\\data\\alphabet_3\\states_30\\2026-11-15_00-36-37-375402_UTC",
+  "source_sha256": {
+    "manifest.json": "5afc7c72a974e8d912f9b94f6b52f03e5d7ae675d27d9447efa9c344a4cf617d",
+    "dfas_alphabet-3_states-30_count-500_2026-11-15_00-36-37-375402_UTC.jsonl": "3fee8cedcf85212ac6abe895cc00ee447591daf0346415dbd3c234d89edcaf7a"
+  },
+  "alphabet": [
+    "0",
+    "1",
+    "2"
+  ],
+  "alphabet_size": 3,
+  "state_count": 30,
+  "dfa_count": 500,
+  "calculations": "both",
+  "pairing_scheme": "all unordered within-batch pairs, a<b by id",
+  "pair_key": [
+    "source_run_id",
+    "alphabet_size",
+    "state_count",
+    "a",
+    "b"
+  ],
+  "expected_pair_count": 124750,
+  "pair_count": 124750,
+  "pairs_file": "pairs.jsonl.gz",
+  "dfa_stats_file": "dfa_stats.jsonl.gz",
+  "pairs_layout": {
+    "a": "smaller source DFA ID; weight_a refers to this DFA",
+    "b": "larger source DFA ID; weight_b refers to this DFA",
+    "length": "SDS symbol count; null if equivalent; absent in similarity-only mode",
+    "witness": "shortest witness in manifest alphabet order, as symbol tokens; null if equivalent",
+    "metrics": "agreement, weighted Jaccard, and five language weights; absent in SDS-only mode"
+  },
+  "dfa_stats_layout": {
+    "id": "source DFA ID",
+    "n_states": "raw state count",
+    "reachable": "reachable state count",
+    "minimal": "minimal complete DFA size"
+  },
+  "compression": "gzip",
+  "distribution": {
+    "name": "uniform_length_uniform_symbols",
+    "horizon": 3,
+    "length_weights": "p(t) = 1 / (H + 1), t = 0, ..., H",
+    "alphabet": [
+      "0",
+      "1",
+      "2"
+    ],
+    "symbol_sampling": "independent uniform",
+    "numerical_method": "exact integer counts and rational accumulation",
+    "metric_version": 1
+  },
+  "interpretation": "descriptive; horizon was not preregistered before existing SDS results",
+  "output_numbers": "metrics converted from exact rationals to binary64 floats",
+  "equivalent_pair_count": 0,
+  "length_histogram": {
+    "0": 62451,
+    "1": 54576,
+    "2": 7700,
+    "3": 23
+  },
+  "reachable_histogram": {
+    "22": 4,
+    "23": 5,
+    "24": 13,
+    "25": 24,
+    "26": 67,
+    "27": 87,
+    "28": 128,
+    "29": 107,
+    "30": 65
+  },
+  "minimal_histogram": {
+    "22": 4,
+    "23": 5,
+    "24": 13,
+    "25": 25,
+    "26": 67,
+    "27": 87,
+    "28": 130,
+    "29": 104,
+    "30": 65
+  },
+  "repo_commit": "a8c39e0a78d50ee197e2c693ab2a9093cb7e7f0c",
+  "repo_dirty": true,
+  "python_version": "3.12.2",
+  "code_sha256": {
+    "experiments.py": "c6e15aefc86dc22a2c9f2521e1ff8db6c06dc48c931df5f79916ddd701d9999b",
+    "similarity_metrics.py": "8bc1c955220cb4ffbe445f16d8d0ae9f0cfa6a62d2fabef19a73d11adf6f02f0",
+    "loader.py": "3fd03584c3473139772da3b14843a5a5ea513251179074c0405892c2c56531da",
+    "distinguish.py": "01b9201907ac1985dcb5476eec2e2ee7f94c921ef4a50558b42df6d4ab470745",
+    "dfa_stats.py": "17ee1dd5b8189ab7e83c441c96832a770fbb21be75126c6cab8e7f41bb2d4ba7",
+    "pairs.py": "27de068118cdaf177b107873916fb3214dc648e9124e52967c1e1d4827194a52"
+  },
+  "started_utc": "2026-11-15T17:36:37.797803+00:00",
+  "finished_utc": "2026-11-15T17:36:56.282146+00:00",
+  "elapsed_seconds": 18.484545900006196,
+  "status": "complete"
+}
