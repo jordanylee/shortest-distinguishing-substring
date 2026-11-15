@@ -21,3 +21,10 @@
 - Discussed module vs. `# %%` layout: importable modules for the algorithm, loader, stats, and runner; a thin `# %%` driver for interactive runs.
 - Created `code/IMPLEMENTATION_PLAN.md` (no code written). Updated `time-sensitive.md` to reference it.
 - Outstanding: implementation; reconcile loader field names with the generator once written; decide whether `data/` outputs are committed.
+
+## Follow-up: Merge Generator Branch and Revise Plan
+
+- Committed the plan (`150a395`), then merged `origin/hudson` (generator, two DFA runs, `similarity-metrics.md`, GPT logs) into `jordan`. Resolved the `time-sensitive.md` conflict by keeping hudson's generator status, correcting its "no datasets" statement (two runs are committed), recording the newer run `2026-11-15_00-36-37-375402_UTC` as canonical (user decision), and linking both implementation plans.
+- Revised `code/IMPLEMENTATION_PLAN.md` for the real format: manifest `batch_file`, plain `.jsonl` default with optional gzip, integer IDs, `status: "complete"`, older manifests lacking `compression`. Added a shared-loader role for `similarity_metrics.py`, a documented pair key, `run_all` across batches, and read-only tests against committed data.
+- Updated `CLAUDE.md` (generator files, actual data format, canonical run, plan locations).
+- Checks (read-only, in memory): all six canonical batches have `status: "complete"`, 500 records with IDs 0-499, and records identical to the older run; older manifests lack `compression`. A throwaway product BFS reproduced GPT's equivalent-pair counts (37 for alphabet 2/states 10, 0 elsewhere). No code or data files were written.
