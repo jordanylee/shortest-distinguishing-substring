@@ -1,14 +1,20 @@
 # Current Project Status
 
-Last updated: November 14, 2026, 20:50 (America/Chicago).
+Last updated: November 15, 2026 (America/Chicago).
 
 The DeepDFA generator has been implemented and validated. Open `/data/DFA_Generator.ipynb`, edit the first cell, and run all cells. `/data/DFA_Generator.py` is the matching notebook-style Python companion. DeepDFA is present as a Git submodule in `/DeepDFA`, and the `/data`, `/code`, and `/agentLogs` directories exist.
 
-The notebook is ready to run with 500 DFAs per combination. Its editable starting defaults are state counts `[10, 20, 30]`, alphabet sizes `[2, 3]`, and master seed `42` (3,000 DFAs total); these are starting settings, not a finalized experimental design. Tests used temporary output directories, which were removed. The exploratory run has not been carried out, and no empirical hypothesis has been formed.
+The generator notebook is ready to run with 500 DFAs per combination. Its editable starting defaults are state counts `[10, 20, 30]`, alphabet sizes `[2, 3]`, and master seed `42` (3,000 DFAs total); these are starting settings, not a finalized experimental design. The canonical exploratory SDS run has been completed (results below); no empirical hypothesis has been formed.
 
 Two runs with these defaults are committed under `data/alphabet_<A>/states_<S>/`: `2026-11-15_00-30-21-627385_UTC` (gzip) and `2026-11-15_00-36-37-375402_UTC` (plain `.jsonl`). Their records are identical (same master seed), so they are not independent samples. **Use the newer `2026-11-15_00-36-37-375402_UTC` run as the canonical exploratory input.**
 
-The shortest-distinguishing-string code from [code/IMPLEMENTATION_PLAN.md](code/IMPLEMENTATION_PLAN.md) is **implemented and tested** (`code/loader.py`, `distinguish.py`, `dfa_stats.py`, `pairs.py`, driver `run_pairs.py`; tests via `python3.12 -m unittest discover -s code/tests -t code`, 32 tests, about 3 s). Use `python3.12`; the default `python3` on this machine is 3.10. A separate plan for similarity metrics is in [similarity-metrics.md](similarity-metrics.md) (not yet implemented).
+The shortest-distinguishing-string code from [code/IMPLEMENTATION_PLAN.md](code/IMPLEMENTATION_PLAN.md) is **implemented and tested**. The original SDS driver `code/run_pairs.py` remains available. Use a Python 3.12 environment; the current Windows `python` is 3.12.2.
+
+The combined experiment interface is now [code/DFA_Comparisons.ipynb](code/DFA_Comparisons.ipynb), with a matching `# %%` Python companion. It supports SDS, similarity, or both, within each selected batch. Calculations live in separate modules: existing loader/BFS/stats, new `similarity_metrics.py`, orchestration in `experiments.py`, and read-only summaries in `result_summary.py`. Edit the configuration cell, set an explicit `HORIZON` for similarity, inspect the preview/benchmark, then execute. New outputs are stored under `comparisons/<results_id>/` in each source batch; old `pairs/` results are preserved.
+
+The [similarity specification](similarity-metrics.md) is implemented using exact integer counts and rational weights/scores, converted to floats only for output. No horizon has been chosen for research and no full similarity run has been generated. Read-only benchmarks sampled 30 pairs from each canonical batch: total pair-calculation estimates were about 2 minutes at H=5 and 50 minutes at H=20 on this machine; these are rough estimates excluding stats, gzip and disk I/O, not experiment results. Rerun the notebook benchmark for the actual chosen horizon.
+
+Validation: `python -B -m unittest discover -s code/tests -t code` passes all 45 tests on Python 3.12.2 (about 20 seconds locally), including actual notebook execution in fresh kernels from both the repository root and `code/`. Notebook outputs are cleared in the saved artifact. Integration tests write only temporary batches/results.
 
 A code review of this implementation was triaged and resolved; see [code/REVIEW_FIXES.md](code/REVIEW_FIXES.md) (six fixes applied in `bebf5d6`, four declined). The fixes do not change results: rerunning the canonical batches with the fixed code reproduced the committed pair and stats files byte for byte, in about 7 s instead of about 10 s.
 
@@ -84,6 +90,7 @@ This testing plan is implemented in `/code` and has been run on the canonical ba
 1. Review the notebook's starting state counts, alphabet sizes, and master seed for the exploratory run; sample count is fixed at 500 per combination.
 2. Generate production batches if the defaults change; otherwise use the canonical run above. The exploratory pairing strategy is the approved within-batch all-pairs plan above.
 3. Done: distinguishing-string code implemented and run on the canonical batches (see "Exploratory Results").
+   - Done: combined comparison notebook and similarity calculation modules. Next, choose an explicit horizon, benchmark, and run similarity comparisons through the notebook.
 4. Analyze and visualize the saved results (save plots in `/data`), including the conditional positive-length distribution and how length relates to the per-DFA minimal sizes. Account for within-batch dependence (for example, independently seeded batches or disjoint-pair subsampling).
    - Deferred by user decision: choosing the similarity-metric horizon `H` (see `similarity-metrics.md`). That plan asks for `H` to be fixed before distinguishing lengths are examined. If `H` is chosen after these results are seen, record that the similarity metrics are descriptive, not a pre-registered test.
 5. Form a hypothesis from the observed distributions and design tailored follow-up simulations.

@@ -1,6 +1,8 @@
 # Plan: DFA language similarity metrics
 
-Implement probability of agreement and distribution-weighted Jaccard before running the shortest-distinguishing-string experiments. Both compare complete DFAs over the same nonempty alphabet, using dynamic programming rather than enumerating words. This document is an implementation plan; the metric code is not yet implemented.
+Status: implemented November 15, 2026 in `code/similarity_metrics.py`, with shared orchestration in `code/experiments.py` and an interactive entry point in `code/DFA_Comparisons.ipynb` (matching Python companion provided). The specification below records the original plan. Both metrics compare complete DFAs over the same nonempty alphabet using dynamic programming rather than enumerating words.
+
+The canonical SDS experiments were run before the similarity horizon was selected. The notebook therefore requires an explicit `HORIZON` and labels the resulting analysis descriptive. No full similarity experiment has been run. Exact integer counts use the common denominator `(H + 1) * |Sigma|**H`, yielding exact rational weights and scores before conversion to floats for saved results. No floating-point recurrence or external automata dependency was needed.
 
 ## 1. Fix the sampling distribution
 
@@ -8,10 +10,10 @@ Choose a nonnegative integer horizon `H` in the experiment configuration **befor
 
 Initially choose length uniformly from `0, ..., H`, then choose each of its symbols independently and uniformly from the alphabet:
 
-\[
+$$
 p_t=\frac{1}{H+1},\qquad
 W(L)=\sum_{t=0}^{H}p_t\frac{|L\cap\Sigma^t|}{|\Sigma|^t}.
-\]
+$$
 
 This assigns equal total probability to each length, not to every word across all lengths. Include length zero: `Sigma^0` contains exactly the empty word ε, and `|Sigma|^0 = 1`. If support for custom length weights is added, require exactly `H + 1` finite, nonnegative entries summing to one; record the actual weights. Reject empty alphabets because the positive-length sampling rule is undefined for them.
 
@@ -41,22 +43,28 @@ The experiment runner should attach both DFA IDs and source batch/run identifier
 
 Let `k = |Sigma|`. A product state `(q, r)` follows the same symbol in both automata:
 
-\[
+
+$$
 \delta_\times((q,r),a)=(\delta_A(q,a),\delta_B(r,a)).
-\]
+$$
+
 
 Maintain an integer count `c_t(q,r)` of length-`t` words ending in that product state. Initialize one count at the pair of initial states:
 
-\[
+
+$$
 c_0(q,r)=\begin{cases}1&(q,r)=(q_{0,A},q_{0,B}),\\0&\text{otherwise}.\end{cases}
-\]
+$$
+
 
 For each length, **first** aggregate the current counts by the two acceptance flags, then advance if `t < H`:
 
-\[
+
+$$
 c_{t+1}(u,v)=\sum_{(q,r)}\sum_{a\in\Sigma}
 c_t(q,r)\,\mathbf{1}\{\delta_\times((q,r),a)=(u,v)\}.
-\]
+$$
+
 
 Count each symbol separately even when multiple symbols lead to the same destination. Aggregate into four bins `n00`, `n01`, `n10`, and `n11`, where the bits give A's and B's acceptance flags. Their sum must equal `k^t`.
 
@@ -75,28 +83,36 @@ Use two rolling count maps or arrays, keeping only the current and next length. 
 
 ## 4. Calculate the scores and handle numerical details
 
-\[
-\operatorname{Agreement}(A,B)=1-W(L(A)\triangle L(B)),
-\]
 
-\[
+$$
+\operatorname{Agreement}(A,B)=1-W(L(A)\triangle L(B)),
+$$
+
+
+
+$$
 \operatorname{Jaccard}(A,B)=
 \begin{cases}
 1,&W(L(A)\cup L(B))=0,\\
 \dfrac{W(L(A)\cap L(B))}{W(L(A)\cup L(B))},&\text{otherwise}.
 \end{cases}
-\]
+$$
+
 
 Use Python integers for exact word counts. For the initial uniform distribution, use exact rational accumulation (for example, `fractions.Fraction`) as a reference implementation and convert to floats only for output. Benchmark before choosing a faster floating-point implementation for bulk runs. If floats are used, accumulate normalized per-length counts with stable summation and validate against the exact reference; determine zero union from whether any positive-weight length has an accepted word, not an arbitrary tolerance.
 
 Check that weights and scores lie in `[0, 1]` within the chosen numerical tolerance. Cross-check:
 
-\[
+
+$$
 W(A\cup B)=W(A)+W(B)-W(A\cap B),
-\]
-\[
+$$
+
+
+$$
 W(A\triangle B)=W(A)+W(B)-2W(A\cap B).
-\]
+$$
+
 
 Calculate disagreement directly from its bins, using the identities as checks. This avoids subtracting nearly equal masses to obtain a small disagreement.
 
