@@ -28,3 +28,8 @@
 - Revised `code/IMPLEMENTATION_PLAN.md` for the real format: manifest `batch_file`, plain `.jsonl` default with optional gzip, integer IDs, `status: "complete"`, older manifests lacking `compression`. Added a shared-loader role for `similarity_metrics.py`, a documented pair key, `run_all` across batches, and read-only tests against committed data.
 - Updated `CLAUDE.md` (generator files, actual data format, canonical run, plan locations).
 - Checks (read-only, in memory): all six canonical batches have `status: "complete"`, 500 records with IDs 0-499, and records identical to the older run; older manifests lack `compression`. A throwaway product BFS reproduced GPT's equivalent-pair counts (37 for alphabet 2/states 10, 0 elsewhere). No code or data files were written.
+
+## Follow-up: Result Storage and Similarity-Metric Horizon
+
+- User decisions: pair results are gzip-compressed and committed to git (updated `code/IMPLEMENTATION_PLAN.md` §2, §7, §11, §12); similarity metrics remain out of scope for this plan and follow after it.
+- Explained why the horizon `H` in `similarity-metrics.md` matters (it sets the word distribution; `d > H` yields agreement 1.0 for inequivalent pairs; choosing `H` after seeing lengths can manufacture correlations; `H = 2S - 2` is a data-independent choice). User deferred choosing `H`; recorded under next steps in `time-sensitive.md`.

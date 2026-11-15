@@ -68,4 +68,5 @@ Implementation of this approved testing plan is still pending; the generator's s
 2. Generate production batches if the defaults change; otherwise use the canonical run above. The exploratory pairing strategy is the approved within-batch all-pairs plan above.
 3. Implement and validate code in `/code` to detect equivalent pairs and find shortest distinguishing strings for non-equivalent pairs, following [code/IMPLEMENTATION_PLAN.md](code/IMPLEMENTATION_PLAN.md).
 4. Run the exploratory simulations and save results and visualizations in `/data`.
+   - Deferred by user decision: choosing the similarity-metric horizon `H` (see `similarity-metrics.md`). That plan asks for `H` to be fixed before distinguishing lengths are examined. If `H` is chosen after these results are seen, record that the similarity metrics are descriptive, not a pre-registered test.
 5. Form a hypothesis from the observed distributions and design tailored follow-up simulations.

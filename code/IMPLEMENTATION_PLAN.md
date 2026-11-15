@@ -28,6 +28,7 @@ This plan covers the loader, the core algorithm, the per-DFA statistics, the tes
 | Witness encoding | A JSON list of symbol strings, e.g. `["1", "10", "0"]`. Never a concatenated string: symbols can be multi-character (`"10"`). |
 | Per-DFA stats | Save the reachable-state count and the minimal-DFA size for every DFA. Raw samples are never modified. |
 | Results location | `data/alphabet_<A>/states_<S>/<run_id>/pairs/<results_id>/`. Never overwrite an existing `<results_id>`. |
+| Results storage | Result files are **gzip-compressed by default** (about 35 MB uncompressed across six batches) and **committed to git**, like the DFA batches. |
 | Input access | Only `code/loader.py` knows the on-disk format. Other modules, including the planned similarity metrics, go through it. |
 | Alphabet mismatch | Log an error and **stop the run**. Never skip the pair and continue. Within one batch the alphabet is identical by construction, so a mismatch means corrupted data or a bug. (`similarity-metrics.md` plans to line up columns when two alphabets order symbols differently; that never applies within a batch, so it doesn't conflict.) |
 | Code layout | Logic lives in plain importable modules. The driver is a notebook-style `# %%` file that only sets parameters and calls those modules. |
@@ -163,13 +164,13 @@ def run_batch(run_dir: Path, results_id: str | None = None) -> Path: ...
    - The default `results_id` is a UTC timestamp in the generator's style, `YYYY-mm-dd_HH-MM-SS-ffffff_UTC`.
    - If the directory already exists, log an error and raise; never overwrite.
    - Write into a temporary sibling directory `<results_id>.part` and rename it into place at the end, as the generator does with `.part` files. A crashed run then never looks complete.
-3. Compute stats for every DFA. Write `dfa_stats.jsonl`, one line per DFA in batch order:
+3. Compute stats for every DFA. Write `dfa_stats.jsonl.gz`, one line per DFA in batch order:
    `{"id": 0, "n_states": S, "reachable": R, "minimal": M}`.
-4. For every `i < j` in batch order, call `shortest_distinguishing`. Stream each result into `pairs.jsonl`, one line per pair:
+4. For every `i < j` in batch order, call `shortest_distinguishing`. Stream each result into `pairs.jsonl.gz`, one line per pair:
    `{"a": id_i, "b": id_j, "length": L | null, "witness": ["sym", ...] | null}`.
    - Convert witness indices to symbol strings using `batch.alphabet`.
    - `(a, b)` with `a < b` is the **pair key**. Document it in the manifest so `similarity_metrics` results can be joined on the same key.
-   - Files are uncompressed by default, to match the generator; gzip is optional through a `compress` flag.
+   - Files are gzip-compressed (see §2). A `compress=False` flag exists for debugging only.
 5. Write `manifest.json` with:
    - `schema_version`, `status: "complete"` (written last) and `results_id`;
    - the source `run_id`, the run directory, the input file hashes, `alphabet` and `state_count`;
@@ -241,12 +242,11 @@ GPT benchmarked these batches at about 0.5 s per batch of 124,750 pairs (lengths
 ## 11. Done when
 
 - All tests pass with the command in §9.
-- `run_pairs.py` has produced results for all 6 canonical batches under `.../2026-11-15_00-36-37-375402_UTC/pairs/<results_id>/`.
+- `run_pairs.py` has produced results for all 6 canonical batches under `.../2026-11-15_00-36-37-375402_UTC/pairs/<results_id>/`, and they are committed.
 - `time-sensitive.md` is updated: the algorithm is implemented, results exist, the observed equivalent counts and maximum lengths are recorded, and next steps are revised.
 - A session log is in `agentLogs/` following the README convention.
 
 ## 12. Open items for later (not blockers)
 
 - Pairs within one batch share DFAs, so the 124,750 results are not independent samples (see the "Approved Exploratory Testing Plan" in `time-sensitive.md`). The analysis plan must account for this, e.g. with independently seeded batches or subsampling of disjoint pairs. The saved pair keys make that possible without recomputing.
-- Whether result files in `data/` get committed to git or ignored is undecided. The DFA batches are currently committed.
 - When `similarity_metrics.py` is implemented, it should import `loader.load_batch` rather than parsing files itself.
