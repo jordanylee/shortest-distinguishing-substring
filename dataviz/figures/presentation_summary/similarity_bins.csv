@@ -1,0 +1,961 @@
+dataset,alphabet,states,metric,bin_left,bin_right,finite_pairs,sparse,mean_similarity,mean_finite_sds
+original,2,10,probability_of_agreement,0.0,0.05,56,False,0.017392113095238092,0.0
+original,2,10,probability_of_agreement,0.05,0.1,120,False,0.08328993055555557,0.0
+original,2,10,probability_of_agreement,0.1,0.15,361,False,0.1281307710064635,0.0
+original,2,10,probability_of_agreement,0.15,0.2,958,False,0.17849143180236604,0.019832985386221295
+original,2,10,probability_of_agreement,0.2,0.25,2211,False,0.22794879767827547,0.028493894165535955
+original,2,10,probability_of_agreement,0.25,0.3,5105,False,0.2766150424420505,0.04113614103819784
+original,2,10,probability_of_agreement,0.3,0.35,9064,False,0.3279388239188026,0.0691747572815534
+original,2,10,probability_of_agreement,0.35,0.4,11782,False,0.37624306852260825,0.11449668986589713
+original,2,10,probability_of_agreement,0.4,0.45,16280,False,0.4252319435913268,0.24877149877149876
+original,2,10,probability_of_agreement,0.45,0.5,15624,False,0.4740686737284524,0.4094342037890425
+original,2,10,probability_of_agreement,0.5,0.55,17722,False,0.5234204543317174,0.6268479855546778
+original,2,10,probability_of_agreement,0.55,0.6,15917,False,0.5748380923959622,0.8761073066532638
+original,2,10,probability_of_agreement,0.6,0.65,11465,False,0.6241395915103949,1.1267335368512865
+original,2,10,probability_of_agreement,0.65,0.7,9108,False,0.6723690711462494,1.3812033377250768
+original,2,10,probability_of_agreement,0.7,0.75,4810,False,0.7213520010395006,1.6066528066528067
+original,2,10,probability_of_agreement,0.75,0.8,2478,False,0.7696773271455454,1.8163841807909604
+original,2,10,probability_of_agreement,0.8,0.85,1073,False,0.82097021590556,2.0074557315936628
+original,2,10,probability_of_agreement,0.85,0.9,391,False,0.872748827791987,2.258312020460358
+original,2,10,probability_of_agreement,0.9,0.95,136,False,0.9249004289215685,2.9044117647058822
+original,2,10,probability_of_agreement,0.95,1.0,52,False,0.9736578525641026,3.519230769230769
+original,2,10,weighted_jaccard,0.0,0.05,11530,False,0.01154111070622411,0.48898525585429314
+original,2,10,weighted_jaccard,0.05,0.1,7081,False,0.07520771329233421,0.3218471967236266
+original,2,10,weighted_jaccard,0.1,0.15,8872,False,0.12536039614390945,0.3045536519386835
+original,2,10,weighted_jaccard,0.15,0.2,10834,False,0.17499509312438494,0.2944434188665313
+original,2,10,weighted_jaccard,0.2,0.25,12059,False,0.22432485276829056,0.33717555352848494
+original,2,10,weighted_jaccard,0.25,0.3,12648,False,0.27440633604571013,0.4297122074636306
+original,2,10,weighted_jaccard,0.3,0.35,12582,False,0.32440357511778756,0.5434748052773803
+original,2,10,weighted_jaccard,0.35,0.4,11206,False,0.3740983716719265,0.6700874531500982
+original,2,10,weighted_jaccard,0.4,0.45,10669,False,0.42392704334671794,0.8162901865216984
+original,2,10,weighted_jaccard,0.45,0.5,8603,False,0.4729781509610718,0.9447867023131465
+original,2,10,weighted_jaccard,0.5,0.55,7314,False,0.5227762001571957,1.1110199617172545
+original,2,10,weighted_jaccard,0.55,0.6,4872,False,0.5729163351668984,1.2651888341543513
+original,2,10,weighted_jaccard,0.6,0.65,3088,False,0.6222870398788355,1.444300518134715
+original,2,10,weighted_jaccard,0.65,0.7,1746,False,0.6722060048209513,1.5778923253150057
+original,2,10,weighted_jaccard,0.7,0.75,923,False,0.7221065975211763,1.7811484290357529
+original,2,10,weighted_jaccard,0.75,0.8,422,False,0.7690575555940036,1.933649289099526
+original,2,10,weighted_jaccard,0.8,0.85,160,False,0.8207231404874387,2.1375
+original,2,10,weighted_jaccard,0.85,0.9,71,False,0.8724321197946838,2.6056338028169015
+original,2,10,weighted_jaccard,0.9,0.95,18,True,0.9181979586996091,2.9444444444444446
+original,2,10,weighted_jaccard,0.95,1.0,15,True,0.9873842592592593,4.8
+original,2,20,probability_of_agreement,0.0,0.05,3,True,0.046875,0.0
+original,2,20,probability_of_agreement,0.05,0.1,14,True,0.08072916666666667,0.0
+original,2,20,probability_of_agreement,0.1,0.15,67,False,0.12896455223880593,0.0
+original,2,20,probability_of_agreement,0.15,0.2,383,False,0.18091818973020027,0.0
+original,2,20,probability_of_agreement,0.2,0.25,1465,False,0.22881470420932884,0.0013651877133105802
+original,2,20,probability_of_agreement,0.25,0.3,4409,False,0.27705876237997973,0.0036289408029031526
+original,2,20,probability_of_agreement,0.3,0.35,8966,False,0.3278374553870206,0.017733660495204105
+original,2,20,probability_of_agreement,0.35,0.4,12430,False,0.37617197975328553,0.06701528559935639
+original,2,20,probability_of_agreement,0.4,0.45,16923,False,0.42519549331286044,0.19180996277255805
+original,2,20,probability_of_agreement,0.45,0.5,16820,False,0.47410015358699853,0.37752675386444706
+original,2,20,probability_of_agreement,0.5,0.55,18391,False,0.5232430831203676,0.6293295633733892
+original,2,20,probability_of_agreement,0.55,0.6,17287,False,0.5751844473689297,0.9252039104529415
+original,2,20,probability_of_agreement,0.6,0.65,12257,False,0.6238505717821132,1.2169372603410296
+original,2,20,probability_of_agreement,0.65,0.7,9040,False,0.6718646294247871,1.5212389380530973
+original,2,20,probability_of_agreement,0.7,0.75,4129,False,0.7207707677403734,1.833615887624122
+original,2,20,probability_of_agreement,0.75,0.8,1732,False,0.767925447459584,2.1177829099307157
+original,2,20,probability_of_agreement,0.8,0.85,362,False,0.8184133287292817,2.43646408839779
+original,2,20,probability_of_agreement,0.85,0.9,54,False,0.8707561728395059,2.814814814814815
+original,2,20,probability_of_agreement,0.9,0.95,15,True,0.9114583333333336,3.1333333333333333
+original,2,20,probability_of_agreement,0.95,1.0,3,True,0.9618055555555555,4.333333333333333
+original,2,20,weighted_jaccard,0.0,0.05,2453,False,0.02986795417626786,0.40847941296371787
+original,2,20,weighted_jaccard,0.05,0.1,5960,False,0.07743778182872775,0.3276845637583893
+original,2,20,weighted_jaccard,0.1,0.15,9513,False,0.1263709659236248,0.35299064438137284
+original,2,20,weighted_jaccard,0.15,0.2,12911,False,0.17547316293902124,0.3155448842072651
+original,2,20,weighted_jaccard,0.2,0.25,15009,False,0.22450798748537054,0.3425944433339996
+original,2,20,weighted_jaccard,0.25,0.3,15659,False,0.2743319023407873,0.4107541988632735
+original,2,20,weighted_jaccard,0.3,0.35,14953,False,0.3244703066981015,0.5314652578077977
+original,2,20,weighted_jaccard,0.35,0.4,12905,False,0.3740367101338275,0.6771018984889577
+original,2,20,weighted_jaccard,0.4,0.45,11183,False,0.42344700630556004,0.8512027184118751
+original,2,20,weighted_jaccard,0.45,0.5,8454,False,0.4729108867327764,1.018097941802697
+original,2,20,weighted_jaccard,0.5,0.55,6727,False,0.5222374464155186,1.231306674594916
+original,2,20,weighted_jaccard,0.55,0.6,4320,False,0.572920098489486,1.3900462962962963
+original,2,20,weighted_jaccard,0.6,0.65,2573,False,0.622111211918096,1.5779246016323358
+original,2,20,weighted_jaccard,0.65,0.7,1203,False,0.6715022378028042,1.7772236076475478
+original,2,20,weighted_jaccard,0.7,0.75,603,False,0.7212345519213513,1.9817578772802653
+original,2,20,weighted_jaccard,0.75,0.8,228,False,0.768427228319645,2.0657894736842106
+original,2,20,weighted_jaccard,0.8,0.85,63,False,0.8205669999970693,2.3968253968253967
+original,2,20,weighted_jaccard,0.85,0.9,19,True,0.8718514434164287,2.736842105263158
+original,2,20,weighted_jaccard,0.9,0.95,11,True,0.9108428733171231,3.1818181818181817
+original,2,20,weighted_jaccard,0.95,1.0,3,True,0.9617419284467714,4.333333333333333
+original,2,30,probability_of_agreement,0.0,0.05,0,False,,
+original,2,30,probability_of_agreement,0.05,0.1,3,True,0.08506944444444443,0.0
+original,2,30,probability_of_agreement,0.1,0.15,18,True,0.13599537037037038,0.0
+original,2,30,probability_of_agreement,0.15,0.2,248,False,0.18252268145161288,0.0
+original,2,30,probability_of_agreement,0.2,0.25,1184,False,0.2288543426238738,0.0008445945945945946
+original,2,30,probability_of_agreement,0.25,0.3,4058,False,0.2775844011828488,0.0017249876786594382
+original,2,30,probability_of_agreement,0.3,0.35,8913,False,0.3284376285575407,0.011668349601705374
+original,2,30,probability_of_agreement,0.35,0.4,12441,False,0.3760545608605964,0.06020416365243952
+original,2,30,probability_of_agreement,0.4,0.45,17400,False,0.4253289631226158,0.17557471264367816
+original,2,30,probability_of_agreement,0.45,0.5,17174,False,0.47414969576103383,0.37364620938628157
+original,2,30,probability_of_agreement,0.5,0.55,19065,False,0.5233581388233245,0.63933910306845
+original,2,30,probability_of_agreement,0.55,0.6,17428,False,0.574736953465693,0.9294812944686711
+original,2,30,probability_of_agreement,0.6,0.65,12335,False,0.6238941528171893,1.2429671665991082
+original,2,30,probability_of_agreement,0.65,0.7,8955,False,0.6718127675414183,1.552428810720268
+original,2,30,probability_of_agreement,0.7,0.75,3849,False,0.7208379340954355,1.8958170953494413
+original,2,30,probability_of_agreement,0.75,0.8,1397,False,0.7678768492006693,2.220472440944882
+original,2,30,probability_of_agreement,0.8,0.85,263,False,0.8163022813688213,2.5893536121673004
+original,2,30,probability_of_agreement,0.85,0.9,17,True,0.8630514705882354,2.823529411764706
+original,2,30,probability_of_agreement,0.9,0.95,1,True,0.9010416666666666,4.0
+original,2,30,probability_of_agreement,0.95,1.0,1,True,0.953125,4.0
+original,2,30,weighted_jaccard,0.0,0.05,1552,False,0.031142324729887785,0.4027061855670103
+original,2,30,weighted_jaccard,0.05,0.1,4910,False,0.07838980024776517,0.3181262729124236
+original,2,30,weighted_jaccard,0.1,0.15,9461,False,0.12656603388929266,0.3104323010252616
+original,2,30,weighted_jaccard,0.15,0.2,12752,False,0.17530184702976884,0.3059127979924718
+original,2,30,weighted_jaccard,0.2,0.25,14941,False,0.22469881374059972,0.31959038886286056
+original,2,30,weighted_jaccard,0.25,0.3,15903,False,0.274542457540958,0.3816889894988367
+original,2,30,weighted_jaccard,0.3,0.35,15405,False,0.324540536912295,0.518792599805258
+original,2,30,weighted_jaccard,0.35,0.4,13818,False,0.37408526951335763,0.6688377478651035
+original,2,30,weighted_jaccard,0.4,0.45,12138,False,0.42384893443042426,0.8593672763222936
+original,2,30,weighted_jaccard,0.45,0.5,9308,False,0.47286525080879016,1.0517834121186076
+original,2,30,weighted_jaccard,0.5,0.55,6952,False,0.5224892207721642,1.2809263521288838
+original,2,30,weighted_jaccard,0.55,0.6,4078,False,0.5720590178260717,1.534330554193232
+original,2,30,weighted_jaccard,0.6,0.65,2209,False,0.6209037054633897,1.7550928021729288
+original,2,30,weighted_jaccard,0.65,0.7,913,False,0.6714731010926672,1.9627601314348302
+original,2,30,weighted_jaccard,0.7,0.75,303,False,0.7207364106381886,2.207920792079208
+original,2,30,weighted_jaccard,0.75,0.8,88,False,0.7687872764500518,2.397727272727273
+original,2,30,weighted_jaccard,0.8,0.85,17,True,0.8221496128075414,2.8823529411764706
+original,2,30,weighted_jaccard,0.85,0.9,2,True,0.8591996239055062,3.0
+original,2,30,weighted_jaccard,0.9,0.95,0,False,,
+original,2,30,weighted_jaccard,0.95,1.0,0,False,,
+original,3,10,probability_of_agreement,0.0,0.05,0,False,,
+original,3,10,probability_of_agreement,0.05,0.1,16,True,0.08616255144032921,0.0
+original,3,10,probability_of_agreement,0.1,0.15,114,False,0.13052607513296277,0.0
+original,3,10,probability_of_agreement,0.15,0.2,478,False,0.17985318341741688,0.0
+original,3,10,probability_of_agreement,0.2,0.25,1496,False,0.229814026246488,0.002005347593582888
+original,3,10,probability_of_agreement,0.25,0.3,3984,False,0.27887045438268926,0.010793172690763053
+original,3,10,probability_of_agreement,0.3,0.35,8498,False,0.3278121439693227,0.021887502941868676
+original,3,10,probability_of_agreement,0.35,0.4,13597,False,0.37639278938012816,0.058395234242847684
+original,3,10,probability_of_agreement,0.4,0.45,16540,False,0.42558676393263944,0.14371221281741234
+original,3,10,probability_of_agreement,0.45,0.5,17232,False,0.4749144810497132,0.3580547818012999
+original,3,10,probability_of_agreement,0.5,0.55,17461,False,0.5247567202283139,0.6565488803619495
+original,3,10,probability_of_agreement,0.55,0.6,16833,False,0.5742663119189709,0.8749480187726489
+original,3,10,probability_of_agreement,0.6,0.65,13815,False,0.6235471970140385,1.0532030401737242
+original,3,10,probability_of_agreement,0.65,0.7,8621,False,0.672506157405219,1.2949773808142906
+original,3,10,probability_of_agreement,0.7,0.75,3990,False,0.7215925616510404,1.499248120300752
+original,3,10,probability_of_agreement,0.75,0.8,1473,False,0.7705870739613948,1.658520027155465
+original,3,10,probability_of_agreement,0.8,0.85,472,False,0.8205822347771501,1.7817796610169492
+original,3,10,probability_of_agreement,0.85,0.9,108,False,0.8682937052278616,2.009259259259259
+original,3,10,probability_of_agreement,0.9,0.95,19,True,0.9163959280918345,2.1578947368421053
+original,3,10,probability_of_agreement,0.95,1.0,3,True,0.9551897576588934,2.3333333333333335
+original,3,10,weighted_jaccard,0.0,0.05,3922,False,0.02672133494659411,0.4757776644569097
+original,3,10,weighted_jaccard,0.05,0.1,7703,False,0.0769901608326072,0.376476697390627
+original,3,10,weighted_jaccard,0.1,0.15,10940,False,0.12599892252073752,0.35648994515539306
+original,3,10,weighted_jaccard,0.15,0.2,14014,False,0.17531712053461215,0.3630655059226488
+original,3,10,weighted_jaccard,0.2,0.25,14200,False,0.2246378735909008,0.3891549295774648
+original,3,10,weighted_jaccard,0.25,0.3,13430,False,0.2745104623761173,0.41094564408041695
+original,3,10,weighted_jaccard,0.3,0.35,12661,False,0.3248326831471805,0.48566463944396177
+original,3,10,weighted_jaccard,0.35,0.4,12203,False,0.37482199092228724,0.6015733835941981
+original,3,10,weighted_jaccard,0.4,0.45,10736,False,0.4241083548339103,0.7007265275707899
+original,3,10,weighted_jaccard,0.45,0.5,8437,False,0.47368020206648404,0.8235154675832642
+original,3,10,weighted_jaccard,0.5,0.55,6239,False,0.5233389009535099,0.9613720147459529
+original,3,10,weighted_jaccard,0.55,0.6,4360,False,0.5734965429123622,1.0635321100917432
+original,3,10,weighted_jaccard,0.6,0.65,2958,False,0.6226383827075479,1.186950642325896
+original,3,10,weighted_jaccard,0.65,0.7,1581,False,0.672641778634292,1.309930423782416
+original,3,10,weighted_jaccard,0.7,0.75,838,False,0.7219869860477938,1.4176610978520285
+original,3,10,weighted_jaccard,0.75,0.8,367,False,0.7703216939489763,1.547683923705722
+original,3,10,weighted_jaccard,0.8,0.85,140,False,0.8192192764810133,1.7142857142857142
+original,3,10,weighted_jaccard,0.85,0.9,19,True,0.8648512721392981,1.7894736842105263
+original,3,10,weighted_jaccard,0.9,0.95,2,True,0.9013994862568382,1.5
+original,3,10,weighted_jaccard,0.95,1.0,0,False,,
+original,3,20,probability_of_agreement,0.0,0.05,0,False,,
+original,3,20,probability_of_agreement,0.05,0.1,0,False,,
+original,3,20,probability_of_agreement,0.1,0.15,3,True,0.13923182441700963,0.0
+original,3,20,probability_of_agreement,0.15,0.2,41,False,0.1831610291411556,0.0
+original,3,20,probability_of_agreement,0.2,0.25,358,False,0.2331674215079967,0.0
+original,3,20,probability_of_agreement,0.25,0.3,2282,False,0.2813523020862266,0.0008764241893076249
+original,3,20,probability_of_agreement,0.3,0.35,7658,False,0.3291899843122022,0.0015669887699138157
+original,3,20,probability_of_agreement,0.35,0.4,15337,False,0.3771170125447716,0.00906305014018387
+original,3,20,probability_of_agreement,0.4,0.45,19132,False,0.4253135820250517,0.062042651055822705
+original,3,20,probability_of_agreement,0.45,0.5,17567,False,0.47468937853687465,0.29538338930950075
+original,3,20,probability_of_agreement,0.5,0.55,17715,False,0.5250385717775715,0.7090036692068868
+original,3,20,probability_of_agreement,0.55,0.6,18981,False,0.5747330248449211,0.9554291133238502
+original,3,20,probability_of_agreement,0.6,0.65,15375,False,0.6230915275407871,1.1253983739837399
+original,3,20,probability_of_agreement,0.65,0.7,7774,False,0.6707648653331819,1.4331103678929766
+original,3,20,probability_of_agreement,0.7,0.75,2156,False,0.7186497120359553,1.760204081632653
+original,3,20,probability_of_agreement,0.75,0.8,329,False,0.7660950379626499,1.872340425531915
+original,3,20,probability_of_agreement,0.8,0.85,38,False,0.8131542848891775,1.9473684210526316
+original,3,20,probability_of_agreement,0.85,0.9,4,True,0.8746570644718793,1.75
+original,3,20,probability_of_agreement,0.9,0.95,0,False,,
+original,3,20,probability_of_agreement,0.95,1.0,0,False,,
+original,3,20,weighted_jaccard,0.0,0.05,1048,False,0.03310879511707302,0.3416030534351145
+original,3,20,weighted_jaccard,0.05,0.1,3048,False,0.07953545776056224,0.2473753280839895
+original,3,20,weighted_jaccard,0.1,0.15,7548,False,0.12796866702691678,0.221250662427133
+original,3,20,weighted_jaccard,0.15,0.2,12441,False,0.17636891258159412,0.24515714170886585
+original,3,20,weighted_jaccard,0.2,0.25,15751,False,0.22533735544091307,0.2629674306393245
+original,3,20,weighted_jaccard,0.25,0.3,16523,False,0.2746631128630479,0.3052109181141439
+original,3,20,weighted_jaccard,0.3,0.35,15029,False,0.3245695731691814,0.3996939250781822
+original,3,20,weighted_jaccard,0.35,0.4,13473,False,0.37470328353952287,0.6078824315297261
+original,3,20,weighted_jaccard,0.4,0.45,12756,False,0.4247620347515283,0.8123236124176858
+original,3,20,weighted_jaccard,0.45,0.5,11265,False,0.4741506147263551,0.9786063027075012
+original,3,20,weighted_jaccard,0.5,0.55,8038,False,0.5231300962022498,1.125404329435183
+original,3,20,weighted_jaccard,0.55,0.6,4674,False,0.5722448745021522,1.2618741976893453
+original,3,20,weighted_jaccard,0.6,0.65,2137,False,0.6213479752520912,1.384651380439869
+original,3,20,weighted_jaccard,0.65,0.7,781,False,0.6695981857040253,1.5761843790012804
+original,3,20,weighted_jaccard,0.7,0.75,202,False,0.71788654641785,1.7722772277227723
+original,3,20,weighted_jaccard,0.75,0.8,34,False,0.7659911101293935,1.8823529411764706
+original,3,20,weighted_jaccard,0.8,0.85,2,True,0.808618992151316,2.0
+original,3,20,weighted_jaccard,0.85,0.9,0,False,,
+original,3,20,weighted_jaccard,0.9,0.95,0,False,,
+original,3,20,weighted_jaccard,0.95,1.0,0,False,,
+original,3,30,probability_of_agreement,0.0,0.05,0,False,,
+original,3,30,probability_of_agreement,0.05,0.1,0,False,,
+original,3,30,probability_of_agreement,0.1,0.15,0,False,,
+original,3,30,probability_of_agreement,0.15,0.2,13,True,0.1897224860187823,0.0
+original,3,30,probability_of_agreement,0.2,0.25,176,False,0.23626699089662037,0.0
+original,3,30,probability_of_agreement,0.25,0.3,1700,False,0.28289841039296326,0.0
+original,3,30,probability_of_agreement,0.3,0.35,7476,False,0.3294229692308507,0.00013376136971642589
+original,3,30,probability_of_agreement,0.35,0.4,15765,False,0.3770881217052413,0.0027275610529654297
+original,3,30,probability_of_agreement,0.4,0.45,19514,False,0.425261530078021,0.04191862252741621
+original,3,30,probability_of_agreement,0.45,0.5,17518,False,0.47442270235545736,0.2721201050348213
+original,3,30,probability_of_agreement,0.5,0.55,18085,False,0.5250797085702176,0.7204312966546862
+original,3,30,probability_of_agreement,0.55,0.6,19468,False,0.5746973401956985,0.9719539757550852
+original,3,30,probability_of_agreement,0.6,0.65,15834,False,0.6229681817165864,1.1304155614500442
+original,3,30,probability_of_agreement,0.65,0.7,7329,False,0.670462119310683,1.5096193205075727
+original,3,30,probability_of_agreement,0.7,0.75,1706,False,0.7170705506426919,1.8534583821805393
+original,3,30,probability_of_agreement,0.75,0.8,158,False,0.7632616207393514,2.0443037974683542
+original,3,30,probability_of_agreement,0.8,0.85,8,True,0.8094135802469136,2.125
+original,3,30,probability_of_agreement,0.85,0.9,0,False,,
+original,3,30,probability_of_agreement,0.9,0.95,0,False,,
+original,3,30,probability_of_agreement,0.95,1.0,0,False,,
+original,3,30,weighted_jaccard,0.0,0.05,51,False,0.04194880016591543,0.058823529411764705
+original,3,30,weighted_jaccard,0.05,0.1,1776,False,0.08389745329531102,0.17117117117117117
+original,3,30,weighted_jaccard,0.1,0.15,6942,False,0.12878822261815379,0.21247479112647652
+original,3,30,weighted_jaccard,0.15,0.2,13223,False,0.1770538586721311,0.24412009377599636
+original,3,30,weighted_jaccard,0.2,0.25,18136,False,0.22559977032114634,0.2720004411116012
+original,3,30,weighted_jaccard,0.25,0.3,19380,False,0.27465886554537644,0.3205882352941177
+original,3,30,weighted_jaccard,0.3,0.35,16841,False,0.3244061031774797,0.44219464402351405
+original,3,30,weighted_jaccard,0.35,0.4,14295,False,0.3742611871684138,0.6663168940188877
+original,3,30,weighted_jaccard,0.4,0.45,12244,False,0.4241350901896496,0.8930904933028422
+original,3,30,weighted_jaccard,0.45,0.5,9812,False,0.47381051637189714,1.0469832857725234
+original,3,30,weighted_jaccard,0.5,0.55,6577,False,0.5230464541830357,1.1899042116466474
+original,3,30,weighted_jaccard,0.55,0.6,3643,False,0.5717078788804751,1.3628877298929454
+original,3,30,weighted_jaccard,0.6,0.65,1369,False,0.6201688826899214,1.5544192841490139
+original,3,30,weighted_jaccard,0.65,0.7,367,False,0.667793864886818,1.6784741144414168
+original,3,30,weighted_jaccard,0.7,0.75,79,False,0.7180808351165455,1.8227848101265822
+original,3,30,weighted_jaccard,0.75,0.8,14,True,0.7659909708574884,2.0
+original,3,30,weighted_jaccard,0.8,0.85,1,True,0.8050724637681159,2.0
+original,3,30,weighted_jaccard,0.85,0.9,0,False,,
+original,3,30,weighted_jaccard,0.9,0.95,0,False,,
+original,3,30,weighted_jaccard,0.95,1.0,0,False,,
+original,4,10,probability_of_agreement,0.0,0.05,1,True,0.040690104166666664,0.0
+original,4,10,probability_of_agreement,0.05,0.1,12,True,0.08245171440972222,0.0
+original,4,10,probability_of_agreement,0.1,0.15,58,False,0.1316731770833333,0.0
+original,4,10,probability_of_agreement,0.15,0.2,239,False,0.17945595798465844,0.0
+original,4,10,probability_of_agreement,0.2,0.25,875,False,0.22960174851190482,0.0
+original,4,10,probability_of_agreement,0.25,0.3,2708,False,0.279557063273172,0.006277695716395864
+original,4,10,probability_of_agreement,0.3,0.35,7444,False,0.32865768834379994,0.010343901128425578
+original,4,10,probability_of_agreement,0.35,0.4,15198,False,0.37702081868296905,0.026450848795894197
+original,4,10,probability_of_agreement,0.4,0.45,18978,False,0.4249370793512013,0.08262198334914111
+original,4,10,probability_of_agreement,0.45,0.5,16987,False,0.4743669063413689,0.2946959439571437
+original,4,10,probability_of_agreement,0.5,0.55,16843,False,0.5255907730585445,0.6994003443567061
+original,4,10,probability_of_agreement,0.55,0.6,19016,False,0.5748918827812777,0.925588977702987
+original,4,10,probability_of_agreement,0.6,0.65,14949,False,0.6228851271406138,1.0299685597698842
+original,4,10,probability_of_agreement,0.65,0.7,7463,False,0.671164354391385,1.2318102639689132
+original,4,10,probability_of_agreement,0.7,0.75,2806,False,0.720385782790597,1.4294369208838205
+original,4,10,probability_of_agreement,0.75,0.8,888,False,0.7701760598489115,1.561936936936937
+original,4,10,probability_of_agreement,0.8,0.85,217,False,0.8194671959005377,1.7096774193548387
+original,4,10,probability_of_agreement,0.85,0.9,59,False,0.8676178495762714,1.8135593220338984
+original,4,10,probability_of_agreement,0.9,0.95,9,True,0.9184027777777778,2.2222222222222223
+original,4,10,probability_of_agreement,0.95,1.0,0,False,,
+original,4,10,weighted_jaccard,0.0,0.05,1792,False,0.02690440170654244,0.36049107142857145
+original,4,10,weighted_jaccard,0.05,0.1,5907,False,0.0774581458102647,0.3169121381411884
+original,4,10,weighted_jaccard,0.1,0.15,9596,False,0.12664710035256463,0.30700291788245104
+original,4,10,weighted_jaccard,0.15,0.2,13289,False,0.17592323366838855,0.2910678004364512
+original,4,10,weighted_jaccard,0.2,0.25,14678,False,0.22484834972061468,0.31850388336285596
+original,4,10,weighted_jaccard,0.25,0.3,14459,False,0.2748806633486846,0.3370219240611384
+original,4,10,weighted_jaccard,0.3,0.35,13337,False,0.3247826390745553,0.3949163979905526
+original,4,10,weighted_jaccard,0.35,0.4,12608,False,0.37490859270889926,0.5789181472081218
+original,4,10,weighted_jaccard,0.4,0.45,11647,False,0.4244192802193893,0.7260238688074182
+original,4,10,weighted_jaccard,0.45,0.5,9840,False,0.47389811881062927,0.8446138211382114
+original,4,10,weighted_jaccard,0.5,0.55,7440,False,0.523417561563795,0.9278225806451613
+original,4,10,weighted_jaccard,0.55,0.6,4748,False,0.5728731996869798,1.025905644481887
+original,4,10,weighted_jaccard,0.6,0.65,2785,False,0.6219296774451196,1.177737881508079
+original,4,10,weighted_jaccard,0.65,0.7,1509,False,0.6723962386697857,1.3194168323392976
+original,4,10,weighted_jaccard,0.7,0.75,702,False,0.7217432486903139,1.4515669515669516
+original,4,10,weighted_jaccard,0.75,0.8,306,False,0.77082694459605,1.5457516339869282
+original,4,10,weighted_jaccard,0.8,0.85,73,False,0.8208482545818244,1.7123287671232876
+original,4,10,weighted_jaccard,0.85,0.9,31,False,0.8662782848734961,1.8064516129032258
+original,4,10,weighted_jaccard,0.9,0.95,3,True,0.9102449558760478,2.0
+original,4,10,weighted_jaccard,0.95,1.0,0,False,,
+original,4,20,probability_of_agreement,0.0,0.05,0,False,,
+original,4,20,probability_of_agreement,0.05,0.1,0,False,,
+original,4,20,probability_of_agreement,0.1,0.15,0,False,,
+original,4,20,probability_of_agreement,0.15,0.2,20,True,0.1794108072916667,0.0
+original,4,20,probability_of_agreement,0.2,0.25,172,False,0.23201213511385674,0.0
+original,4,20,probability_of_agreement,0.25,0.3,1172,False,0.28302175545719555,0.0
+original,4,20,probability_of_agreement,0.3,0.35,6459,False,0.3305826848115682,0.0003096454559529339
+original,4,20,probability_of_agreement,0.35,0.4,16673,False,0.37761699382359826,0.0019792478858033946
+original,4,20,probability_of_agreement,0.4,0.45,21578,False,0.42449591941879466,0.022754657521549728
+original,4,20,probability_of_agreement,0.45,0.5,16501,False,0.47338265996820955,0.22435003939155201
+original,4,20,probability_of_agreement,0.5,0.55,16315,False,0.5263403018534851,0.7773214832975789
+original,4,20,probability_of_agreement,0.55,0.6,21362,False,0.5755725140704486,0.980572980058047
+original,4,20,probability_of_agreement,0.6,0.65,16848,False,0.622315477139965,1.0539529914529915
+original,4,20,probability_of_agreement,0.65,0.7,6341,False,0.6694226848748902,1.3264469326604635
+original,4,20,probability_of_agreement,0.7,0.75,1158,False,0.7167423404217037,1.5924006908462867
+original,4,20,probability_of_agreement,0.75,0.8,138,False,0.768356544384058,1.644927536231884
+original,4,20,probability_of_agreement,0.8,0.85,13,True,0.8107972756410257,1.7692307692307692
+original,4,20,probability_of_agreement,0.85,0.9,0,False,,
+original,4,20,probability_of_agreement,0.9,0.95,0,False,,
+original,4,20,probability_of_agreement,0.95,1.0,0,False,,
+original,4,20,weighted_jaccard,0.0,0.05,148,False,0.04167902410547855,0.2905405405405405
+original,4,20,weighted_jaccard,0.05,0.1,2468,False,0.08193660719235388,0.24554294975688817
+original,4,20,weighted_jaccard,0.1,0.15,7455,False,0.12852213267593462,0.25258215962441316
+original,4,20,weighted_jaccard,0.15,0.2,13658,False,0.1768291205553533,0.2511348660125933
+original,4,20,weighted_jaccard,0.2,0.25,18618,False,0.2255070699479117,0.26920184767429367
+original,4,20,weighted_jaccard,0.25,0.3,18518,False,0.27435982728267644,0.3229830435252187
+original,4,20,weighted_jaccard,0.3,0.35,15339,False,0.3237167159961247,0.40374209531260186
+original,4,20,weighted_jaccard,0.35,0.4,12706,False,0.3743880163295802,0.6004249960648512
+original,4,20,weighted_jaccard,0.4,0.45,11717,False,0.4247296190807909,0.8369036442775455
+original,4,20,weighted_jaccard,0.45,0.5,10362,False,0.47389952304120536,0.9779965257672264
+original,4,20,weighted_jaccard,0.5,0.55,7540,False,0.5230744769882761,1.056498673740053
+original,4,20,weighted_jaccard,0.55,0.6,3845,False,0.5720675525935746,1.1396618985695708
+original,4,20,weighted_jaccard,0.6,0.65,1690,False,0.6206345021682241,1.2520710059171598
+original,4,20,weighted_jaccard,0.65,0.7,508,False,0.6701988407378922,1.3346456692913387
+original,4,20,weighted_jaccard,0.7,0.75,145,False,0.7198398923978081,1.4275862068965517
+original,4,20,weighted_jaccard,0.75,0.8,29,True,0.7719900958442153,1.5862068965517242
+original,4,20,weighted_jaccard,0.8,0.85,4,True,0.8163611031889008,1.75
+original,4,20,weighted_jaccard,0.85,0.9,0,False,,
+original,4,20,weighted_jaccard,0.9,0.95,0,False,,
+original,4,20,weighted_jaccard,0.95,1.0,0,False,,
+original,4,30,probability_of_agreement,0.0,0.05,0,False,,
+original,4,30,probability_of_agreement,0.05,0.1,0,False,,
+original,4,30,probability_of_agreement,0.1,0.15,0,False,,
+original,4,30,probability_of_agreement,0.15,0.2,0,False,,
+original,4,30,probability_of_agreement,0.2,0.25,37,False,0.23313010275900897,0.0
+original,4,30,probability_of_agreement,0.25,0.3,778,False,0.28551043172932716,0.0
+original,4,30,probability_of_agreement,0.3,0.35,6015,False,0.33160677408042394,0.0
+original,4,30,probability_of_agreement,0.35,0.4,17219,False,0.377555609824783,0.00046460305476508506
+original,4,30,probability_of_agreement,0.4,0.45,22082,False,0.4245150178878695,0.010687437732089484
+original,4,30,probability_of_agreement,0.45,0.5,16233,False,0.4731770572643948,0.19626686379597116
+original,4,30,probability_of_agreement,0.5,0.55,16332,False,0.5267104573109302,0.7999632623071271
+original,4,30,probability_of_agreement,0.55,0.6,22082,False,0.5755681386659174,0.9912598496512997
+original,4,30,probability_of_agreement,0.6,0.65,17175,False,0.622476896075931,1.0558951965065502
+original,4,30,probability_of_agreement,0.65,0.7,5972,False,0.6688756242238073,1.4084058941728064
+original,4,30,probability_of_agreement,0.7,0.75,790,False,0.7144766119462023,1.7924050632911392
+original,4,30,probability_of_agreement,0.75,0.8,35,False,0.7619280133928571,1.9428571428571428
+original,4,30,probability_of_agreement,0.8,0.85,0,False,,
+original,4,30,probability_of_agreement,0.85,0.9,0,False,,
+original,4,30,probability_of_agreement,0.9,0.95,0,False,,
+original,4,30,probability_of_agreement,0.95,1.0,0,False,,
+original,4,30,weighted_jaccard,0.0,0.05,2,True,0.04428955636290157,0.0
+original,4,30,weighted_jaccard,0.05,0.1,657,False,0.0866902011285264,0.091324200913242
+original,4,30,weighted_jaccard,0.1,0.15,5477,False,0.13059698326568778,0.1692532408252693
+original,4,30,weighted_jaccard,0.15,0.2,14029,False,0.1775179688463341,0.23800698552997362
+original,4,30,weighted_jaccard,0.2,0.25,20645,False,0.22577184752410567,0.284136594817147
+original,4,30,weighted_jaccard,0.25,0.3,21102,False,0.2743789566723553,0.34352194104824185
+original,4,30,weighted_jaccard,0.3,0.35,16733,False,0.3236706176416266,0.4336938982848264
+original,4,30,weighted_jaccard,0.35,0.4,12574,False,0.3742451116971899,0.6388579608716399
+original,4,30,weighted_jaccard,0.4,0.45,11490,False,0.4246502410625536,0.866579634464752
+original,4,30,weighted_jaccard,0.45,0.5,9860,False,0.4741399145271501,0.9946247464503043
+original,4,30,weighted_jaccard,0.5,0.55,7007,False,0.522570459964177,1.076352219209362
+original,4,30,weighted_jaccard,0.55,0.6,3505,False,0.5715101499432338,1.1800285306704708
+original,4,30,weighted_jaccard,0.6,0.65,1301,False,0.6199046926041861,1.2997694081475788
+original,4,30,weighted_jaccard,0.65,0.7,326,False,0.6680268571858728,1.4754601226993864
+original,4,30,weighted_jaccard,0.7,0.75,40,False,0.7171542525445512,1.625
+original,4,30,weighted_jaccard,0.75,0.8,2,True,0.7648103856927386,2.0
+original,4,30,weighted_jaccard,0.8,0.85,0,False,,
+original,4,30,weighted_jaccard,0.85,0.9,0,False,,
+original,4,30,weighted_jaccard,0.9,0.95,0,False,,
+original,4,30,weighted_jaccard,0.95,1.0,0,False,,
+original,5,10,probability_of_agreement,0.0,0.05,0,False,,
+original,5,10,probability_of_agreement,0.05,0.1,9,True,0.0787437037037037,0.0
+original,5,10,probability_of_agreement,0.1,0.15,51,False,0.12974745098039217,0.0
+original,5,10,probability_of_agreement,0.15,0.2,202,False,0.17947669966996704,0.0
+original,5,10,probability_of_agreement,0.2,0.25,569,False,0.22938591681312245,0.0
+original,5,10,probability_of_agreement,0.25,0.3,1845,False,0.2801423667570012,0.002168021680216802
+original,5,10,probability_of_agreement,0.3,0.35,6635,False,0.329689947249435,0.006782215523737754
+original,5,10,probability_of_agreement,0.35,0.4,16054,False,0.3773575383082099,0.016070761181014078
+original,5,10,probability_of_agreement,0.4,0.45,20793,False,0.4248789445165848,0.050449670562208435
+original,5,10,probability_of_agreement,0.45,0.5,16225,False,0.47355089060092453,0.2543605546995378
+original,5,10,probability_of_agreement,0.5,0.55,16327,False,0.5264712700843173,0.7434311263551173
+original,5,10,probability_of_agreement,0.55,0.6,20750,False,0.5753332690763073,0.9520481927710843
+original,5,10,probability_of_agreement,0.6,0.65,15915,False,0.6224775352392918,1.0086082312284008
+original,5,10,probability_of_agreement,0.65,0.7,6582,False,0.670218276106555,1.1393193558189
+original,5,10,probability_of_agreement,0.7,0.75,1962,False,0.720464668705404,1.2293577981651376
+original,5,10,probability_of_agreement,0.75,0.8,559,False,0.7705956827668458,1.2522361359570662
+original,5,10,probability_of_agreement,0.8,0.85,224,False,0.8201523809523804,1.4553571428571428
+original,5,10,probability_of_agreement,0.85,0.9,40,False,0.8707800000000001,1.8
+original,5,10,probability_of_agreement,0.9,0.95,8,True,0.9151466666666666,1.875
+original,5,10,probability_of_agreement,0.95,1.0,0,False,,
+original,5,10,weighted_jaccard,0.0,0.05,1725,False,0.035916550914072226,0.34202898550724636
+original,5,10,weighted_jaccard,0.05,0.1,5369,False,0.07630919204269784,0.3771652076736822
+original,5,10,weighted_jaccard,0.1,0.15,7969,False,0.12660935127306167,0.30003764587777637
+original,5,10,weighted_jaccard,0.15,0.2,11319,False,0.17637002494329448,0.3015284035692199
+original,5,10,weighted_jaccard,0.2,0.25,14751,False,0.22587646232972824,0.2754389532913023
+original,5,10,weighted_jaccard,0.25,0.3,16291,False,0.27519969771838976,0.31974709962556014
+original,5,10,weighted_jaccard,0.3,0.35,15170,False,0.3242894553285418,0.4014502307185234
+original,5,10,weighted_jaccard,0.35,0.4,13269,False,0.37481432866648784,0.5390760419021781
+original,5,10,weighted_jaccard,0.4,0.45,11856,False,0.424586824192578,0.7000674763832658
+original,5,10,weighted_jaccard,0.45,0.5,10225,False,0.47405719259047924,0.8333496332518338
+original,5,10,weighted_jaccard,0.5,0.55,7640,False,0.5233158290005963,0.9229057591623037
+original,5,10,weighted_jaccard,0.55,0.6,4554,False,0.5726963297765209,0.9859464207290294
+original,5,10,weighted_jaccard,0.6,0.65,2511,False,0.6224111867721339,1.0768618080446037
+original,5,10,weighted_jaccard,0.65,0.7,1199,False,0.671090612831857,1.115929941618015
+original,5,10,weighted_jaccard,0.7,0.75,580,False,0.7214090640136172,1.1758620689655173
+original,5,10,weighted_jaccard,0.75,0.8,223,False,0.770758708165452,1.2825112107623318
+original,5,10,weighted_jaccard,0.8,0.85,83,False,0.8178160132084009,1.4457831325301205
+original,5,10,weighted_jaccard,0.85,0.9,13,True,0.8701997890049492,1.6153846153846154
+original,5,10,weighted_jaccard,0.9,0.95,3,True,0.9136907592702372,1.6666666666666667
+original,5,10,weighted_jaccard,0.95,1.0,0,False,,
+original,5,20,probability_of_agreement,0.0,0.05,0,False,,
+original,5,20,probability_of_agreement,0.05,0.1,0,False,,
+original,5,20,probability_of_agreement,0.1,0.15,0,False,,
+original,5,20,probability_of_agreement,0.15,0.2,4,True,0.19250666666666666,0.0
+original,5,20,probability_of_agreement,0.2,0.25,36,False,0.23296296296296296,0.0
+original,5,20,probability_of_agreement,0.25,0.3,642,False,0.28452369678089295,0.0
+original,5,20,probability_of_agreement,0.3,0.35,4972,False,0.332274658085277,0.00020112630732099757
+original,5,20,probability_of_agreement,0.35,0.4,17643,False,0.3784935411589087,0.0009068752479737006
+original,5,20,probability_of_agreement,0.4,0.45,24136,False,0.42432859573527576,0.008369240967848857
+original,5,20,probability_of_agreement,0.45,0.5,15016,False,0.47220665956313185,0.16682205647309536
+original,5,20,probability_of_agreement,0.5,0.55,14896,False,0.527701646974581,0.832438238453276
+original,5,20,probability_of_agreement,0.55,0.6,24350,False,0.5756110893908237,0.991170431211499
+original,5,20,probability_of_agreement,0.6,0.65,17596,False,0.6215225369402161,1.0217663105251193
+original,5,20,probability_of_agreement,0.65,0.7,4875,False,0.6681453073504275,1.250871794871795
+original,5,20,probability_of_agreement,0.7,0.75,530,False,0.7153239748427676,1.4924528301886792
+original,5,20,probability_of_agreement,0.75,0.8,50,False,0.7633056000000003,1.7
+original,5,20,probability_of_agreement,0.8,0.85,4,True,0.8180133333333333,2.0
+original,5,20,probability_of_agreement,0.85,0.9,0,False,,
+original,5,20,probability_of_agreement,0.9,0.95,0,False,,
+original,5,20,probability_of_agreement,0.95,1.0,0,False,,
+original,5,20,weighted_jaccard,0.0,0.05,95,False,0.04047367227153377,0.031578947368421054
+original,5,20,weighted_jaccard,0.05,0.1,1542,False,0.08416020957493499,0.2172503242542153
+original,5,20,weighted_jaccard,0.1,0.15,5990,False,0.12876587403519804,0.23555926544240402
+original,5,20,weighted_jaccard,0.15,0.2,13479,False,0.17742308633780207,0.22182654499591958
+original,5,20,weighted_jaccard,0.2,0.25,19812,False,0.22589586558788602,0.25348273773470625
+original,5,20,weighted_jaccard,0.25,0.3,20865,False,0.27447768691960417,0.32139947280134196
+original,5,20,weighted_jaccard,0.3,0.35,16411,False,0.3238332153029949,0.4245932606178783
+original,5,20,weighted_jaccard,0.35,0.4,12563,False,0.37438237264183377,0.6291490885934888
+original,5,20,weighted_jaccard,0.4,0.45,12049,False,0.42485829487181215,0.8643870860652336
+original,5,20,weighted_jaccard,0.45,0.5,10478,False,0.47377674307604817,0.9748997900362665
+original,5,20,weighted_jaccard,0.5,0.55,6829,False,0.5226497964267716,1.0371943183482208
+original,5,20,weighted_jaccard,0.55,0.6,3163,False,0.5712005750811274,1.0859943092001265
+original,5,20,weighted_jaccard,0.6,0.65,1123,False,0.6199793248174987,1.1406945681211043
+original,5,20,weighted_jaccard,0.65,0.7,307,False,0.6679790777972732,1.257328990228013
+original,5,20,weighted_jaccard,0.7,0.75,44,False,0.7161408419581942,1.5
+original,5,20,weighted_jaccard,0.75,0.8,0,False,,
+original,5,20,weighted_jaccard,0.8,0.85,0,False,,
+original,5,20,weighted_jaccard,0.85,0.9,0,False,,
+original,5,20,weighted_jaccard,0.9,0.95,0,False,,
+original,5,20,weighted_jaccard,0.95,1.0,0,False,,
+original,5,30,probability_of_agreement,0.0,0.05,0,False,,
+original,5,30,probability_of_agreement,0.05,0.1,0,False,,
+original,5,30,probability_of_agreement,0.1,0.15,0,False,,
+original,5,30,probability_of_agreement,0.15,0.2,0,False,,
+original,5,30,probability_of_agreement,0.2,0.25,3,True,0.23514666666666664,0.0
+original,5,30,probability_of_agreement,0.25,0.3,237,False,0.28852433192686333,0.0
+original,5,30,probability_of_agreement,0.3,0.35,4233,False,0.33367690684305756,0.0
+original,5,30,probability_of_agreement,0.35,0.4,18218,False,0.37896822336882857,0.00010978153474585575
+original,5,30,probability_of_agreement,0.4,0.45,25503,False,0.424329115790295,0.002391875465631494
+original,5,30,probability_of_agreement,0.45,0.5,14391,False,0.4717139471428912,0.13167952192342436
+original,5,30,probability_of_agreement,0.5,0.55,14156,False,0.5285233681831011,0.8724922294433456
+original,5,30,probability_of_agreement,0.55,0.6,25386,False,0.575782639249984,0.9976364925549516
+original,5,30,probability_of_agreement,0.6,0.65,18171,False,0.6211296798928676,1.021792966815255
+original,5,30,probability_of_agreement,0.65,0.7,4215,False,0.6660735342032458,1.3069988137603796
+original,5,30,probability_of_agreement,0.7,0.75,233,False,0.7119601716738192,1.742489270386266
+original,5,30,probability_of_agreement,0.75,0.8,4,True,0.76044,1.75
+original,5,30,probability_of_agreement,0.8,0.85,0,False,,
+original,5,30,probability_of_agreement,0.85,0.9,0,False,,
+original,5,30,probability_of_agreement,0.9,0.95,0,False,,
+original,5,30,probability_of_agreement,0.95,1.0,0,False,,
+original,5,30,weighted_jaccard,0.0,0.05,1,True,0.04909378849199367,0.0
+original,5,30,weighted_jaccard,0.05,0.1,313,False,0.0887404224682751,0.09584664536741214
+original,5,30,weighted_jaccard,0.1,0.15,3750,False,0.1317077229974612,0.1416
+original,5,30,weighted_jaccard,0.15,0.2,12385,False,0.17877897221938518,0.18482034719418652
+original,5,30,weighted_jaccard,0.2,0.25,22079,False,0.2263067429534206,0.22627836405634313
+original,5,30,weighted_jaccard,0.25,0.3,23286,False,0.27435556002179623,0.30859744052220217
+original,5,30,weighted_jaccard,0.3,0.35,17027,False,0.32295217778186786,0.42732131320843364
+original,5,30,weighted_jaccard,0.35,0.4,11392,False,0.3740770857296858,0.652124297752809
+original,5,30,weighted_jaccard,0.4,0.45,11254,False,0.42565701868991657,0.9115869912919851
+original,5,30,weighted_jaccard,0.45,0.5,11697,False,0.4742222950603213,0.9941865435581773
+original,5,30,weighted_jaccard,0.5,0.55,7834,False,0.522183493828757,1.0441664539188154
+original,5,30,weighted_jaccard,0.55,0.6,3018,False,0.5693335632478175,1.126573889993373
+original,5,30,weighted_jaccard,0.6,0.65,621,False,0.6185245053953744,1.2640901771336555
+original,5,30,weighted_jaccard,0.65,0.7,85,False,0.6676221463148674,1.423529411764706
+original,5,30,weighted_jaccard,0.7,0.75,7,True,0.7173389138646995,1.5714285714285714
+original,5,30,weighted_jaccard,0.75,0.8,1,True,0.7520923520923521,2.0
+original,5,30,weighted_jaccard,0.8,0.85,0,False,,
+original,5,30,weighted_jaccard,0.85,0.9,0,False,,
+original,5,30,weighted_jaccard,0.9,0.95,0,False,,
+original,5,30,weighted_jaccard,0.95,1.0,0,False,,
+cross,2,10 vs 20,probability_of_agreement,0.0,0.05,40,False,0.025260416666666667,0.0
+cross,2,10 vs 20,probability_of_agreement,0.05,0.1,110,False,0.08058712121212121,0.0
+cross,2,10 vs 20,probability_of_agreement,0.1,0.15,271,False,0.12903597785977866,0.0
+cross,2,10 vs 20,probability_of_agreement,0.15,0.2,1216,False,0.179790296052631,0.004934210526315789
+cross,2,10 vs 20,probability_of_agreement,0.2,0.25,3415,False,0.2275500244021475,0.007613469985358712
+cross,2,10 vs 20,probability_of_agreement,0.25,0.3,9454,False,0.276928085995346,0.011212185318383753
+cross,2,10 vs 20,probability_of_agreement,0.3,0.35,18090,False,0.3276485051593836,0.035986733001658375
+cross,2,10 vs 20,probability_of_agreement,0.35,0.4,24142,False,0.3759839784745808,0.08652969927926435
+cross,2,10 vs 20,probability_of_agreement,0.4,0.45,33215,False,0.425180954889839,0.20894174318831854
+cross,2,10 vs 20,probability_of_agreement,0.45,0.5,32984,False,0.4740538657631969,0.38879456706281834
+cross,2,10 vs 20,probability_of_agreement,0.5,0.55,36570,False,0.5233697076383217,0.6323215750615259
+cross,2,10 vs 20,probability_of_agreement,0.55,0.6,33483,False,0.5748223289928286,0.9009945345399157
+cross,2,10 vs 20,probability_of_agreement,0.6,0.65,24114,False,0.6238118503082515,1.1837107074728375
+cross,2,10 vs 20,probability_of_agreement,0.65,0.7,18173,False,0.6723831370714619,1.4697078082870192
+cross,2,10 vs 20,probability_of_agreement,0.7,0.75,8948,False,0.7213780314036621,1.7301072865444793
+cross,2,10 vs 20,probability_of_agreement,0.75,0.8,4166,False,0.768666736677867,1.9632741238598175
+cross,2,10 vs 20,probability_of_agreement,0.8,0.85,1187,False,0.8196696854816068,2.3201347935973042
+cross,2,10 vs 20,probability_of_agreement,0.85,0.9,289,False,0.870620674740484,2.6920415224913494
+cross,2,10 vs 20,probability_of_agreement,0.9,0.95,111,False,0.9172297297297298,3.018018018018018
+cross,2,10 vs 20,probability_of_agreement,0.95,1.0,22,True,0.9682765151515151,3.9545454545454546
+cross,2,10 vs 20,weighted_jaccard,0.0,0.05,14185,False,0.015088791696232206,0.5044060627423335
+cross,2,10 vs 20,weighted_jaccard,0.05,0.1,13548,False,0.07641262325879196,0.3356953055801594
+cross,2,10 vs 20,weighted_jaccard,0.1,0.15,18652,False,0.1257365265877526,0.3265601544070341
+cross,2,10 vs 20,weighted_jaccard,0.15,0.2,23246,False,0.17538642587730838,0.31041899681665663
+cross,2,10 vs 20,weighted_jaccard,0.2,0.25,26805,False,0.22437847438935327,0.3383324006715165
+cross,2,10 vs 20,weighted_jaccard,0.25,0.3,28032,False,0.2743558998677204,0.4140268264840183
+cross,2,10 vs 20,weighted_jaccard,0.3,0.35,27060,False,0.32423144255293446,0.5249815225424982
+cross,2,10 vs 20,weighted_jaccard,0.35,0.4,24608,False,0.374193415088772,0.6634021456436932
+cross,2,10 vs 20,weighted_jaccard,0.4,0.45,22015,False,0.4239949761037484,0.8243016125369067
+cross,2,10 vs 20,weighted_jaccard,0.45,0.5,17577,False,0.4730349588904207,0.9989759344598055
+cross,2,10 vs 20,weighted_jaccard,0.5,0.55,14180,False,0.5225823033532804,1.173413258110014
+cross,2,10 vs 20,weighted_jaccard,0.55,0.6,9194,False,0.5725344987016585,1.3296715249075484
+cross,2,10 vs 20,weighted_jaccard,0.6,0.65,5570,False,0.6220836901339618,1.5035906642728905
+cross,2,10 vs 20,weighted_jaccard,0.65,0.7,3018,False,0.6722870553228264,1.6842279655400927
+cross,2,10 vs 20,weighted_jaccard,0.7,0.75,1442,False,0.7213732294447643,1.8474341192787795
+cross,2,10 vs 20,weighted_jaccard,0.75,0.8,564,False,0.7690277809635794,2.0141843971631204
+cross,2,10 vs 20,weighted_jaccard,0.8,0.85,187,False,0.82140952802744,2.251336898395722
+cross,2,10 vs 20,weighted_jaccard,0.85,0.9,83,False,0.8692540834733876,2.6626506024096384
+cross,2,10 vs 20,weighted_jaccard,0.9,0.95,23,True,0.9165885559421211,3.130434782608696
+cross,2,10 vs 20,weighted_jaccard,0.95,1.0,11,True,0.9692234848484849,3.909090909090909
+cross,2,10 vs 30,probability_of_agreement,0.0,0.05,0,False,,
+cross,2,10 vs 30,probability_of_agreement,0.05,0.1,37,False,0.08277027027027029,0.0
+cross,2,10 vs 30,probability_of_agreement,0.1,0.15,167,False,0.12877370259481033,0.0
+cross,2,10 vs 30,probability_of_agreement,0.15,0.2,910,False,0.18203983516483493,0.0
+cross,2,10 vs 30,probability_of_agreement,0.2,0.25,3100,False,0.22828293010752682,0.0012903225806451613
+cross,2,10 vs 30,probability_of_agreement,0.25,0.3,8869,False,0.277129843650167,0.010373210057503664
+cross,2,10 vs 30,probability_of_agreement,0.3,0.35,17806,False,0.3279225869557012,0.02566550600921038
+cross,2,10 vs 30,probability_of_agreement,0.35,0.4,24167,False,0.37606076123087706,0.08031613357057144
+cross,2,10 vs 30,probability_of_agreement,0.4,0.45,34541,False,0.4250003618887519,0.1969832952143829
+cross,2,10 vs 30,probability_of_agreement,0.45,0.5,33822,False,0.4741477440719085,0.38820885813967243
+cross,2,10 vs 30,probability_of_agreement,0.5,0.55,37564,False,0.5232205092198172,0.634091151102119
+cross,2,10 vs 30,probability_of_agreement,0.55,0.6,33554,False,0.5748190727384755,0.9169994635512905
+cross,2,10 vs 30,probability_of_agreement,0.6,0.65,24071,False,0.6237681840527275,1.1997424286485814
+cross,2,10 vs 30,probability_of_agreement,0.65,0.7,18056,False,0.6721418203551794,1.490972529906956
+cross,2,10 vs 30,probability_of_agreement,0.7,0.75,8378,False,0.7213864933953974,1.8038911434709954
+cross,2,10 vs 30,probability_of_agreement,0.75,0.8,3711,False,0.7684600399712571,2.0846133117758017
+cross,2,10 vs 30,probability_of_agreement,0.8,0.85,983,False,0.818635554425231,2.377416073245168
+cross,2,10 vs 30,probability_of_agreement,0.85,0.9,201,False,0.8702580845771147,2.6218905472636815
+cross,2,10 vs 30,probability_of_agreement,0.9,0.95,62,False,0.9175907258064513,2.693548387096774
+cross,2,10 vs 30,probability_of_agreement,0.95,1.0,1,True,0.9583333333333334,4.0
+cross,2,10 vs 30,weighted_jaccard,0.0,0.05,13487,False,0.015000264114373827,0.5044116556684214
+cross,2,10 vs 30,weighted_jaccard,0.05,0.1,12519,False,0.0765456711148203,0.32886013259845037
+cross,2,10 vs 30,weighted_jaccard,0.1,0.15,18272,False,0.12585746593601066,0.3216943957968476
+cross,2,10 vs 30,weighted_jaccard,0.15,0.2,23397,False,0.1753574232633433,0.30828738727187244
+cross,2,10 vs 30,weighted_jaccard,0.2,0.25,26623,False,0.22435198259164668,0.3280997633625061
+cross,2,10 vs 30,weighted_jaccard,0.25,0.3,28160,False,0.27448817892963856,0.40408380681818185
+cross,2,10 vs 30,weighted_jaccard,0.3,0.35,27622,False,0.3246692118878517,0.5058648903048295
+cross,2,10 vs 30,weighted_jaccard,0.35,0.4,25478,False,0.3741539637876857,0.6591176701467933
+cross,2,10 vs 30,weighted_jaccard,0.4,0.45,23220,False,0.4239286118237703,0.8199827734711456
+cross,2,10 vs 30,weighted_jaccard,0.45,0.5,18205,False,0.4732368252119217,1.0023619884647075
+cross,2,10 vs 30,weighted_jaccard,0.5,0.55,14396,False,0.5224522210952981,1.1951236454570715
+cross,2,10 vs 30,weighted_jaccard,0.55,0.6,9135,False,0.5724558421267927,1.4004378762999452
+cross,2,10 vs 30,weighted_jaccard,0.6,0.65,5257,False,0.6217140208084398,1.5927334981928856
+cross,2,10 vs 30,weighted_jaccard,0.65,0.7,2625,False,0.6711373017037155,1.7977142857142858
+cross,2,10 vs 30,weighted_jaccard,0.7,0.75,1054,False,0.7194597733027022,2.0407969639468693
+cross,2,10 vs 30,weighted_jaccard,0.75,0.8,416,False,0.7702566088919544,2.2403846153846154
+cross,2,10 vs 30,weighted_jaccard,0.8,0.85,107,False,0.8166986902470532,2.4953271028037385
+cross,2,10 vs 30,weighted_jaccard,0.85,0.9,21,True,0.8741269193227468,2.9047619047619047
+cross,2,10 vs 30,weighted_jaccard,0.9,0.95,6,True,0.918756145526057,3.3333333333333335
+cross,2,10 vs 30,weighted_jaccard,0.95,1.0,0,False,,
+cross,2,20 vs 30,probability_of_agreement,0.0,0.05,0,False,,
+cross,2,20 vs 30,probability_of_agreement,0.05,0.1,11,True,0.08854166666666667,0.0
+cross,2,20 vs 30,probability_of_agreement,0.1,0.15,87,False,0.13068726053639845,0.0
+cross,2,20 vs 30,probability_of_agreement,0.15,0.2,621,False,0.18195618625872292,0.0
+cross,2,20 vs 30,probability_of_agreement,0.2,0.25,2628,False,0.2289169520547948,0.0
+cross,2,20 vs 30,probability_of_agreement,0.25,0.3,8679,False,0.27716986884049605,0.0031109574835810577
+cross,2,20 vs 30,probability_of_agreement,0.3,0.35,17698,False,0.32820180952649536,0.01565148604362075
+cross,2,20 vs 30,probability_of_agreement,0.35,0.4,24563,False,0.3761814857034277,0.06314375279892522
+cross,2,20 vs 30,probability_of_agreement,0.4,0.45,34615,False,0.42517273340072403,0.1807597862198469
+cross,2,20 vs 30,probability_of_agreement,0.45,0.5,34051,False,0.474057296408325,0.38269066987753664
+cross,2,20 vs 30,probability_of_agreement,0.5,0.55,37829,False,0.5232234749354582,0.6366015490761057
+cross,2,20 vs 30,probability_of_agreement,0.55,0.6,34660,False,0.5747391325254854,0.9251875360646278
+cross,2,20 vs 30,probability_of_agreement,0.6,0.65,24588,False,0.6238576321105119,1.2277127053847405
+cross,2,20 vs 30,probability_of_agreement,0.65,0.7,18037,False,0.6719422806822883,1.5503132449963963
+cross,2,20 vs 30,probability_of_agreement,0.7,0.75,8046,False,0.7207508648189559,1.858190405170271
+cross,2,20 vs 30,probability_of_agreement,0.75,0.8,3205,False,0.7677294591783678,2.194695787831513
+cross,2,20 vs 30,probability_of_agreement,0.8,0.85,588,False,0.8172211592970511,2.511904761904762
+cross,2,20 vs 30,probability_of_agreement,0.85,0.9,85,False,0.8675245098039218,2.776470588235294
+cross,2,20 vs 30,probability_of_agreement,0.9,0.95,9,True,0.9155092592592593,3.4444444444444446
+cross,2,20 vs 30,probability_of_agreement,0.95,1.0,0,False,,
+cross,2,20 vs 30,weighted_jaccard,0.0,0.05,3987,False,0.03081362071148421,0.38776022071733135
+cross,2,20 vs 30,weighted_jaccard,0.05,0.1,10921,False,0.07779442728551057,0.32780880871715046
+cross,2,20 vs 30,weighted_jaccard,0.1,0.15,19055,False,0.1263785642693158,0.33140907898189453
+cross,2,20 vs 30,weighted_jaccard,0.15,0.2,25649,False,0.17520518045791633,0.3099536044290226
+cross,2,20 vs 30,weighted_jaccard,0.2,0.25,30166,False,0.22445679698986262,0.3377643704833256
+cross,2,20 vs 30,weighted_jaccard,0.25,0.3,31253,False,0.27428385143965767,0.398905705052315
+cross,2,20 vs 30,weighted_jaccard,0.3,0.35,30241,False,0.3243892672741698,0.5215435997486856
+cross,2,20 vs 30,weighted_jaccard,0.35,0.4,26979,False,0.3741564776955397,0.6778976240779866
+cross,2,20 vs 30,weighted_jaccard,0.4,0.45,23406,False,0.4239481767661538,0.8614030590446894
+cross,2,20 vs 30,weighted_jaccard,0.45,0.5,17823,False,0.47296817654582346,1.0348426190876956
+cross,2,20 vs 30,weighted_jaccard,0.5,0.55,13901,False,0.5223462397867973,1.2493345802460254
+cross,2,20 vs 30,weighted_jaccard,0.55,0.6,8379,False,0.5721951588394312,1.461391574173529
+cross,2,20 vs 30,weighted_jaccard,0.6,0.65,4791,False,0.6212437426775683,1.6745982049676478
+cross,2,20 vs 30,weighted_jaccard,0.65,0.7,2176,False,0.671389365967581,1.8607536764705883
+cross,2,20 vs 30,weighted_jaccard,0.7,0.75,882,False,0.7202164763140508,2.0952380952380953
+cross,2,20 vs 30,weighted_jaccard,0.75,0.8,302,False,0.7686204171748734,2.2980132450331126
+cross,2,20 vs 30,weighted_jaccard,0.8,0.85,68,False,0.8199982710345891,2.485294117647059
+cross,2,20 vs 30,weighted_jaccard,0.85,0.9,18,True,0.8690955145041956,2.888888888888889
+cross,2,20 vs 30,weighted_jaccard,0.9,0.95,3,True,0.9131266999645137,3.3333333333333335
+cross,2,20 vs 30,weighted_jaccard,0.95,1.0,0,False,,
+cross,3,10 vs 20,probability_of_agreement,0.0,0.05,0,False,,
+cross,3,10 vs 20,probability_of_agreement,0.05,0.1,5,True,0.09012345679012346,0.0
+cross,3,10 vs 20,probability_of_agreement,0.1,0.15,48,False,0.1328875171467764,0.0
+cross,3,10 vs 20,probability_of_agreement,0.15,0.2,254,False,0.18105375716924282,0.0
+cross,3,10 vs 20,probability_of_agreement,0.2,0.25,1430,False,0.2317774132588948,0.0
+cross,3,10 vs 20,probability_of_agreement,0.25,0.3,5947,False,0.27983412230994253,0.002858584160080713
+cross,3,10 vs 20,probability_of_agreement,0.3,0.35,16388,False,0.3284851942587025,0.007261410788381743
+cross,3,10 vs 20,probability_of_agreement,0.35,0.4,29426,False,0.3767848473821566,0.022836946917691836
+cross,3,10 vs 20,probability_of_agreement,0.4,0.45,36691,False,0.4254637560206621,0.0943828186748794
+cross,3,10 vs 20,probability_of_agreement,0.45,0.5,35321,False,0.4747097645583242,0.31915857421930294
+cross,3,10 vs 20,probability_of_agreement,0.5,0.55,35579,False,0.5249295304550473,0.6802608280165267
+cross,3,10 vs 20,probability_of_agreement,0.55,0.6,35642,False,0.5745706676568411,0.929268840132428
+cross,3,10 vs 20,probability_of_agreement,0.6,0.65,29275,False,0.6233418261858608,1.101861656703672
+cross,3,10 vs 20,probability_of_agreement,0.65,0.7,16318,False,0.671838104168003,1.380377497242309
+cross,3,10 vs 20,probability_of_agreement,0.7,0.75,5904,False,0.7201125646373074,1.6255081300813008
+cross,3,10 vs 20,probability_of_agreement,0.75,0.8,1416,False,0.7684754093913967,1.7690677966101696
+cross,3,10 vs 20,probability_of_agreement,0.8,0.85,294,False,0.8186780885193579,1.9217687074829932
+cross,3,10 vs 20,probability_of_agreement,0.85,0.9,50,False,0.8703978052126199,1.96
+cross,3,10 vs 20,probability_of_agreement,0.9,0.95,11,True,0.915824915824916,2.3636363636363638
+cross,3,10 vs 20,probability_of_agreement,0.95,1.0,1,True,0.9561042524005487,3.0
+cross,3,10 vs 20,weighted_jaccard,0.0,0.05,4648,False,0.028783161212419105,0.39156626506024095
+cross,3,10 vs 20,weighted_jaccard,0.05,0.1,11416,False,0.0776284731891242,0.3029081990189208
+cross,3,10 vs 20,weighted_jaccard,0.1,0.15,18998,False,0.12664636146962188,0.29734708916728075
+cross,3,10 vs 20,weighted_jaccard,0.15,0.2,26426,False,0.175746312471643,0.30496480738666465
+cross,3,10 vs 20,weighted_jaccard,0.2,0.25,29495,False,0.22498959682267597,0.32463129343956604
+cross,3,10 vs 20,weighted_jaccard,0.25,0.3,29627,False,0.2747198072109652,0.3490734802713741
+cross,3,10 vs 20,weighted_jaccard,0.3,0.35,28274,False,0.3247643127724684,0.44733677583645753
+cross,3,10 vs 20,weighted_jaccard,0.35,0.4,25880,False,0.37446154588622615,0.5950540958268934
+cross,3,10 vs 20,weighted_jaccard,0.4,0.45,23153,False,0.4244028675573202,0.744482356498078
+cross,3,10 vs 20,weighted_jaccard,0.45,0.5,19368,False,0.4738746069459963,0.9181639818256918
+cross,3,10 vs 20,weighted_jaccard,0.5,0.55,14516,False,0.5231882646830937,1.0472581978506477
+cross,3,10 vs 20,weighted_jaccard,0.55,0.6,9340,False,0.5727791297698315,1.1798715203426124
+cross,3,10 vs 20,weighted_jaccard,0.6,0.65,5116,False,0.6222860996733741,1.2953479280688038
+cross,3,10 vs 20,weighted_jaccard,0.65,0.7,2479,False,0.6713900478196378,1.4251714400968132
+cross,3,10 vs 20,weighted_jaccard,0.7,0.75,947,False,0.7199896740099924,1.5945089757127773
+cross,3,10 vs 20,weighted_jaccard,0.75,0.8,259,False,0.7696037238914974,1.7876447876447876
+cross,3,10 vs 20,weighted_jaccard,0.8,0.85,53,False,0.8162111638816756,2.018867924528302
+cross,3,10 vs 20,weighted_jaccard,0.85,0.9,5,True,0.8701143418035212,2.2
+cross,3,10 vs 20,weighted_jaccard,0.9,0.95,0,False,,
+cross,3,10 vs 20,weighted_jaccard,0.95,1.0,0,False,,
+cross,3,10 vs 30,probability_of_agreement,0.0,0.05,0,False,,
+cross,3,10 vs 30,probability_of_agreement,0.05,0.1,1,True,0.09053497942386832,0.0
+cross,3,10 vs 30,probability_of_agreement,0.1,0.15,5,True,0.13936899862825788,0.0
+cross,3,10 vs 30,probability_of_agreement,0.15,0.2,143,False,0.18212034878701547,0.0
+cross,3,10 vs 30,probability_of_agreement,0.2,0.25,929,False,0.2323618918523838,0.0
+cross,3,10 vs 30,probability_of_agreement,0.25,0.3,4927,False,0.2813456436538631,0.00020296326364927948
+cross,3,10 vs 30,probability_of_agreement,0.3,0.35,15671,False,0.3288776880643888,0.0029353583051496394
+cross,3,10 vs 30,probability_of_agreement,0.35,0.4,30259,False,0.3770264408176866,0.011930334776430154
+cross,3,10 vs 30,probability_of_agreement,0.4,0.45,37251,False,0.42550741772190537,0.07151485866151244
+cross,3,10 vs 30,probability_of_agreement,0.45,0.5,35501,False,0.4746696599941252,0.30438579194952253
+cross,3,10 vs 30,probability_of_agreement,0.5,0.55,35953,False,0.5249747069190259,0.6988012126943509
+cross,3,10 vs 30,probability_of_agreement,0.55,0.6,37319,False,0.5746317176226231,0.9489268201184383
+cross,3,10 vs 30,probability_of_agreement,0.6,0.65,30365,False,0.6231128268616585,1.1173061090070806
+cross,3,10 vs 30,probability_of_agreement,0.65,0.7,15573,False,0.6710959587911842,1.4222050985680343
+cross,3,10 vs 30,probability_of_agreement,0.7,0.75,5004,False,0.7190099772034211,1.724220623501199
+cross,3,10 vs 30,probability_of_agreement,0.75,0.8,952,False,0.7682951781535667,1.8623949579831933
+cross,3,10 vs 30,probability_of_agreement,0.8,0.85,139,False,0.8161372136858418,2.035971223021583
+cross,3,10 vs 30,probability_of_agreement,0.85,0.9,8,True,0.8629115226337448,2.375
+cross,3,10 vs 30,probability_of_agreement,0.9,0.95,0,False,,
+cross,3,10 vs 30,probability_of_agreement,0.95,1.0,0,False,,
+cross,3,10 vs 30,weighted_jaccard,0.0,0.05,3612,False,0.029233559953592923,0.37679955703211515
+cross,3,10 vs 30,weighted_jaccard,0.05,0.1,10328,False,0.07836161867851545,0.32261812548412083
+cross,3,10 vs 30,weighted_jaccard,0.1,0.15,18949,False,0.1270922790357348,0.30260172040740935
+cross,3,10 vs 30,weighted_jaccard,0.15,0.2,26578,False,0.1758790018714723,0.318044999623749
+cross,3,10 vs 30,weighted_jaccard,0.2,0.25,30839,False,0.2251793954066658,0.33522487759006453
+cross,3,10 vs 30,weighted_jaccard,0.25,0.3,31769,False,0.27479553132666396,0.35692026818596745
+cross,3,10 vs 30,weighted_jaccard,0.3,0.35,30299,False,0.32461748121057077,0.4491237334565497
+cross,3,10 vs 30,weighted_jaccard,0.35,0.4,27286,False,0.374403748713946,0.6065748002638716
+cross,3,10 vs 30,weighted_jaccard,0.4,0.45,23493,False,0.4240686925537787,0.7794662239816116
+cross,3,10 vs 30,weighted_jaccard,0.45,0.5,18611,False,0.47377298138918306,0.9554564504862716
+cross,3,10 vs 30,weighted_jaccard,0.5,0.55,13244,False,0.5231585186793847,1.0974025974025974
+cross,3,10 vs 30,weighted_jaccard,0.55,0.6,8251,False,0.5726666399517107,1.228214761847049
+cross,3,10 vs 30,weighted_jaccard,0.6,0.65,4336,False,0.6215812310960689,1.3706180811808117
+cross,3,10 vs 30,weighted_jaccard,0.65,0.7,1691,False,0.6713827860276057,1.5162625665286813
+cross,3,10 vs 30,weighted_jaccard,0.7,0.75,533,False,0.7207090106801008,1.6585365853658536
+cross,3,10 vs 30,weighted_jaccard,0.75,0.8,153,False,0.7703603338938649,1.738562091503268
+cross,3,10 vs 30,weighted_jaccard,0.8,0.85,25,True,0.8140891411574497,2.04
+cross,3,10 vs 30,weighted_jaccard,0.85,0.9,3,True,0.8559637352075002,2.3333333333333335
+cross,3,10 vs 30,weighted_jaccard,0.9,0.95,0,False,,
+cross,3,10 vs 30,weighted_jaccard,0.95,1.0,0,False,,
+cross,3,20 vs 30,probability_of_agreement,0.0,0.05,0,False,,
+cross,3,20 vs 30,probability_of_agreement,0.05,0.1,0,False,,
+cross,3,20 vs 30,probability_of_agreement,0.1,0.15,2,True,0.13991769547325103,0.0
+cross,3,20 vs 30,probability_of_agreement,0.15,0.2,30,False,0.18438500228623678,0.0
+cross,3,20 vs 30,probability_of_agreement,0.2,0.25,451,False,0.23538151767600732,0.0
+cross,3,20 vs 30,probability_of_agreement,0.25,0.3,3899,False,0.2820951241058967,0.0
+cross,3,20 vs 30,probability_of_agreement,0.3,0.35,15012,False,0.3293363023344428,0.0005329070077271516
+cross,3,20 vs 30,probability_of_agreement,0.35,0.4,31416,False,0.37709271886831974,0.005379424497071556
+cross,3,20 vs 30,probability_of_agreement,0.4,0.45,38852,False,0.42525848505045044,0.050396375990939976
+cross,3,20 vs 30,probability_of_agreement,0.45,0.5,35343,False,0.4745797863283547,0.2844693432928727
+cross,3,20 vs 30,probability_of_agreement,0.5,0.55,35718,False,0.5250377691858519,0.7167254605521026
+cross,3,20 vs 30,probability_of_agreement,0.55,0.6,38812,False,0.5747805679150874,0.9625373595795115
+cross,3,20 vs 30,probability_of_agreement,0.6,0.65,31161,False,0.6229771139921114,1.1307403485125638
+cross,3,20 vs 30,probability_of_agreement,0.65,0.7,14914,False,0.6707267069193972,1.4878637521791604
+cross,3,20 vs 30,probability_of_agreement,0.7,0.75,3923,False,0.7176664159557037,1.8067805251083355
+cross,3,20 vs 30,probability_of_agreement,0.75,0.8,433,False,0.7653624028613334,1.9376443418013858
+cross,3,20 vs 30,probability_of_agreement,0.8,0.85,33,False,0.8147108949578087,2.0606060606060606
+cross,3,20 vs 30,probability_of_agreement,0.85,0.9,1,True,0.8593964334705075,2.0
+cross,3,20 vs 30,probability_of_agreement,0.9,0.95,0,False,,
+cross,3,20 vs 30,probability_of_agreement,0.95,1.0,0,False,,
+cross,3,20 vs 30,weighted_jaccard,0.0,0.05,1089,False,0.0334760304870646,0.36179981634527086
+cross,3,20 vs 30,weighted_jaccard,0.05,0.1,4753,False,0.08111267227857057,0.21249737008205344
+cross,3,20 vs 30,weighted_jaccard,0.1,0.15,14595,False,0.12800939943342884,0.22747516272696128
+cross,3,20 vs 30,weighted_jaccard,0.15,0.2,25469,False,0.17656379660760418,0.2532490478621069
+cross,3,20 vs 30,weighted_jaccard,0.2,0.25,33942,False,0.22551962182898336,0.2598255848211655
+cross,3,20 vs 30,weighted_jaccard,0.25,0.3,35718,False,0.27447558719535703,0.30875188980346047
+cross,3,20 vs 30,weighted_jaccard,0.3,0.35,32217,False,0.3243377559086052,0.4200887730080392
+cross,3,20 vs 30,weighted_jaccard,0.35,0.4,28404,False,0.3744372843846226,0.6311787072243346
+cross,3,20 vs 30,weighted_jaccard,0.4,0.45,24976,False,0.4244450039590326,0.8523382447149264
+cross,3,20 vs 30,weighted_jaccard,0.45,0.5,20929,False,0.47383430676667204,1.0199245066653926
+cross,3,20 vs 30,weighted_jaccard,0.5,0.55,14933,False,0.5230560424371912,1.1633295386057725
+cross,3,20 vs 30,weighted_jaccard,0.55,0.6,8104,False,0.571996549413279,1.3089832181638696
+cross,3,20 vs 30,weighted_jaccard,0.6,0.65,3495,False,0.6210259061836659,1.4852646638054363
+cross,3,20 vs 30,weighted_jaccard,0.65,0.7,1078,False,0.669278797027252,1.6196660482374767
+cross,3,20 vs 30,weighted_jaccard,0.7,0.75,251,False,0.717774082000063,1.7729083665338645
+cross,3,20 vs 30,weighted_jaccard,0.75,0.8,44,False,0.7666530903745634,1.8863636363636365
+cross,3,20 vs 30,weighted_jaccard,0.8,0.85,3,True,0.813753886324617,2.3333333333333335
+cross,3,20 vs 30,weighted_jaccard,0.85,0.9,0,False,,
+cross,3,20 vs 30,weighted_jaccard,0.9,0.95,0,False,,
+cross,3,20 vs 30,weighted_jaccard,0.95,1.0,0,False,,
+cross,4,10 vs 20,probability_of_agreement,0.0,0.05,0,False,,
+cross,4,10 vs 20,probability_of_agreement,0.05,0.1,1,True,0.09749348958333333,0.0
+cross,4,10 vs 20,probability_of_agreement,0.1,0.15,20,True,0.13680826822916664,0.0
+cross,4,10 vs 20,probability_of_agreement,0.15,0.2,165,False,0.18115924873737374,0.0
+cross,4,10 vs 20,probability_of_agreement,0.2,0.25,738,False,0.23230586960817529,0.0
+cross,4,10 vs 20,probability_of_agreement,0.25,0.3,3609,False,0.28079648967858156,0.0
+cross,4,10 vs 20,probability_of_agreement,0.3,0.35,13953,False,0.3297190559004614,0.0020067369024582525
+cross,4,10 vs 20,probability_of_agreement,0.35,0.4,32139,False,0.377295362972493,0.008494352655652012
+cross,4,10 vs 20,probability_of_agreement,0.4,0.45,40844,False,0.4247539075570549,0.039663108412496324
+cross,4,10 vs 20,probability_of_agreement,0.45,0.5,33365,False,0.47399266595172296,0.25194065637644236
+cross,4,10 vs 20,probability_of_agreement,0.5,0.55,33506,False,0.5258133231190563,0.7435683161224855
+cross,4,10 vs 20,probability_of_agreement,0.55,0.6,41035,False,0.5752880306064933,0.9645424637504569
+cross,4,10 vs 20,probability_of_agreement,0.6,0.65,32189,False,0.6227972456542507,1.0496132219081054
+cross,4,10 vs 20,probability_of_agreement,0.65,0.7,13966,False,0.6703332978118008,1.270370900758986
+cross,4,10 vs 20,probability_of_agreement,0.7,0.75,3533,False,0.719152455420323,1.4981602037928106
+cross,4,10 vs 20,probability_of_agreement,0.75,0.8,772,False,0.7689253258581602,1.589378238341969
+cross,4,10 vs 20,probability_of_agreement,0.8,0.85,146,False,0.8195800781250003,1.6986301369863013
+cross,4,10 vs 20,probability_of_agreement,0.85,0.9,18,True,0.8671242042824071,1.8888888888888888
+cross,4,10 vs 20,probability_of_agreement,0.9,0.95,1,True,0.9236653645833334,3.0
+cross,4,10 vs 20,probability_of_agreement,0.95,1.0,0,False,,
+cross,4,10 vs 20,weighted_jaccard,0.0,0.05,1742,False,0.027816493484914048,0.31285878300803677
+cross,4,10 vs 20,weighted_jaccard,0.05,0.1,8651,False,0.07895989415124542,0.29904057334412204
+cross,4,10 vs 20,weighted_jaccard,0.1,0.15,17370,False,0.12722868690377892,0.2817501439263097
+cross,4,10 vs 20,weighted_jaccard,0.15,0.2,26678,False,0.17616745633034508,0.2750206162380988
+cross,4,10 vs 20,weighted_jaccard,0.2,0.25,32601,False,0.22541948003645584,0.290021778473053
+cross,4,10 vs 20,weighted_jaccard,0.25,0.3,32785,False,0.27471641088221804,0.32392862589598903
+cross,4,10 vs 20,weighted_jaccard,0.3,0.35,28935,False,0.3243803735022546,0.4068774840158977
+cross,4,10 vs 20,weighted_jaccard,0.35,0.4,25898,False,0.37458943978663023,0.5746775812804078
+cross,4,10 vs 20,weighted_jaccard,0.4,0.45,23894,False,0.42468194515118013,0.77462961412907
+cross,4,10 vs 20,weighted_jaccard,0.45,0.5,20443,False,0.4740011569871683,0.9145428753118426
+cross,4,10 vs 20,weighted_jaccard,0.5,0.55,14827,False,0.5233322624474289,1.0068793417414177
+cross,4,10 vs 20,weighted_jaccard,0.55,0.6,8819,False,0.5728707187011919,1.0941149790225648
+cross,4,10 vs 20,weighted_jaccard,0.6,0.65,4605,False,0.6217902037156042,1.2067318132464713
+cross,4,10 vs 20,weighted_jaccard,0.65,0.7,1788,False,0.6709349447870105,1.2885906040268456
+cross,4,10 vs 20,weighted_jaccard,0.7,0.75,670,False,0.7203663253797592,1.4164179104477612
+cross,4,10 vs 20,weighted_jaccard,0.75,0.8,234,False,0.7698874370583491,1.5683760683760684
+cross,4,10 vs 20,weighted_jaccard,0.8,0.85,53,False,0.821680317350746,1.6037735849056605
+cross,4,10 vs 20,weighted_jaccard,0.85,0.9,6,True,0.8668163649252856,2.0
+cross,4,10 vs 20,weighted_jaccard,0.9,0.95,1,True,0.9202652159129547,3.0
+cross,4,10 vs 20,weighted_jaccard,0.95,1.0,0,False,,
+cross,4,10 vs 30,probability_of_agreement,0.0,0.05,0,False,,
+cross,4,10 vs 30,probability_of_agreement,0.05,0.1,0,False,,
+cross,4,10 vs 30,probability_of_agreement,0.1,0.15,2,True,0.1376953125,0.0
+cross,4,10 vs 30,probability_of_agreement,0.15,0.2,48,False,0.1825018988715278,0.0
+cross,4,10 vs 30,probability_of_agreement,0.2,0.25,433,False,0.2324726201645497,0.0
+cross,4,10 vs 30,probability_of_agreement,0.25,0.3,3120,False,0.2821973490918803,0.0003205128205128205
+cross,4,10 vs 30,probability_of_agreement,0.3,0.35,13852,False,0.3299455619751061,0.0007941091539127923
+cross,4,10 vs 30,probability_of_agreement,0.35,0.4,32967,False,0.3774945390071244,0.00364000364000364
+cross,4,10 vs 30,probability_of_agreement,0.4,0.45,41413,False,0.4247693198379208,0.030449375799869605
+cross,4,10 vs 30,probability_of_agreement,0.45,0.5,33076,False,0.4737614127155402,0.2385415406941589
+cross,4,10 vs 30,probability_of_agreement,0.5,0.55,33345,False,0.5261753503461315,0.7634427950217424
+cross,4,10 vs 30,probability_of_agreement,0.55,0.6,41995,False,0.57521119128145,0.9709727348493868
+cross,4,10 vs 30,probability_of_agreement,0.6,0.65,32750,False,0.6226117107983431,1.051114503816794
+cross,4,10 vs 30,probability_of_agreement,0.65,0.7,13564,False,0.669715412619496,1.3254939545856679
+cross,4,10 vs 30,probability_of_agreement,0.7,0.75,2943,False,0.7178005918882372,1.5942915392456676
+cross,4,10 vs 30,probability_of_agreement,0.75,0.8,439,False,0.7654937535592251,1.7107061503416856
+cross,4,10 vs 30,probability_of_agreement,0.8,0.85,48,False,0.8141309950086807,1.875
+cross,4,10 vs 30,probability_of_agreement,0.85,0.9,5,True,0.8563802083333334,2.0
+cross,4,10 vs 30,probability_of_agreement,0.9,0.95,0,False,,
+cross,4,10 vs 30,probability_of_agreement,0.95,1.0,0,False,,
+cross,4,10 vs 30,weighted_jaccard,0.0,0.05,1371,False,0.025711142501883413,0.3304157549234136
+cross,4,10 vs 30,weighted_jaccard,0.05,0.1,7124,False,0.0791406942200158,0.2956204379562044
+cross,4,10 vs 30,weighted_jaccard,0.1,0.15,16150,False,0.12779458644990943,0.2751083591331269
+cross,4,10 vs 30,weighted_jaccard,0.15,0.2,26952,False,0.17651360769917232,0.2761205105372514
+cross,4,10 vs 30,weighted_jaccard,0.2,0.25,34306,False,0.22549529231986623,0.3017256456596514
+cross,4,10 vs 30,weighted_jaccard,0.25,0.3,34561,False,0.27462892105113706,0.32857845548450565
+cross,4,10 vs 30,weighted_jaccard,0.3,0.35,30268,False,0.32422041191524814,0.4067662217523457
+cross,4,10 vs 30,weighted_jaccard,0.35,0.4,26384,False,0.3744554345969316,0.5937310491206792
+cross,4,10 vs 30,weighted_jaccard,0.4,0.45,23686,False,0.4246542321544497,0.7867516676517774
+cross,4,10 vs 30,weighted_jaccard,0.45,0.5,19977,False,0.47417791098745893,0.918806627621765
+cross,4,10 vs 30,weighted_jaccard,0.5,0.55,14386,False,0.523291478600095,1.0235645766717643
+cross,4,10 vs 30,weighted_jaccard,0.55,0.6,8463,False,0.5726107549906586,1.1166253101736974
+cross,4,10 vs 30,weighted_jaccard,0.6,0.65,4104,False,0.6213903178322238,1.2253898635477583
+cross,4,10 vs 30,weighted_jaccard,0.65,0.7,1663,False,0.670694066714441,1.3373421527360192
+cross,4,10 vs 30,weighted_jaccard,0.7,0.75,487,False,0.7192202170159345,1.4928131416837782
+cross,4,10 vs 30,weighted_jaccard,0.75,0.8,94,False,0.7659826345772278,1.553191489361702
+cross,4,10 vs 30,weighted_jaccard,0.8,0.85,23,True,0.8150688441375421,1.7826086956521738
+cross,4,10 vs 30,weighted_jaccard,0.85,0.9,1,True,0.8673712921922946,2.0
+cross,4,10 vs 30,weighted_jaccard,0.9,0.95,0,False,,
+cross,4,10 vs 30,weighted_jaccard,0.95,1.0,0,False,,
+cross,4,20 vs 30,probability_of_agreement,0.0,0.05,0,False,,
+cross,4,20 vs 30,probability_of_agreement,0.05,0.1,0,False,,
+cross,4,20 vs 30,probability_of_agreement,0.1,0.15,0,False,,
+cross,4,20 vs 30,probability_of_agreement,0.15,0.2,7,True,0.19105747767857142,0.0
+cross,4,20 vs 30,probability_of_agreement,0.2,0.25,152,False,0.23514382881030696,0.0
+cross,4,20 vs 30,probability_of_agreement,0.25,0.3,1882,False,0.28386117176430237,0.0
+cross,4,20 vs 30,probability_of_agreement,0.3,0.35,12235,False,0.33103613001890103,8.173273395995096e-05
+cross,4,20 vs 30,probability_of_agreement,0.35,0.4,34513,False,0.37763202829972436,0.0009561614464114971
+cross,4,20 vs 30,probability_of_agreement,0.4,0.45,43708,False,0.4244792672096145,0.015900979225771026
+cross,4,20 vs 30,probability_of_agreement,0.45,0.5,32449,False,0.47341321710286394,0.2078646491417301
+cross,4,20 vs 30,probability_of_agreement,0.5,0.55,32544,False,0.5266028610224479,0.7907448377581121
+cross,4,20 vs 30,probability_of_agreement,0.55,0.6,43864,False,0.5754935866221398,0.9862073682290716
+cross,4,20 vs 30,probability_of_agreement,0.6,0.65,34132,False,0.6223333604568896,1.0556955349818353
+cross,4,20 vs 30,probability_of_agreement,0.65,0.7,12457,False,0.6688773704459994,1.3585935618527736
+cross,4,20 vs 30,probability_of_agreement,0.7,0.75,1911,False,0.7158900669642869,1.6907378335949765
+cross,4,20 vs 30,probability_of_agreement,0.75,0.8,139,False,0.7659153926858513,1.79136690647482
+cross,4,20 vs 30,probability_of_agreement,0.8,0.85,7,True,0.815336681547619,2.0
+cross,4,20 vs 30,probability_of_agreement,0.85,0.9,0,False,,
+cross,4,20 vs 30,probability_of_agreement,0.9,0.95,0,False,,
+cross,4,20 vs 30,probability_of_agreement,0.95,1.0,0,False,,
+cross,4,20 vs 30,weighted_jaccard,0.0,0.05,101,False,0.04328429864269136,0.1782178217821782
+cross,4,20 vs 30,weighted_jaccard,0.05,0.1,3145,False,0.08293489475098544,0.2136724960254372
+cross,4,20 vs 30,weighted_jaccard,0.1,0.15,13150,False,0.12914413655463874,0.2294296577946768
+cross,4,20 vs 30,weighted_jaccard,0.15,0.2,28067,False,0.1772474001306449,0.2491538105248156
+cross,4,20 vs 30,weighted_jaccard,0.2,0.25,38843,False,0.22565193861833124,0.276883865818809
+cross,4,20 vs 30,weighted_jaccard,0.25,0.3,39499,False,0.27442162360493705,0.32983113496544214
+cross,4,20 vs 30,weighted_jaccard,0.3,0.35,31885,False,0.32382207983243827,0.41677904970989493
+cross,4,20 vs 30,weighted_jaccard,0.35,0.4,25597,False,0.37422720011875016,0.6187443841075126
+cross,4,20 vs 30,weighted_jaccard,0.4,0.45,23328,False,0.4247719800186364,0.8539094650205762
+cross,4,20 vs 30,weighted_jaccard,0.45,0.5,20450,False,0.4740538086080334,0.9810757946210269
+cross,4,20 vs 30,weighted_jaccard,0.5,0.55,14366,False,0.5228458486912014,1.0648754002505916
+cross,4,20 vs 30,weighted_jaccard,0.55,0.6,7588,False,0.5715065393011932,1.1640748550342646
+cross,4,20 vs 30,weighted_jaccard,0.6,0.65,2944,False,0.6202890934652774,1.260529891304348
+cross,4,20 vs 30,weighted_jaccard,0.65,0.7,813,False,0.6687017722611724,1.4046740467404675
+cross,4,20 vs 30,weighted_jaccard,0.7,0.75,184,False,0.715543538014416,1.4945652173913044
+cross,4,20 vs 30,weighted_jaccard,0.75,0.8,36,False,0.7635075073099231,1.6111111111111112
+cross,4,20 vs 30,weighted_jaccard,0.8,0.85,4,True,0.817110266588499,2.0
+cross,4,20 vs 30,weighted_jaccard,0.85,0.9,0,False,,
+cross,4,20 vs 30,weighted_jaccard,0.9,0.95,0,False,,
+cross,4,20 vs 30,weighted_jaccard,0.95,1.0,0,False,,
+cross,5,10 vs 20,probability_of_agreement,0.0,0.05,0,False,,
+cross,5,10 vs 20,probability_of_agreement,0.05,0.1,0,False,,
+cross,5,10 vs 20,probability_of_agreement,0.1,0.15,6,True,0.1263288888888889,0.0
+cross,5,10 vs 20,probability_of_agreement,0.15,0.2,53,False,0.18369509433962272,0.0
+cross,5,10 vs 20,probability_of_agreement,0.2,0.25,453,False,0.23184200147167022,0.0
+cross,5,10 vs 20,probability_of_agreement,0.25,0.3,2207,False,0.28176215073251754,0.00045310376076121433
+cross,5,10 vs 20,probability_of_agreement,0.3,0.35,11537,False,0.3310580566871797,0.001473519979197365
+cross,5,10 vs 20,probability_of_agreement,0.35,0.4,34322,False,0.3779980995668439,0.0046325971679972025
+cross,5,10 vs 20,probability_of_agreement,0.4,0.45,45189,False,0.42463442106117677,0.021753081502135476
+cross,5,10 vs 20,probability_of_agreement,0.45,0.5,31166,False,0.47292661490085697,0.2019829301161522
+cross,5,10 vs 20,probability_of_agreement,0.5,0.55,31471,False,0.5270087907385644,0.800419433764418
+cross,5,10 vs 20,probability_of_agreement,0.55,0.6,45531,False,0.5754366036326808,0.9795743559333202
+cross,5,10 vs 20,probability_of_agreement,0.6,0.65,34050,False,0.6219712109642664,1.0201174743024963
+cross,5,10 vs 20,probability_of_agreement,0.65,0.7,11304,False,0.6693015286624211,1.1857749469214438
+cross,5,10 vs 20,probability_of_agreement,0.7,0.75,2248,False,0.7181968920521962,1.315391459074733
+cross,5,10 vs 20,probability_of_agreement,0.75,0.8,393,False,0.769070873621713,1.465648854961832
+cross,5,10 vs 20,probability_of_agreement,0.8,0.85,58,False,0.8149508045977013,1.7758620689655173
+cross,5,10 vs 20,probability_of_agreement,0.85,0.9,12,True,0.8658844444444443,2.0
+cross,5,10 vs 20,probability_of_agreement,0.9,0.95,0,False,,
+cross,5,10 vs 20,probability_of_agreement,0.95,1.0,0,False,,
+cross,5,10 vs 20,weighted_jaccard,0.0,0.05,1798,False,0.037234328580502636,0.30088987764182423
+cross,5,10 vs 20,weighted_jaccard,0.05,0.1,7237,False,0.07830124429720496,0.3338399889456957
+cross,5,10 vs 20,weighted_jaccard,0.1,0.15,13944,False,0.12740867732677694,0.2849971313826736
+cross,5,10 vs 20,weighted_jaccard,0.15,0.2,24192,False,0.17699954810882676,0.2560350529100529
+cross,5,10 vs 20,weighted_jaccard,0.2,0.25,33883,False,0.2257891589536476,0.2663577605288788
+cross,5,10 vs 20,weighted_jaccard,0.25,0.3,37432,False,0.2748887020959638,0.3151581534515922
+cross,5,10 vs 20,weighted_jaccard,0.3,0.35,32167,False,0.3240313748472379,0.4084620884757671
+cross,5,10 vs 20,weighted_jaccard,0.35,0.4,26486,False,0.37453266001504687,0.5746809635279015
+cross,5,10 vs 20,weighted_jaccard,0.4,0.45,24059,False,0.4244014794948673,0.7803316846086703
+cross,5,10 vs 20,weighted_jaccard,0.45,0.5,20841,False,0.47383668947666496,0.9135358188186747
+cross,5,10 vs 20,weighted_jaccard,0.5,0.55,14506,False,0.5229364104129794,0.9917275610092375
+cross,5,10 vs 20,weighted_jaccard,0.55,0.6,7937,False,0.5719108390504186,1.045735164419806
+cross,5,10 vs 20,weighted_jaccard,0.6,0.65,3552,False,0.621394760560248,1.1067004504504505
+cross,5,10 vs 20,weighted_jaccard,0.65,0.7,1398,False,0.6708352326257987,1.1323319027181689
+cross,5,10 vs 20,weighted_jaccard,0.7,0.75,461,False,0.7194099371227416,1.2516268980477223
+cross,5,10 vs 20,weighted_jaccard,0.75,0.8,104,False,0.7690265982622262,1.375
+cross,5,10 vs 20,weighted_jaccard,0.8,0.85,3,True,0.8110552143294919,1.6666666666666667
+cross,5,10 vs 20,weighted_jaccard,0.85,0.9,0,False,,
+cross,5,10 vs 20,weighted_jaccard,0.9,0.95,0,False,,
+cross,5,10 vs 20,weighted_jaccard,0.95,1.0,0,False,,
+cross,5,10 vs 30,probability_of_agreement,0.0,0.05,0,False,,
+cross,5,10 vs 30,probability_of_agreement,0.05,0.1,0,False,,
+cross,5,10 vs 30,probability_of_agreement,0.1,0.15,0,False,,
+cross,5,10 vs 30,probability_of_agreement,0.15,0.2,13,True,0.19067897435897435,0.0
+cross,5,10 vs 30,probability_of_agreement,0.2,0.25,155,False,0.23492129032258072,0.0
+cross,5,10 vs 30,probability_of_agreement,0.25,0.3,1469,False,0.28351146811890243,0.0
+cross,5,10 vs 30,probability_of_agreement,0.3,0.35,10709,False,0.3318954449528423,9.337940050424876e-05
+cross,5,10 vs 30,probability_of_agreement,0.35,0.4,35283,False,0.37828803370839503,0.0016438511464444633
+cross,5,10 vs 30,probability_of_agreement,0.4,0.45,47204,False,0.4243336643787254,0.011693924243708161
+cross,5,10 vs 30,probability_of_agreement,0.45,0.5,29992,False,0.47254085000444757,0.1759469191784476
+cross,5,10 vs 30,probability_of_agreement,0.5,0.55,30824,False,0.5273660974132698,0.8228652997664158
+cross,5,10 vs 30,probability_of_agreement,0.55,0.6,46966,False,0.575501776320451,0.9887365328109696
+cross,5,10 vs 30,probability_of_agreement,0.6,0.65,35189,False,0.621665997897073,1.0208872090710166
+cross,5,10 vs 30,probability_of_agreement,0.65,0.7,10568,False,0.6683644965934901,1.2235995457986375
+cross,5,10 vs 30,probability_of_agreement,0.7,0.75,1449,False,0.7165617851391767,1.4230503795721188
+cross,5,10 vs 30,probability_of_agreement,0.75,0.8,166,False,0.7663122891566265,1.572289156626506
+cross,5,10 vs 30,probability_of_agreement,0.8,0.85,13,True,0.817091282051282,1.7692307692307692
+cross,5,10 vs 30,probability_of_agreement,0.85,0.9,0,False,,
+cross,5,10 vs 30,probability_of_agreement,0.9,0.95,0,False,,
+cross,5,10 vs 30,probability_of_agreement,0.95,1.0,0,False,,
+cross,5,10 vs 30,weighted_jaccard,0.0,0.05,1589,False,0.037765878423851096,0.2945248584015104
+cross,5,10 vs 30,weighted_jaccard,0.05,0.1,6097,False,0.07758431172052,0.327702148597671
+cross,5,10 vs 30,weighted_jaccard,0.1,0.15,12114,False,0.12770503732954933,0.27340267459138184
+cross,5,10 vs 30,weighted_jaccard,0.15,0.2,23064,False,0.1774697373037532,0.2395508151231356
+cross,5,10 vs 30,weighted_jaccard,0.2,0.25,35530,False,0.226039151575868,0.24939487756825218
+cross,5,10 vs 30,weighted_jaccard,0.25,0.3,38958,False,0.2747525801144385,0.3106678987627702
+cross,5,10 vs 30,weighted_jaccard,0.3,0.35,33562,False,0.3239799333248683,0.39899290864668374
+cross,5,10 vs 30,weighted_jaccard,0.35,0.4,26347,False,0.37402572038548737,0.570767070254678
+cross,5,10 vs 30,weighted_jaccard,0.4,0.45,23298,False,0.4249682973441283,0.7991673104987552
+cross,5,10 vs 30,weighted_jaccard,0.45,0.5,21308,False,0.47407591934587456,0.9364557912521119
+cross,5,10 vs 30,weighted_jaccard,0.5,0.55,15276,False,0.5230644847761056,1.0128305839224927
+cross,5,10 vs 30,weighted_jaccard,0.55,0.6,8441,False,0.5717923762598186,1.0688307072621728
+cross,5,10 vs 30,weighted_jaccard,0.6,0.65,3236,False,0.6200861089340048,1.1328800988875154
+cross,5,10 vs 30,weighted_jaccard,0.65,0.7,918,False,0.6695064580815129,1.2080610021786493
+cross,5,10 vs 30,weighted_jaccard,0.7,0.75,216,False,0.7180595412039266,1.2916666666666667
+cross,5,10 vs 30,weighted_jaccard,0.75,0.8,45,False,0.7672032097209509,1.6
+cross,5,10 vs 30,weighted_jaccard,0.8,0.85,1,True,0.806988441780822,1.0
+cross,5,10 vs 30,weighted_jaccard,0.85,0.9,0,False,,
+cross,5,10 vs 30,weighted_jaccard,0.9,0.95,0,False,,
+cross,5,10 vs 30,weighted_jaccard,0.95,1.0,0,False,,
+cross,5,20 vs 30,probability_of_agreement,0.0,0.05,0,False,,
+cross,5,20 vs 30,probability_of_agreement,0.05,0.1,0,False,,
+cross,5,20 vs 30,probability_of_agreement,0.1,0.15,0,False,,
+cross,5,20 vs 30,probability_of_agreement,0.15,0.2,0,False,,
+cross,5,20 vs 30,probability_of_agreement,0.2,0.25,31,False,0.2398658064516129,0.0
+cross,5,20 vs 30,probability_of_agreement,0.25,0.3,730,False,0.28620778082191783,0.0
+cross,5,20 vs 30,probability_of_agreement,0.3,0.35,9112,False,0.3330195610184391,0.0
+cross,5,20 vs 30,probability_of_agreement,0.35,0.4,35877,False,0.3786093463778998,0.00033447612676645205
+cross,5,20 vs 30,probability_of_agreement,0.4,0.45,49667,False,0.4242517427399879,0.00461070731068919
+cross,5,20 vs 30,probability_of_agreement,0.45,0.5,29654,False,0.47190910995705837,0.14217306265596547
+cross,5,20 vs 30,probability_of_agreement,0.5,0.55,29080,False,0.5281573975240692,0.856292984869326
+cross,5,20 vs 30,probability_of_agreement,0.55,0.6,49806,False,0.5756215588483217,0.9958237963297595
+cross,5,20 vs 30,probability_of_agreement,0.6,0.65,36131,False,0.6213156185362566,1.0223077135977416
+cross,5,20 vs 30,probability_of_agreement,0.65,0.7,9115,False,0.6670714090327271,1.2826110806363138
+cross,5,20 vs 30,probability_of_agreement,0.7,0.75,763,False,0.7142036522498906,1.634338138925295
+cross,5,20 vs 30,probability_of_agreement,0.75,0.8,33,False,0.765979797979798,1.8484848484848484
+cross,5,20 vs 30,probability_of_agreement,0.8,0.85,1,True,0.8064,2.0
+cross,5,20 vs 30,probability_of_agreement,0.85,0.9,0,False,,
+cross,5,20 vs 30,probability_of_agreement,0.9,0.95,0,False,,
+cross,5,20 vs 30,probability_of_agreement,0.95,1.0,0,False,,
+cross,5,20 vs 30,weighted_jaccard,0.0,0.05,76,False,0.041604777958082914,0.0
+cross,5,20 vs 30,weighted_jaccard,0.05,0.1,1866,False,0.08456608819562245,0.1714898177920686
+cross,5,20 vs 30,weighted_jaccard,0.1,0.15,9821,False,0.13021896969956845,0.2074126870990734
+cross,5,20 vs 30,weighted_jaccard,0.15,0.2,25894,False,0.17807868288770978,0.20471923997837338
+cross,5,20 vs 30,weighted_jaccard,0.2,0.25,41697,False,0.22605490807190212,0.24325491042521044
+cross,5,20 vs 30,weighted_jaccard,0.25,0.3,44048,False,0.2743636782096605,0.3117735197965855
+cross,5,20 vs 30,weighted_jaccard,0.3,0.35,33751,False,0.3233413115362824,0.4222097123048206
+cross,5,20 vs 30,weighted_jaccard,0.35,0.4,24224,False,0.37416365158451903,0.6432876486129459
+cross,5,20 vs 30,weighted_jaccard,0.4,0.45,23119,False,0.42520405183349474,0.8861109909598166
+cross,5,20 vs 30,weighted_jaccard,0.45,0.5,22269,False,0.47411813918161017,0.9888185369796578
+cross,5,20 vs 30,weighted_jaccard,0.5,0.55,14629,False,0.5223773487338349,1.0392371317246565
+cross,5,20 vs 30,weighted_jaccard,0.55,0.6,6446,False,0.5703179918461737,1.109370152032268
+cross,5,20 vs 30,weighted_jaccard,0.6,0.65,1788,False,0.6186404013915439,1.2097315436241611
+cross,5,20 vs 30,weighted_jaccard,0.65,0.7,323,False,0.6677043686428245,1.3095975232198143
+cross,5,20 vs 30,weighted_jaccard,0.7,0.75,47,False,0.716169080356162,1.6382978723404256
+cross,5,20 vs 30,weighted_jaccard,0.75,0.8,2,True,0.7653465911513962,2.0
+cross,5,20 vs 30,weighted_jaccard,0.8,0.85,0,False,,
+cross,5,20 vs 30,weighted_jaccard,0.85,0.9,0,False,,
+cross,5,20 vs 30,weighted_jaccard,0.9,0.95,0,False,,
+cross,5,20 vs 30,weighted_jaccard,0.95,1.0,0,False,,
