@@ -1,0 +1,9 @@
+# Notebook cached-import TypeError
+
+Inspected the saved traceback in `code/DFA_Comparisons.ipynb`: the optional benchmark raised `TypeError: _pair_record() got an unexpected keyword argument sort_ids`. The file on disk already accepts that argument. Reproduced the exact failure by importing cross_state while experiments still contains its pre-cross-state helper, matching a persistent Jupyter kernel.
+
+Added a regression test before fixing the notebook. Both the actual preview cell and full-run cell failed with the reported TypeError. Updated those cells and the matching Python companion to reload experiments first, then cross_state, so imported helper references are refreshed. The full-run cell also reloads result_summary and calls its current summary functions, avoiding stale summary bindings. No calculation algorithms changed.
+
+Preserved the user's ENABLE_CROSS_STATE=True selection. Cleared saved outputs and stale execution counts. Adjusted the existing within-batch fresh-kernel test to disable the optional run explicitly rather than depending on the user's saved flag. Added an in-process persistent-kernel regression that runs both real notebook cells against temporary synthetic batches.
+
+Validation: 13 targeted tests passed (persistent-kernel regression, source synchronization, cross-state integration, existing experiment tests). Both fresh-kernel notebook execution tests also passed, covering the repository root and code working directories with optional runs both enabled and disabled (15 tests total). The original notebook benchmark cell also passed against the real current dataset after deliberately caching the legacy helper: 12 combinations, 1,200 sampled pairs at H=5. It wrote no result files. `git diff --check` passed for changed code/notebook files. The full 3,000,000-pair experiment was not started.

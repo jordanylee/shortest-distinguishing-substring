@@ -1,0 +1,11 @@
+# Optional cross-state comparisons
+
+Added the requested OPTIONAL section at the end of `code/DFA_Comparisons.ipynb`, synchronized with its Python companion. Three code cells configure, preview/benchmark, and run/summarize the additional experiment. The section is disabled by default. It compares Cartesian products for 10?20, 10?30, and 20?30 states within each selected alphabet; 15/25 are excluded. Defaults select the current four-alphabet source and H=5, consistent with its saved within-batch metrics.
+
+Implemented streaming orchestration in `code/cross_state.py`, reusing the existing loader, BFS, similarity metrics, statistics, and JSONL writer. Results are separate from within-batch results, with source hashes, code hashes, manifests, qualified DFA identities, overwrite protection, progress logging, and temporary-output cleanup. Matching numeric IDs across state batches are included. Extended `experiments._pair_record` with an optional order-preservation flag so marginal weights remain assigned to the smaller/larger-state batch correctly. Extended `result_summary.py` to label cross-state combinations.
+
+Added cross-state integration checks and fresh-kernel optional-section tests from the root and code directories. Existing within-batch fresh-kernel tests keep running with the optional section disabled. Cleared stale notebook execution counts and synchronized the companion horizon with the notebook's existing H=3 configuration. Updated README and current project status.
+
+Read-only preview of the current dataset validated 12 combinations and 3,000,000 additional pairs. Verified the saved within-batch horizon is H=5. No full cross-state experiment was started and no project data or experiment results were written. Test data/results use temporary directories.
+
+Validation: notebook format and cleared outputs validated; `git diff --check` passed. `python -B -m unittest discover -s code/tests -t code` ran 52 tests in 53.3 seconds: 51 passed, including all cross-state tests, notebook synchronization, and fresh-kernel execution with the optional section both enabled and disabled. The one failure is the existing `test_duplicate_run_identical`, which cannot find legacy duplicate source `2026-11-15_00-30-21-627385_UTC`; the canonical and current source datasets remain present. No unrelated test or dataset was changed to mask this failure.
