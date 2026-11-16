@@ -10,6 +10,7 @@ import shutil
 import time
 from collections import Counter
 from datetime import datetime, timezone
+from dataclasses import replace
 from itertools import combinations
 from pathlib import Path
 
@@ -56,8 +57,9 @@ def preview(run_id, data_root, alphabet_sizes=None, state_counts=None):
     return rows
 
 
-def _pair_record(a, b, alphabet, calculations, horizon):
-    a, b = sorted((a, b), key=lambda d: d.id)
+def _pair_record(a, b, alphabet, calculations, horizon, *, sort_ids=True):
+    if sort_ids:
+        a, b = sorted((a, b), key=lambda d: d.id)
     row = {"a": a.id, "b": b.id}
     if calculations != "similarity":
         result = shortest_distinguishing(a, b, len(alphabet), check=False)
@@ -103,13 +105,35 @@ def benchmark(run_id, data_root, *, calculations="both", horizon=None,
     return rows
 
 
-def run_batch(run_dir, *, calculations="both", horizon=None, results_id=None, compress=True):
+def below_half_accepting(dfa):
+    """Strict raw-state filter; exactly 50% is excluded, with no float rounding."""
+    return 2 * sum(dfa.accept) < len(dfa.accept)
+
+
+def run_batch(run_dir, *, calculations="both", horizon=None, results_id=None, compress=True,
+              below_half_only=False):
     validate_config(calculations, horizon)
     results_id = _results_id(results_id)
     batch = load_batch(Path(run_dir))
+    source_dfa_count = len(batch.dfas)
+    selection_metadata = {}
+    if below_half_only:
+        batch = replace(batch, dfas=tuple(d for d in batch.dfas if below_half_accepting(d)))
+        selection_metadata = {
+            "source_dfa_count": source_dfa_count,
+            "dfa_selection": {
+                "name": "strictly_below_half_accepting",
+                "predicate": "2 * accepting_state_count < raw_state_count",
+                "state_basis": "all raw generated states, including unreachable states",
+                "pair_rule": "both endpoints must satisfy the predicate; within-batch only",
+                "selected_ids": sorted(d.id for d in batch.dfas),
+                "excluded_dfa_count": source_dfa_count - len(batch.dfas),
+                "selected_dfas": [{"id": d.id, "accepting_states": sum(d.accept),
+                                   "raw_states": len(d.accept), "initial_accepting": d.accept[d.initial]}
+                                  for d in sorted(batch.dfas, key=lambda d: d.id)]}}
     if calculations != "sds" and not batch.alphabet:
         raise ValueError("similarity requires a nonempty alphabet")
-    out = batch.run_dir / "comparisons" / results_id
+    out = batch.run_dir / ("comparisons_below_half" if below_half_only else "comparisons") / results_id
     part = out.with_name(results_id + ".part")
     for path in (out, part):
         if path.exists():
@@ -147,6 +171,7 @@ def run_batch(run_dir, *, calculations="both", horizon=None, results_id=None, co
             "source_sha256": batch.input_sha256, "alphabet": list(batch.alphabet),
             "alphabet_size": len(batch.alphabet), "state_count": batch.n_states,
             "dfa_count": len(batch.dfas), "calculations": calculations,
+            **selection_metadata,
             "pairing_scheme": "all unordered within-batch pairs, a<b by id",
             "pair_key": ["source_run_id", "alphabet_size", "state_count", "a", "b"],
             "expected_pair_count": len(batch.dfas) * (len(batch.dfas) - 1) // 2,
@@ -168,8 +193,9 @@ def run_batch(run_dir, *, calculations="both", horizon=None, results_id=None, co
             "minimal_histogram": dict(sorted(minimal.items())),
             **_git_info(), "python_version": platform.python_version(),
             "code_sha256": {name: hashlib.sha256((Path(__file__).parent / name).read_bytes()).hexdigest()
-                            for name in ("experiments.py", "similarity_metrics.py", "loader.py",
-                                         "distinguish.py", "dfa_stats.py", "pairs.py")},
+                            for name in (("experiments.py", "similarity_metrics.py", "loader.py",
+                                          "distinguish.py", "dfa_stats.py", "pairs.py") +
+                                         (("run_below_half.py",) if below_half_only else ()))},
             "started_utc": started.isoformat(), "finished_utc": datetime.now(timezone.utc).isoformat(),
             "elapsed_seconds": time.perf_counter() - clock, "status": "complete"}
         (part / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n", encoding="utf-8")

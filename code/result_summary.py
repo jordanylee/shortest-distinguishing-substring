@@ -51,7 +51,8 @@ def summarize(result_dir):
     finite, positive = sum(hist.values()), sum(n for length, n in hist.items() if length > 0)
     has_sds = m.get("calculations") != "similarity"
     return {"results_id": m["results_id"], "alphabet_size": m["alphabet_size"],
-            "state_count": m["state_count"], "distribution": m.get("distribution"),
+            "state_count": m["state_count"], "state_counts": m.get("state_counts"),
+            "distribution": m.get("distribution"),
             "pair_count": count, "equivalent_pair_count": equivalent if has_sds else None,
             "equivalent_rate": equivalent / count if has_sds and count else None,
             "length_histogram": dict(sorted(hist.items())) if has_sds else None,
@@ -66,7 +67,8 @@ def summarize(result_dir):
 def markdown_summary(summary):
     """Notebook-friendly tables, without requiring pandas or plotting packages."""
     s = summary
-    lines = [f"### Alphabet {s['alphabet_size']}, states {s['state_count']}", "",
+    states = " vs ".join(map(str, s["state_counts"])) if s.get("state_counts") else str(s["state_count"])
+    lines = [f"### Alphabet {s['alphabet_size']}, states {states}", "",
              f"Results: `{s['results_id']}`; pairs: {s['pair_count']:,}.", ""]
     if s["distribution"]:
         lines.extend([f"Similarity horizon: {s['distribution']['horizon']} (uniform length and symbols).", ""])
