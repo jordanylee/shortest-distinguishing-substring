@@ -1,0 +1,1838 @@
+{
+  "schema_version": 1,
+  "results_kind": "dfa_comparisons",
+  "results_id": "2026-11-15_21-22-02-784266_UTC",
+  "source_run_id": "2026-11-15_19-36-35-433280_UTC",
+  "source_run_dir": "C:\\Users\\hmark\\CS_Projects\\shortest-distinguishing-substring\\data\\alphabet_3\\states_25\\2026-11-15_19-36-35-433280_UTC",
+  "source_sha256": {
+    "manifest.json": "79fe8b93e5408047b7b1532e517a47b68b017ab864457cda1ecc05cf3807cef8",
+    "dfas_alphabet-3_states-25_count-500_2026-11-15_19-36-35-433280_UTC.jsonl": "1f5252284c536db631bd6a2bd5dec73bbad730ccca62789b7df1614d09e60245"
+  },
+  "alphabet": [
+    "0",
+    "1",
+    "2"
+  ],
+  "alphabet_size": 3,
+  "state_count": 25,
+  "dfa_count": 246,
+  "calculations": "both",
+  "source_dfa_count": 500,
+  "dfa_selection": {
+    "name": "strictly_below_half_accepting",
+    "predicate": "2 * accepting_state_count < raw_state_count",
+    "state_basis": "all raw generated states, including unreachable states",
+    "pair_rule": "both endpoints must satisfy the predicate; within-batch only",
+    "selected_ids": [
+      0,
+      2,
+      5,
+      6,
+      8,
+      9,
+      10,
+      12,
+      13,
+      18,
+      19,
+      21,
+      24,
+      25,
+      28,
+      30,
+      32,
+      34,
+      41,
+      45,
+      47,
+      48,
+      49,
+      50,
+      52,
+      53,
+      54,
+      55,
+      56,
+      58,
+      61,
+      63,
+      64,
+      65,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      74,
+      76,
+      78,
+      79,
+      81,
+      85,
+      86,
+      87,
+      89,
+      92,
+      93,
+      94,
+      95,
+      98,
+      103,
+      104,
+      108,
+      109,
+      112,
+      113,
+      115,
+      125,
+      129,
+      130,
+      131,
+      133,
+      136,
+      137,
+      139,
+      141,
+      142,
+      143,
+      145,
+      146,
+      148,
+      149,
+      153,
+      155,
+      157,
+      158,
+      160,
+      161,
+      164,
+      165,
+      167,
+      168,
+      171,
+      174,
+      175,
+      177,
+      180,
+      182,
+      183,
+      184,
+      186,
+      187,
+      188,
+      190,
+      192,
+      193,
+      197,
+      208,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      218,
+      219,
+      220,
+      222,
+      226,
+      229,
+      231,
+      232,
+      234,
+      236,
+      238,
+      239,
+      244,
+      245,
+      246,
+      249,
+      250,
+      255,
+      256,
+      257,
+      259,
+      260,
+      262,
+      263,
+      264,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274,
+      278,
+      283,
+      286,
+      289,
+      292,
+      294,
+      298,
+      299,
+      301,
+      303,
+      305,
+      306,
+      308,
+      310,
+      311,
+      312,
+      315,
+      316,
+      317,
+      319,
+      323,
+      327,
+      330,
+      335,
+      339,
+      341,
+      346,
+      349,
+      352,
+      353,
+      355,
+      358,
+      359,
+      364,
+      366,
+      367,
+      370,
+      371,
+      372,
+      373,
+      376,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      386,
+      390,
+      393,
+      398,
+      399,
+      400,
+      401,
+      405,
+      409,
+      410,
+      411,
+      412,
+      414,
+      417,
+      418,
+      419,
+      422,
+      423,
+      425,
+      427,
+      429,
+      431,
+      434,
+      438,
+      440,
+      443,
+      445,
+      446,
+      447,
+      448,
+      449,
+      452,
+      453,
+      456,
+      458,
+      459,
+      461,
+      465,
+      466,
+      469,
+      470,
+      472,
+      474,
+      475,
+      476,
+      478,
+      479,
+      481,
+      482,
+      483,
+      485,
+      486,
+      487,
+      489,
+      492,
+      493,
+      494,
+      496,
+      497,
+      498
+    ],
+    "excluded_dfa_count": 254,
+    "selected_dfas": [
+      {
+        "id": 0,
+        "accepting_states": 7,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 2,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 5,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 6,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 8,
+        "accepting_states": 7,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 9,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 10,
+        "accepting_states": 8,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 12,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 13,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 18,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 19,
+        "accepting_states": 7,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 21,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 24,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 25,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 28,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 30,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 32,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 34,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 41,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 45,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 47,
+        "accepting_states": 8,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 48,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 49,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 50,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 52,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 53,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 54,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 55,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 56,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 58,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 61,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 63,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 64,
+        "accepting_states": 7,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 65,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 67,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 68,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 69,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 70,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 71,
+        "accepting_states": 8,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 72,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 74,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 76,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 78,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 79,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 81,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 85,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 86,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 87,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 89,
+        "accepting_states": 8,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 92,
+        "accepting_states": 6,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 93,
+        "accepting_states": 7,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 94,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 95,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 98,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 103,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 104,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 108,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 109,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 112,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 113,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 115,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 125,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 129,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 130,
+        "accepting_states": 8,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 131,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 133,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 136,
+        "accepting_states": 7,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 137,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 139,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 141,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 142,
+        "accepting_states": 8,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 143,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 145,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 146,
+        "accepting_states": 8,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 148,
+        "accepting_states": 8,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 149,
+        "accepting_states": 8,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 153,
+        "accepting_states": 8,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 155,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 157,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 158,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 160,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 161,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 164,
+        "accepting_states": 7,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 165,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 167,
+        "accepting_states": 8,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 168,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 171,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 174,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 175,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 177,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 180,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 182,
+        "accepting_states": 8,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 183,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 184,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 186,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 187,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 188,
+        "accepting_states": 6,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 190,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 192,
+        "accepting_states": 8,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 193,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 197,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 208,
+        "accepting_states": 7,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 210,
+        "accepting_states": 8,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 211,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 212,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 213,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 214,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 215,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 218,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 219,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 220,
+        "accepting_states": 5,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 222,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 226,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 229,
+        "accepting_states": 7,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 231,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 232,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 234,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 236,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 238,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 239,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 244,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 245,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 246,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 249,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 250,
+        "accepting_states": 8,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 255,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 256,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 257,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 259,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 260,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 262,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 263,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 264,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 269,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 270,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 271,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 272,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 273,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 274,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 278,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 283,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 286,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 289,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 292,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 294,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 298,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 299,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 301,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 303,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 305,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 306,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 308,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 310,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 311,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 312,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 315,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 316,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 317,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 319,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 323,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 327,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 330,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 335,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 339,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 341,
+        "accepting_states": 7,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 346,
+        "accepting_states": 8,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 349,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 352,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 353,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 355,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 358,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 359,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 364,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 366,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 367,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 370,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 371,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 372,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 373,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 376,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 379,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 380,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 381,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 382,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 383,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 384,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 386,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 390,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 393,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 398,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 399,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 400,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 401,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 405,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 409,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 410,
+        "accepting_states": 6,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 411,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 412,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 414,
+        "accepting_states": 8,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 417,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 418,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 419,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 422,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 423,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 425,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 427,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 429,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 431,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 434,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 438,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 440,
+        "accepting_states": 8,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 443,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 445,
+        "accepting_states": 8,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 446,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 447,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 448,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 449,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 452,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 453,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 456,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 458,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 459,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 461,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 465,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 466,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 469,
+        "accepting_states": 8,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 470,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 472,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 474,
+        "accepting_states": 7,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 475,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 476,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 478,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 479,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 481,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 482,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 483,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 485,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 486,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 487,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 489,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 492,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      },
+      {
+        "id": 493,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 494,
+        "accepting_states": 12,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 496,
+        "accepting_states": 9,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 497,
+        "accepting_states": 11,
+        "raw_states": 25,
+        "initial_accepting": true
+      },
+      {
+        "id": 498,
+        "accepting_states": 10,
+        "raw_states": 25,
+        "initial_accepting": false
+      }
+    ]
+  },
+  "pairing_scheme": "all unordered within-batch pairs, a<b by id",
+  "pair_key": [
+    "source_run_id",
+    "alphabet_size",
+    "state_count",
+    "a",
+    "b"
+  ],
+  "expected_pair_count": 30135,
+  "pair_count": 30135,
+  "pairs_file": "pairs.jsonl.gz",
+  "dfa_stats_file": "dfa_stats.jsonl.gz",
+  "pairs_layout": {
+    "a": "smaller source DFA ID; weight_a refers to this DFA",
+    "b": "larger source DFA ID; weight_b refers to this DFA",
+    "length": "SDS symbol count; null if equivalent; absent in similarity-only mode",
+    "witness": "shortest witness in manifest alphabet order, as symbol tokens; null if equivalent",
+    "metrics": "agreement, weighted Jaccard, and five language weights; absent in SDS-only mode"
+  },
+  "dfa_stats_layout": {
+    "id": "source DFA ID",
+    "n_states": "raw state count",
+    "reachable": "reachable state count",
+    "minimal": "minimal complete DFA size"
+  },
+  "compression": "gzip",
+  "distribution": {
+    "name": "uniform_length_uniform_symbols",
+    "horizon": 5,
+    "length_weights": "p(t) = 1 / (H + 1), t = 0, ..., H",
+    "alphabet": [
+      "0",
+      "1",
+      "2"
+    ],
+    "symbol_sampling": "independent uniform",
+    "numerical_method": "exact integer counts and rational accumulation",
+    "metric_version": 1
+  },
+  "interpretation": "descriptive; horizon was not preregistered before existing SDS results",
+  "output_numbers": "metrics converted from exact rationals to binary64 floats",
+  "equivalent_pair_count": 0,
+  "length_histogram": {
+    "0": 14873,
+    "1": 12949,
+    "2": 2309,
+    "3": 4
+  },
+  "reachable_histogram": {
+    "18": 2,
+    "19": 3,
+    "20": 11,
+    "21": 17,
+    "22": 45,
+    "23": 61,
+    "24": 62,
+    "25": 45
+  },
+  "minimal_histogram": {
+    "18": 2,
+    "19": 3,
+    "20": 12,
+    "21": 16,
+    "22": 45,
+    "23": 62,
+    "24": 62,
+    "25": 44
+  },
+  "repo_commit": "c6c9edbccbb967495ef5a90d3368da2ec51bee89",
+  "repo_dirty": true,
+  "python_version": "3.12.2",
+  "code_sha256": {
+    "experiments.py": "1da5373c040a9ccd53d236b3f7844f0bc5e9017453188031e3100b4bd9327cd0",
+    "similarity_metrics.py": "1aab7ccd5eac14b1d92c0875f633f0534abe8e37a47f01d1731eb945c9003830",
+    "loader.py": "3fd03584c3473139772da3b14843a5a5ea513251179074c0405892c2c56531da",
+    "distinguish.py": "01b9201907ac1985dcb5476eec2e2ee7f94c921ef4a50558b42df6d4ab470745",
+    "dfa_stats.py": "17ee1dd5b8189ab7e83c441c96832a770fbb21be75126c6cab8e7f41bb2d4ba7",
+    "pairs.py": "27de068118cdaf177b107873916fb3214dc648e9124e52967c1e1d4827194a52",
+    "run_below_half.py": "a8ea0290229950425da4dd88d1e82599eb2cbca5c430eff8c5c920e3baaa37f4"
+  },
+  "started_utc": "2026-11-15T21:22:25.469038+00:00",
+  "finished_utc": "2026-11-15T21:22:31.073339+00:00",
+  "elapsed_seconds": 5.604493699996965,
+  "status": "complete"
+}

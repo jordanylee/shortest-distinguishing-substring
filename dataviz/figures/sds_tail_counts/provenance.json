@@ -1,0 +1,131 @@
+{
+  "created_utc": "2026-11-15T21:06:19.774770+00:00",
+  "source_id": "2026-11-15_19-36-35-433280_UTC",
+  "results_id": "2026-11-15_19-55-50-157162_UTC",
+  "inputs": [
+    {
+      "path": "data/alphabet_2/states_10/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "a8d7f971f6c70a5692f8d4a4a21fb96802b4aca9a2d4fabe456a5605b14e98e0"
+    },
+    {
+      "path": "data/alphabet_2/states_15/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "a09bd89d2928d84f4a918bb6469d546d11a36ef78429c9b8803d617c5d5f9904"
+    },
+    {
+      "path": "data/alphabet_2/states_20/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "b65c80d5afd8cd5993528b0b55e264b8ff2204f4b299026e37d9f5dc8f259508"
+    },
+    {
+      "path": "data/alphabet_2/states_25/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "5ec1064aba8c80b7e0f7cc8b627830ca01bfc4f93a0f6ae0ff4044d23d28e296"
+    },
+    {
+      "path": "data/alphabet_2/states_30/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "497b9bba7bae161e3dfb43d4133205e0f8383e7f07800cb9a8d9ec218337bd75"
+    },
+    {
+      "path": "data/alphabet_3/states_10/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "ea3e3423230b2c6ce3db8e443bf78e92d6b2bdd9575cf383ccf5f8f316007e09"
+    },
+    {
+      "path": "data/alphabet_3/states_15/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "81111c34bd95bcc19f101ae071e1571507f15fe32275ed38aa8237d2aa7777a3"
+    },
+    {
+      "path": "data/alphabet_3/states_20/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "9f76b12a0835f6ec208792f8a62570003e5af5342a469306b4058dde05ed7321"
+    },
+    {
+      "path": "data/alphabet_3/states_25/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "b7f633b0ce2adf774280944327deca6ea374820606c7bef824b3ae2a12fb0261"
+    },
+    {
+      "path": "data/alphabet_3/states_30/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "49c1d63326522818b9c423b78cbcf7bf64521287c0df9da6f511481c1e1e2d75"
+    }
+  ],
+  "batches": [
+    {
+      "alphabet_size": 2,
+      "generated_states": 10,
+      "total_pairs": 124750,
+      "equivalent_pairs": 37,
+      "finite_pairs": 124713
+    },
+    {
+      "alphabet_size": 2,
+      "generated_states": 15,
+      "total_pairs": 124750,
+      "equivalent_pairs": 6,
+      "finite_pairs": 124744
+    },
+    {
+      "alphabet_size": 2,
+      "generated_states": 20,
+      "total_pairs": 124750,
+      "equivalent_pairs": 0,
+      "finite_pairs": 124750
+    },
+    {
+      "alphabet_size": 2,
+      "generated_states": 25,
+      "total_pairs": 124750,
+      "equivalent_pairs": 0,
+      "finite_pairs": 124750
+    },
+    {
+      "alphabet_size": 2,
+      "generated_states": 30,
+      "total_pairs": 124750,
+      "equivalent_pairs": 0,
+      "finite_pairs": 124750
+    },
+    {
+      "alphabet_size": 3,
+      "generated_states": 10,
+      "total_pairs": 124750,
+      "equivalent_pairs": 0,
+      "finite_pairs": 124750
+    },
+    {
+      "alphabet_size": 3,
+      "generated_states": 15,
+      "total_pairs": 124750,
+      "equivalent_pairs": 0,
+      "finite_pairs": 124750
+    },
+    {
+      "alphabet_size": 3,
+      "generated_states": 20,
+      "total_pairs": 124750,
+      "equivalent_pairs": 0,
+      "finite_pairs": 124750
+    },
+    {
+      "alphabet_size": 3,
+      "generated_states": 25,
+      "total_pairs": 124750,
+      "equivalent_pairs": 0,
+      "finite_pairs": 124750
+    },
+    {
+      "alphabet_size": 3,
+      "generated_states": 30,
+      "total_pairs": 124750,
+      "equivalent_pairs": 0,
+      "finite_pairs": 124750
+    }
+  ],
+  "thresholds": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "definition": "Count of finite SDS lengths >= d; not exact-length frequencies",
+  "equivalent_handling": "Excluded: equivalent pairs have no finite SDS",
+  "source": "Saved complete manifest histograms, not recalculated pair results",
+  "matplotlib": "3.10.9",
+  "script_sha256": "a40525f9be1d2b279211428a1d3027d7b3be0ac2abf00e01a30ecda28acfdeec"
+}

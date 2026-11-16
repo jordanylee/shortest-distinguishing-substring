@@ -1,0 +1,492 @@
+{
+  "created_utc": "2026-11-15T20:48:40.176483+00:00",
+  "source_id": "2026-11-15_19-36-35-433280_UTC",
+  "results_id": "2026-11-15_19-55-50-157162_UTC",
+  "horizon": 5,
+  "bin_count": 20,
+  "bins": "[left,right), with score 1 included in the final bin; x is observed bin mean",
+  "sds": "Finite lengths including zero; equivalent pairs excluded",
+  "aggregation": "Separate configuration means; no pooling or subsampling",
+  "batches": [
+    {
+      "alphabet_size": 2,
+      "generated_states": 10,
+      "pair_count": 124750,
+      "finite_pairs": 124713,
+      "equivalent_pairs": 37
+    },
+    {
+      "alphabet_size": 2,
+      "generated_states": 15,
+      "pair_count": 124750,
+      "finite_pairs": 124744,
+      "equivalent_pairs": 6
+    },
+    {
+      "alphabet_size": 2,
+      "generated_states": 20,
+      "pair_count": 124750,
+      "finite_pairs": 124750,
+      "equivalent_pairs": 0
+    },
+    {
+      "alphabet_size": 2,
+      "generated_states": 25,
+      "pair_count": 124750,
+      "finite_pairs": 124750,
+      "equivalent_pairs": 0
+    },
+    {
+      "alphabet_size": 2,
+      "generated_states": 30,
+      "pair_count": 124750,
+      "finite_pairs": 124750,
+      "equivalent_pairs": 0
+    },
+    {
+      "alphabet_size": 3,
+      "generated_states": 10,
+      "pair_count": 124750,
+      "finite_pairs": 124750,
+      "equivalent_pairs": 0
+    },
+    {
+      "alphabet_size": 3,
+      "generated_states": 15,
+      "pair_count": 124750,
+      "finite_pairs": 124750,
+      "equivalent_pairs": 0
+    },
+    {
+      "alphabet_size": 3,
+      "generated_states": 20,
+      "pair_count": 124750,
+      "finite_pairs": 124750,
+      "equivalent_pairs": 0
+    },
+    {
+      "alphabet_size": 3,
+      "generated_states": 25,
+      "pair_count": 124750,
+      "finite_pairs": 124750,
+      "equivalent_pairs": 0
+    },
+    {
+      "alphabet_size": 3,
+      "generated_states": 30,
+      "pair_count": 124750,
+      "finite_pairs": 124750,
+      "equivalent_pairs": 0
+    },
+    {
+      "alphabet_size": 4,
+      "generated_states": 10,
+      "pair_count": 124750,
+      "finite_pairs": 124750,
+      "equivalent_pairs": 0
+    },
+    {
+      "alphabet_size": 4,
+      "generated_states": 15,
+      "pair_count": 124750,
+      "finite_pairs": 124750,
+      "equivalent_pairs": 0
+    },
+    {
+      "alphabet_size": 4,
+      "generated_states": 20,
+      "pair_count": 124750,
+      "finite_pairs": 124750,
+      "equivalent_pairs": 0
+    },
+    {
+      "alphabet_size": 4,
+      "generated_states": 25,
+      "pair_count": 124750,
+      "finite_pairs": 124750,
+      "equivalent_pairs": 0
+    },
+    {
+      "alphabet_size": 4,
+      "generated_states": 30,
+      "pair_count": 124750,
+      "finite_pairs": 124750,
+      "equivalent_pairs": 0
+    },
+    {
+      "alphabet_size": 5,
+      "generated_states": 10,
+      "pair_count": 124750,
+      "finite_pairs": 124750,
+      "equivalent_pairs": 0
+    },
+    {
+      "alphabet_size": 5,
+      "generated_states": 15,
+      "pair_count": 124750,
+      "finite_pairs": 124750,
+      "equivalent_pairs": 0
+    },
+    {
+      "alphabet_size": 5,
+      "generated_states": 20,
+      "pair_count": 124750,
+      "finite_pairs": 124750,
+      "equivalent_pairs": 0
+    },
+    {
+      "alphabet_size": 5,
+      "generated_states": 25,
+      "pair_count": 124750,
+      "finite_pairs": 124750,
+      "equivalent_pairs": 0
+    },
+    {
+      "alphabet_size": 5,
+      "generated_states": 30,
+      "pair_count": 124750,
+      "finite_pairs": 124750,
+      "equivalent_pairs": 0
+    }
+  ],
+  "inputs": [
+    {
+      "path": "data/alphabet_2/states_10/2026-11-15_19-36-35-433280_UTC/manifest.json",
+      "sha256": "219e44e700fdbdb2c4e94f9a1a2b4ac7d671fabb7d14fb9c869c4fbc484f5f45"
+    },
+    {
+      "path": "data/alphabet_2/states_10/2026-11-15_19-36-35-433280_UTC/dfas_alphabet-2_states-10_count-500_2026-11-15_19-36-35-433280_UTC.jsonl",
+      "sha256": "d3614eb6c440c7062da3c339beee14c89f560bd49dc89c87f0c74c7b467dd3dd"
+    },
+    {
+      "path": "data/alphabet_2/states_10/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "a8d7f971f6c70a5692f8d4a4a21fb96802b4aca9a2d4fabe456a5605b14e98e0"
+    },
+    {
+      "path": "data/alphabet_2/states_10/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/pairs.jsonl.gz",
+      "sha256": "2190d5db7fbe3bdd0c7835c6d5050566ba1e2647951daaa08da9d6782f248393"
+    },
+    {
+      "path": "data/alphabet_2/states_15/2026-11-15_19-36-35-433280_UTC/manifest.json",
+      "sha256": "2ad2de6d901e1e5588b30cf30651eeaf799ecb3e29a6f7d61348453ceaed5aea"
+    },
+    {
+      "path": "data/alphabet_2/states_15/2026-11-15_19-36-35-433280_UTC/dfas_alphabet-2_states-15_count-500_2026-11-15_19-36-35-433280_UTC.jsonl",
+      "sha256": "e6090be45369ab2d948366ab8c42c64e762087e1dcb0deb7bd571debbb586ed4"
+    },
+    {
+      "path": "data/alphabet_2/states_15/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "a09bd89d2928d84f4a918bb6469d546d11a36ef78429c9b8803d617c5d5f9904"
+    },
+    {
+      "path": "data/alphabet_2/states_15/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/pairs.jsonl.gz",
+      "sha256": "6b0cc1ef7299135efc916b59369554771eef9ea9a92840b1be7a99e03bf730d3"
+    },
+    {
+      "path": "data/alphabet_2/states_20/2026-11-15_19-36-35-433280_UTC/manifest.json",
+      "sha256": "bd74903c0ed482102ef387c41029cb6bcb96ce230e5a17ef9576c630b6e4b68b"
+    },
+    {
+      "path": "data/alphabet_2/states_20/2026-11-15_19-36-35-433280_UTC/dfas_alphabet-2_states-20_count-500_2026-11-15_19-36-35-433280_UTC.jsonl",
+      "sha256": "9a4f9aac1c5e56eda16e2091a7c88e01ceb8dad1b6bb8a9aaaea2a85609a1293"
+    },
+    {
+      "path": "data/alphabet_2/states_20/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "b65c80d5afd8cd5993528b0b55e264b8ff2204f4b299026e37d9f5dc8f259508"
+    },
+    {
+      "path": "data/alphabet_2/states_20/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/pairs.jsonl.gz",
+      "sha256": "94f424d36c540fd85907e19423c06b60ecc4b90adbafbeaa41f2988bd71c1c7b"
+    },
+    {
+      "path": "data/alphabet_2/states_25/2026-11-15_19-36-35-433280_UTC/manifest.json",
+      "sha256": "d5db23c6742425b098965f7632724e7bb508825c06b432c97fdd87aa8f0854e1"
+    },
+    {
+      "path": "data/alphabet_2/states_25/2026-11-15_19-36-35-433280_UTC/dfas_alphabet-2_states-25_count-500_2026-11-15_19-36-35-433280_UTC.jsonl",
+      "sha256": "81088afd6a20fff49b9734e606311eee0eda55fc1ac5c00087d5155571201c11"
+    },
+    {
+      "path": "data/alphabet_2/states_25/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "5ec1064aba8c80b7e0f7cc8b627830ca01bfc4f93a0f6ae0ff4044d23d28e296"
+    },
+    {
+      "path": "data/alphabet_2/states_25/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/pairs.jsonl.gz",
+      "sha256": "b8dd3ad4eea1e269554982608581d15941912dea27599e978c88fef076207a94"
+    },
+    {
+      "path": "data/alphabet_2/states_30/2026-11-15_19-36-35-433280_UTC/manifest.json",
+      "sha256": "ac255bcde76caa5f90ed6c3c6dae7339390bfeb37c7e0a8be7f46a07bb52d982"
+    },
+    {
+      "path": "data/alphabet_2/states_30/2026-11-15_19-36-35-433280_UTC/dfas_alphabet-2_states-30_count-500_2026-11-15_19-36-35-433280_UTC.jsonl",
+      "sha256": "ef323691282920ba7cee086fc35cc42a7c863a4ef7fe3bd2da7ad94692344f2a"
+    },
+    {
+      "path": "data/alphabet_2/states_30/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "497b9bba7bae161e3dfb43d4133205e0f8383e7f07800cb9a8d9ec218337bd75"
+    },
+    {
+      "path": "data/alphabet_2/states_30/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/pairs.jsonl.gz",
+      "sha256": "2474abb518cce75c060657b28aa2f975a2ac44969f284d823863ad7fccd0f5f8"
+    },
+    {
+      "path": "data/alphabet_3/states_10/2026-11-15_19-36-35-433280_UTC/manifest.json",
+      "sha256": "922d76111f99d4f63d5514097f04e85e827eb75dbde857fa1a0b75c7c1829c0b"
+    },
+    {
+      "path": "data/alphabet_3/states_10/2026-11-15_19-36-35-433280_UTC/dfas_alphabet-3_states-10_count-500_2026-11-15_19-36-35-433280_UTC.jsonl",
+      "sha256": "48c90ef8c19fce4d5972588abbe385495d71db65c6bf53a8ef579c74733141f3"
+    },
+    {
+      "path": "data/alphabet_3/states_10/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "ea3e3423230b2c6ce3db8e443bf78e92d6b2bdd9575cf383ccf5f8f316007e09"
+    },
+    {
+      "path": "data/alphabet_3/states_10/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/pairs.jsonl.gz",
+      "sha256": "5d0ebb698f4dcd62916cf33cc8e1d121ad628bab0791a1cbc794c7bf9a48a5b9"
+    },
+    {
+      "path": "data/alphabet_3/states_15/2026-11-15_19-36-35-433280_UTC/manifest.json",
+      "sha256": "a0604a6bb43181840f544623b6b54cc1763e9f4df943e7b18140b0f4c8f8dd9e"
+    },
+    {
+      "path": "data/alphabet_3/states_15/2026-11-15_19-36-35-433280_UTC/dfas_alphabet-3_states-15_count-500_2026-11-15_19-36-35-433280_UTC.jsonl",
+      "sha256": "d14186e1d2b51dc7cdaee35a7941c16617136f7ae0d5d5fb8f87b8763f2013c8"
+    },
+    {
+      "path": "data/alphabet_3/states_15/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "81111c34bd95bcc19f101ae071e1571507f15fe32275ed38aa8237d2aa7777a3"
+    },
+    {
+      "path": "data/alphabet_3/states_15/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/pairs.jsonl.gz",
+      "sha256": "8c334cc1dcfde03dc1f22ca71ced10e6b1b71a0c6cf05828600fabbffb950d75"
+    },
+    {
+      "path": "data/alphabet_3/states_20/2026-11-15_19-36-35-433280_UTC/manifest.json",
+      "sha256": "d6d6f0f5d4f3c54463f3921f59622207be3ec36bc1271b6fd1502daac27aa991"
+    },
+    {
+      "path": "data/alphabet_3/states_20/2026-11-15_19-36-35-433280_UTC/dfas_alphabet-3_states-20_count-500_2026-11-15_19-36-35-433280_UTC.jsonl",
+      "sha256": "528021096fd75d1b5cb0af684d73f4e130d3b7251fffdee200866bb187f4d5ec"
+    },
+    {
+      "path": "data/alphabet_3/states_20/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "9f76b12a0835f6ec208792f8a62570003e5af5342a469306b4058dde05ed7321"
+    },
+    {
+      "path": "data/alphabet_3/states_20/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/pairs.jsonl.gz",
+      "sha256": "c3bdab93067f4cbe02b5bc73c7868b4b08a2b42490251d4172912ecae4572ee1"
+    },
+    {
+      "path": "data/alphabet_3/states_25/2026-11-15_19-36-35-433280_UTC/manifest.json",
+      "sha256": "79fe8b93e5408047b7b1532e517a47b68b017ab864457cda1ecc05cf3807cef8"
+    },
+    {
+      "path": "data/alphabet_3/states_25/2026-11-15_19-36-35-433280_UTC/dfas_alphabet-3_states-25_count-500_2026-11-15_19-36-35-433280_UTC.jsonl",
+      "sha256": "1f5252284c536db631bd6a2bd5dec73bbad730ccca62789b7df1614d09e60245"
+    },
+    {
+      "path": "data/alphabet_3/states_25/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "b7f633b0ce2adf774280944327deca6ea374820606c7bef824b3ae2a12fb0261"
+    },
+    {
+      "path": "data/alphabet_3/states_25/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/pairs.jsonl.gz",
+      "sha256": "fb88bc20a07656247eaf3978a6f5dc80253b0746f2fbe6ec4ee07358587a7416"
+    },
+    {
+      "path": "data/alphabet_3/states_30/2026-11-15_19-36-35-433280_UTC/manifest.json",
+      "sha256": "8be8805bccfb00a8071a9257e9dac090c6912c3cc061b2bfe4a4093c1cf2089e"
+    },
+    {
+      "path": "data/alphabet_3/states_30/2026-11-15_19-36-35-433280_UTC/dfas_alphabet-3_states-30_count-500_2026-11-15_19-36-35-433280_UTC.jsonl",
+      "sha256": "1b9c4a230eef4eafd07884e0db60a10ca72d4bca7defd4c82d32b2b1eb5995b2"
+    },
+    {
+      "path": "data/alphabet_3/states_30/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "49c1d63326522818b9c423b78cbcf7bf64521287c0df9da6f511481c1e1e2d75"
+    },
+    {
+      "path": "data/alphabet_3/states_30/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/pairs.jsonl.gz",
+      "sha256": "1f17d3941e6048a4c66c0dd1045373e0f4c9b1022d057f6f4eb7cf0842fe4b8a"
+    },
+    {
+      "path": "data/alphabet_4/states_10/2026-11-15_19-36-35-433280_UTC/manifest.json",
+      "sha256": "0072caaa46fd633bfa7c18c537dad10b80e262ca7d7d5c685431d5d414dd61d6"
+    },
+    {
+      "path": "data/alphabet_4/states_10/2026-11-15_19-36-35-433280_UTC/dfas_alphabet-4_states-10_count-500_2026-11-15_19-36-35-433280_UTC.jsonl",
+      "sha256": "65a79d7e2ede56b889a39f3724175d336d244e3605a3d8a3ababaf9ce1247491"
+    },
+    {
+      "path": "data/alphabet_4/states_10/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "d29dc83397ffb0575ced466e0f6117bd6ddd42aa08e215be73f15b53ecf478ba"
+    },
+    {
+      "path": "data/alphabet_4/states_10/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/pairs.jsonl.gz",
+      "sha256": "f99a73f3eac6313bbc53cb5a9f9e856783422703eef493fb7b260574e96c830b"
+    },
+    {
+      "path": "data/alphabet_4/states_15/2026-11-15_19-36-35-433280_UTC/manifest.json",
+      "sha256": "71c241378119e3ad105ffe832ac99bbdb012cf1054445fd594a5685403675643"
+    },
+    {
+      "path": "data/alphabet_4/states_15/2026-11-15_19-36-35-433280_UTC/dfas_alphabet-4_states-15_count-500_2026-11-15_19-36-35-433280_UTC.jsonl",
+      "sha256": "f38865a849e082157a5fa5f6ef5f9375c578dd00c2f5b97dc8673d468972a702"
+    },
+    {
+      "path": "data/alphabet_4/states_15/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "cdec3de00db5055d8a49147a60e9467cc8d9f235ddef3b2db8b15e343fd43b26"
+    },
+    {
+      "path": "data/alphabet_4/states_15/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/pairs.jsonl.gz",
+      "sha256": "38bae76133de2dc935ce54a3e55527341462aee433d4264cecdee8d9c939580f"
+    },
+    {
+      "path": "data/alphabet_4/states_20/2026-11-15_19-36-35-433280_UTC/manifest.json",
+      "sha256": "8bf47fe426a682bddbe140a5da00b8df44b8d5d9b13c6b2752bb11395525daa4"
+    },
+    {
+      "path": "data/alphabet_4/states_20/2026-11-15_19-36-35-433280_UTC/dfas_alphabet-4_states-20_count-500_2026-11-15_19-36-35-433280_UTC.jsonl",
+      "sha256": "969fd631381f65b828be3cf9ef6d959c5c78efbeb7b99953ed3bd6b7f1c0e2ef"
+    },
+    {
+      "path": "data/alphabet_4/states_20/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "a99711e75878fa371e932d374153910d968a0503ecad2543e82bac4d16d0a712"
+    },
+    {
+      "path": "data/alphabet_4/states_20/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/pairs.jsonl.gz",
+      "sha256": "d808c99cbd1b9424e8376b29874a7d4b753b0f6edbd12402a5e8b3aa47b5d62e"
+    },
+    {
+      "path": "data/alphabet_4/states_25/2026-11-15_19-36-35-433280_UTC/manifest.json",
+      "sha256": "2e0f5ef447b0b9de540a854b1a8a7e28fe8bbb7c29d57526e7cf8b81145d6e28"
+    },
+    {
+      "path": "data/alphabet_4/states_25/2026-11-15_19-36-35-433280_UTC/dfas_alphabet-4_states-25_count-500_2026-11-15_19-36-35-433280_UTC.jsonl",
+      "sha256": "7db2b7561d6373cc509076eeb074b0651489a999da1d33cb81621879c418e238"
+    },
+    {
+      "path": "data/alphabet_4/states_25/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "a141f8de882c897060ed9186bf163d4f7b019adb132b9fe2cf7a7a490e183bdb"
+    },
+    {
+      "path": "data/alphabet_4/states_25/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/pairs.jsonl.gz",
+      "sha256": "c9fb15eed990ab657e4d72e86402cd9670c858c01a84ef558bd40feae071e7f1"
+    },
+    {
+      "path": "data/alphabet_4/states_30/2026-11-15_19-36-35-433280_UTC/manifest.json",
+      "sha256": "cad6cb3aef99da01c614a1087e9f283017a878577142ff394ba3d81bb0a5fd6f"
+    },
+    {
+      "path": "data/alphabet_4/states_30/2026-11-15_19-36-35-433280_UTC/dfas_alphabet-4_states-30_count-500_2026-11-15_19-36-35-433280_UTC.jsonl",
+      "sha256": "02f0fb53f3720308975e8148586f7867002ddffe7e2360173b08f78692592bf9"
+    },
+    {
+      "path": "data/alphabet_4/states_30/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "a7a8a31248ff0acd8f1b20c972ce7913f67c11ea6d43ab9fad60ba46a849fd6f"
+    },
+    {
+      "path": "data/alphabet_4/states_30/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/pairs.jsonl.gz",
+      "sha256": "c30616b3c51f7cfde7d5cad32479c9665122651d04c61e7d1dc4b17baab09fcf"
+    },
+    {
+      "path": "data/alphabet_5/states_10/2026-11-15_19-36-35-433280_UTC/manifest.json",
+      "sha256": "c0bd83c6c286b9c19b4d809f34ea625d0442e8c311619d0eb2ddae0b50e50110"
+    },
+    {
+      "path": "data/alphabet_5/states_10/2026-11-15_19-36-35-433280_UTC/dfas_alphabet-5_states-10_count-500_2026-11-15_19-36-35-433280_UTC.jsonl",
+      "sha256": "ed446abb6a0b6287d5d189735b6bdf8f4572938f8f9ca2cb2863fb55f334adf3"
+    },
+    {
+      "path": "data/alphabet_5/states_10/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "4ecfb92c8779209885fce417c5d3280ee0fa8f28a7d37302aab3beffc8a72711"
+    },
+    {
+      "path": "data/alphabet_5/states_10/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/pairs.jsonl.gz",
+      "sha256": "c60683f08c3096c273e5c7bb76bac09badd4f602357bed0e7d394eef4d2aabc6"
+    },
+    {
+      "path": "data/alphabet_5/states_15/2026-11-15_19-36-35-433280_UTC/manifest.json",
+      "sha256": "bd0747f22050a4a1eef3741a9147fb68802e58f42e00b0e9a9f2577a9c105274"
+    },
+    {
+      "path": "data/alphabet_5/states_15/2026-11-15_19-36-35-433280_UTC/dfas_alphabet-5_states-15_count-500_2026-11-15_19-36-35-433280_UTC.jsonl",
+      "sha256": "f86aa51bda1a8e4acba471a564aa44cbe3ab3b7f1becef681c28183464573ad8"
+    },
+    {
+      "path": "data/alphabet_5/states_15/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "1b284236dd1286aef005fc98a9a8ad48bfa7df1e5bb0b0a3b181ebdae4c66656"
+    },
+    {
+      "path": "data/alphabet_5/states_15/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/pairs.jsonl.gz",
+      "sha256": "abc33e13576e3a521aea4e7831955789f275f1758a6fd339da47f6b758695ec1"
+    },
+    {
+      "path": "data/alphabet_5/states_20/2026-11-15_19-36-35-433280_UTC/manifest.json",
+      "sha256": "4ffcdb7c79536c7e4d20696d7bd6a7e2fdf8b0f21599d796c98e0e19afe336bd"
+    },
+    {
+      "path": "data/alphabet_5/states_20/2026-11-15_19-36-35-433280_UTC/dfas_alphabet-5_states-20_count-500_2026-11-15_19-36-35-433280_UTC.jsonl",
+      "sha256": "35ece3b12632ae16b37efe29f4501f144b200c668be441dc75d72cef06c78f4b"
+    },
+    {
+      "path": "data/alphabet_5/states_20/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "b290ef52c575c3def1c59b9d218f5f26ab68a53e0c8d263390f215bc64a36aee"
+    },
+    {
+      "path": "data/alphabet_5/states_20/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/pairs.jsonl.gz",
+      "sha256": "b4a63e869a3fd47e0ffa26c0a2bedf34856b475a34432ecc22a4a1e3bfeb075f"
+    },
+    {
+      "path": "data/alphabet_5/states_25/2026-11-15_19-36-35-433280_UTC/manifest.json",
+      "sha256": "306148346c568f24f6324f3188706d594b394c62dadb9fe27a8f74adffd7b2d2"
+    },
+    {
+      "path": "data/alphabet_5/states_25/2026-11-15_19-36-35-433280_UTC/dfas_alphabet-5_states-25_count-500_2026-11-15_19-36-35-433280_UTC.jsonl",
+      "sha256": "8ae0a44ba65a98764425c001d36a7bba6e5ab2661b987447e39512638c38cee8"
+    },
+    {
+      "path": "data/alphabet_5/states_25/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "c74503aecfc192a58a6956321541673ebf4eacf2018dbf2ae1fc2eb61bae62c3"
+    },
+    {
+      "path": "data/alphabet_5/states_25/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/pairs.jsonl.gz",
+      "sha256": "4b02b4b96a4eba9b2a049ce7322142b5e9d0d71bd90124d025a8136f05165c2a"
+    },
+    {
+      "path": "data/alphabet_5/states_30/2026-11-15_19-36-35-433280_UTC/manifest.json",
+      "sha256": "66403956362acb3281ef1ef92ca8be8550082ef9014203cc6e10f8405be4bf1a"
+    },
+    {
+      "path": "data/alphabet_5/states_30/2026-11-15_19-36-35-433280_UTC/dfas_alphabet-5_states-30_count-500_2026-11-15_19-36-35-433280_UTC.jsonl",
+      "sha256": "3829402d33cc1edc1a10c548f3fcc081ef08a0ad9e4ebeba261fd09985c9dbd7"
+    },
+    {
+      "path": "data/alphabet_5/states_30/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/manifest.json",
+      "sha256": "db3c9916434f969ebeb47b4c5320635cd9d1aa3825673ecba730a7530732857c"
+    },
+    {
+      "path": "data/alphabet_5/states_30/2026-11-15_19-36-35-433280_UTC/comparisons/2026-11-15_19-55-50-157162_UTC/pairs.jsonl.gz",
+      "sha256": "40b3b90361d0bdebc9ad93b1dc54e0c74fec6f125c035b034bb6b4a4cbcca571"
+    }
+  ],
+  "figures": [
+    "sds_vs_agreement_alphabet_2.svg",
+    "sds_vs_agreement_alphabet_3.svg",
+    "sds_vs_agreement_alphabet_4.svg",
+    "sds_vs_agreement_alphabet_5.svg",
+    "sds_vs_agreement_states_10.svg",
+    "sds_vs_agreement_states_20.svg",
+    "sds_vs_agreement_states_30.svg",
+    "sds_vs_jaccard_alphabet_2.svg",
+    "sds_vs_jaccard_alphabet_3.svg",
+    "sds_vs_jaccard_alphabet_4.svg",
+    "sds_vs_jaccard_alphabet_5.svg",
+    "sds_vs_jaccard_states_10.svg",
+    "sds_vs_jaccard_states_20.svg",
+    "sds_vs_jaccard_states_30.svg"
+  ],
+  "matplotlib": "3.10.9",
+  "script_sha256": "3fcb5e7c0f9377cbf4d839142487f311f724bc9be7a1211863ec3d521424a8e7"
+}
