@@ -40,7 +40,6 @@ ANALYSIS_VERSION = 1
 COLORS = {5: '#9467bd', 10: '#0072b2', 15: '#009e73',
           20: '#d55e00', 25: '#cc79a7', 30: '#333333'}
 STYLES = {5: '-', 10: '-', 15: '--', 20: '--', 25: ':', 30: '-.'}
-HATCHES = {5: 'xx', 10: '', 15: '//', 20: '///', 25: '..', 30: 'xx'}
 
 
 def require(condition, message):
@@ -303,7 +302,9 @@ def exports(data, comparisons, output):
 
 
 def setup_style():
-    plt.rcParams.update({'font.family': 'DejaVu Sans', 'font.size': 15,
+    plt.rcParams.update({'font.family': 'sans-serif',
+                         'font.sans-serif': ['Arial', 'Helvetica', 'Liberation Sans', 'DejaVu Sans'],
+                         'font.size': 15,
                          'axes.labelsize': 16, 'axes.titlesize': 18,
                          'xtick.labelsize': 14, 'ytick.labelsize': 14,
                          'legend.fontsize': 14, 'svg.fonttype': 'none',
@@ -345,7 +346,7 @@ def bucket_figure(records, kind, alphabet, number, output, preview_dir):
             state = r['states'][0]
             y = [r['equivalent_pairs'] if b == 'Eq.' else r['histogram'].get(str(b), 0) for b in buckets]
             x = np.arange(len(buckets)) + (offset - (len(items) - 1) / 2) * width
-            ax.bar(x, y, width=width, color=COLORS[state], hatch=HATCHES[state],
+            ax.bar(x, y, width=width, color=COLORS[state],
                    edgecolor='white', linewidth=.45, label=f'{state} states', zorder=3)
             if panel == 1:
                 for px, count in zip(x, y):
