@@ -1,0 +1,230 @@
+﻿[
+    {
+        "RelativePath":  "analyze.py",
+        "SHA256":  "CE48CE75C21675A8814B5D53F6A590350AF572B300E5383BCF0B2B0ABFD1F4DB"
+    },
+    {
+        "RelativePath":  "DFA_Visualizations.ipynb",
+        "SHA256":  "704C934E2E8B895A233DB7CCF7732EE863A03A4CFF6B119E4420BF2F3BEBDDFD"
+    },
+    {
+        "RelativePath":  "diagnostics.py",
+        "SHA256":  "6A8827BB642D07D21B151007E292947BE47565D167CFEBA587090E84C6A8AD11"
+    },
+    {
+        "RelativePath":  "FINDINGS.md",
+        "SHA256":  "728076EF65CA16406E9B38D2DD343ADD877D6FE29DF35406E4C93C577C34D96D"
+    },
+    {
+        "RelativePath":  "README.md",
+        "SHA256":  "F483EB1AE97C453CBC7627929B4F9DF0DAD16DD1D0DA33A09F4CCEAF7F5C18C4"
+    },
+    {
+        "RelativePath":  "requirements.txt",
+        "SHA256":  "02175B423FB4BF62AFDCDAC9D258368D7D60130EDCBA9A5D460C959EBE4A7C24"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\acceptance_per_dfa.png",
+        "SHA256":  "60730D51602FFD4F40F5D1BE04D5BAD19ECF99AEDA4997F6AA8673D030348010"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\acceptance_per_dfa.svg",
+        "SHA256":  "CF86219171CBB7CE0CCE84DE948740C6641965840628F0F332F598C296B390D1"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\dfa_size_distributions.png",
+        "SHA256":  "4DD43AC4AA7955A6F0CA0E9B953085291E87BE7E9F65D86E47A2EFBD48D1154B"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\dfa_size_distributions.svg",
+        "SHA256":  "25DB4A1C0C3D861DB8A911D28E6754E8E817F35E2A428738A9DA5C8919347134"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\provenance.json",
+        "SHA256":  "96DF95B5830DF5EAAFCCC83D191A7DAFD5CCA0028BF2A3C197114C73972A8FD3"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\REPORT.md",
+        "SHA256":  "45501A91B0BFF4038C40E41AFF59C2375C61AAC2D1664D36D5F3BADBE9272184"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\sds_grouped_bars.png",
+        "SHA256":  "9DBDF3576233A458E20C0324F36109E775DA3EBF505A22AE94203B00DA03CC98"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\sds_grouped_bars.svg",
+        "SHA256":  "EE84FCAE028A7399373E9717ACA8BB31FCA6D78BAEEA957804D72D17CD7E07E5"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\sds_mean_bars.png",
+        "SHA256":  "9A1AA97678E58598B31DD2E8213CD23F660821FF39EA9A3A57188FDB71AD4A59"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\sds_mean_bars.svg",
+        "SHA256":  "3D33AA5E822C99EECDD7830EEDF09C4D1859B3142665C75E960CCC6DCFA9394A"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\sds_positive_and_tail.png",
+        "SHA256":  "738589BC1A4910D366740443FA1A4C313DEE086B5395D66A5BAB1062259EE600"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\sds_positive_and_tail.svg",
+        "SHA256":  "08D51FB8CE11E9FD8D720FE6B08420E941CF0380A085AD58C7AC8BD4B606817A"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\sds_six_distributions.png",
+        "SHA256":  "1901BD7DF92CC6BAC8C4195FF1BE23E1E874708F914208095C6CABDA2370C4B3"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\sds_six_distributions.svg",
+        "SHA256":  "AD816D5A78F801A8FF76C76549A51F947F00D3B15B2EF23E2E226FC1F1A414C4"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\sds_vs_acceptance_fraction_gap.png",
+        "SHA256":  "40DD556456A080F5052CDD4AACFA58AB09EC9990D58AA34B8C111CEE8702EEFD"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\sds_vs_acceptance_fraction_gap.svg",
+        "SHA256":  "9DD56F32841105FB020A8AEB7591697DE15E0B9AB61125B083222481029D65BB"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\sds_vs_acceptance_fraction_mean.png",
+        "SHA256":  "2D2039D166E6F96904F63649D3EF92542FBAF386B16C57EBFBFACD01D2B54F01"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\sds_vs_acceptance_fraction_mean.svg",
+        "SHA256":  "B2F352C005D20F98AABF89FD168ED65D94A296AFCAC2FE46CD4CDAB4803BF2C0"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\sds_vs_probability_of_agreement.png",
+        "SHA256":  "7A35ADFD1F6258997F5A9EBD55038B706DBE859B7B625D6E872D7A89A4E337D0"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\sds_vs_probability_of_agreement.svg",
+        "SHA256":  "3A4D41C16BA052AAF2C5C06672AB7ECE0D83ACD621C6CB03B2746103549706B6"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\sds_vs_weighted_jaccard.png",
+        "SHA256":  "3382C10A73A6AFC247D19E0859B385FE1565D8353045CB2CF2EF803860BC1BF6"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\sds_vs_weighted_jaccard.svg",
+        "SHA256":  "B9AF35BE59A59A8AB29F32D26C7481175FF9B47F2718C9912F8CCE2E7A944813"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\similarity_by_sds.png",
+        "SHA256":  "5FFFF86D496B3CA24A6F47A7A9BF1BD7E4D3A9E8DCE81486FE9B5CEAD41F9B09"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\similarity_by_sds.svg",
+        "SHA256":  "3F57004603A898A691E6F9567C8D1BDBD32BE98D28107F130C9E3F751736F965"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\similarity_distributions.png",
+        "SHA256":  "2E66C27798727CB3BE8AEA4F169DD848E1532254D25A548355CE297C9DE863CD"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\similarity_distributions.svg",
+        "SHA256":  "C50D32D052EF2FB487223AC912DC0C31C528AB4E0088E18247D81093F94EF82B"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\similarity_joint_density.png",
+        "SHA256":  "CD4C4F6B66AAC2B78D6D900D3E9DB7142A3794E6AB80712CBBE0188EA28FD782"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\similarity_joint_density.svg",
+        "SHA256":  "4BADF08B575D80B9FAEE48BC34A2CA4C02174B364F5A9B61367E6E3A0D146289"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\tables\\agreement_bin_audit.csv",
+        "SHA256":  "522F162CAB5BEE9502086F452831AFBE4A41B0BA30036301D5E8D0AAFC5E1B86"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\tables\\agreement_exact_score_counts.csv",
+        "SHA256":  "23FE8AA89951EACC97FEA4E08CCE54F75EEECF75C2D2A89EE0EDD7331F13429F"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\tables\\anomaly_leave_one_dfa_out.csv",
+        "SHA256":  "04FCF2C0C9EFCA5F0D06742C6316AFAC6F4529E3B56F7C908438DF2523412F3B"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\tables\\anomaly_pairs_a2_s10_d4.csv",
+        "SHA256":  "E0FA7D1CD57565E904A91C1FC8CDF74AECADC4F90EE1FEB63B0A276B6336BD83"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\tables\\anomaly_pairs_a3_s10_d3.csv",
+        "SHA256":  "85FC11B7735D36A53BC4B61C34A156948C3DC5DD0E45E3012760B44ABC7B0DFA"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\tables\\anomaly_repeated_cohorts.csv",
+        "SHA256":  "4B45A462D0301418526B0FCCB80A820717CAB2FD3585DC1FF2EEAB4A363F5855"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\tables\\batch_summary.csv",
+        "SHA256":  "FE03E526A4E6B3A14C3B1F193BF5AB1A7A5AD25E3D71CA7E4BD6C314ADC92B8B"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\tables\\high_agreement_low_jaccard_examples.csv",
+        "SHA256":  "64044DE72CA5A4ED058107EBB2C0A66CFB5EEC45B968A2B6EE6289B2E61572BC"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\tables\\high_agreement_low_jaccard_summary.csv",
+        "SHA256":  "BBDDCDBF33EA83F75E4AA5EA9BD7CE0178F418F10FBDE6B483BE0D562A44B936"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\tables\\inequivalent_but_perfect_h4.csv",
+        "SHA256":  "985443FEE8A8D19E8181129F2B83C6C802C017E01515E76BCF318B669E98CB16"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\tables\\per_dfa.csv",
+        "SHA256":  "86A5E7CCEC7389CA5230805032183592E4280780C4CFC1EE6FEB42EA6B29F7D6"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\tables\\sds_distribution.csv",
+        "SHA256":  "7D4C96FB0511F7AE5B760C1B69280B7E821BB2A8474C361B004680224C2E28EA"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\tables\\sds_vs_acceptance_fraction_gap.csv",
+        "SHA256":  "83810FE328DB3E1FF1B9A9A94F238F77D25A176738A308288B051DF040E04252"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\tables\\sds_vs_acceptance_fraction_mean.csv",
+        "SHA256":  "9CEA6CD5C3D18E123B6CF10BE92B43B443C04E6C707F1DD369E3DF09198F571C"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\tables\\sds_vs_probability_of_agreement.csv",
+        "SHA256":  "2EDD406F180F2973ACF870D58B3A467C9A5136CCC828BC91EB383FCF499236C7"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\tables\\sds_vs_weighted_jaccard.csv",
+        "SHA256":  "93B51A2BB59D1E5D43EB5DF70B17044069F1EAC6823C5D95139804C2DF7896FE"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\tables\\similarity_anomaly_dfas.csv",
+        "SHA256":  "14C1C0F9ACC39E10F4EB304AA6A2EB29D259281AACBC0814BF66D5B99BD0E268"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\tables\\similarity_by_sds.csv",
+        "SHA256":  "6A696651D2273381349B704DCA322B14254AE26650CDFC84618E47B3363BCC27"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\tables\\similarity_by_sds_sensitivity.csv",
+        "SHA256":  "17E0E9E82F56F01198418784384D21142ED0361FA601E730769D782CD484AD08"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\tables\\state_count_comparison.csv",
+        "SHA256":  "5E74FFDB2B89F5EB40EBD17A7DCEAEC30E9E5DCDB4E49C9CB3CEE7CE103853DF"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\tables\\tail_dfa_involvement.csv",
+        "SHA256":  "35E8BC2A1110B751594487E9C8193F2B9CE2731972B44528BDD95D9915F09382"
+    },
+    {
+        "RelativePath":  "outputs\\2026-11-15_17-55-16-095569_UTC\\tables\\tail_pairs_sds_ge4.csv",
+        "SHA256":  "4BD9DCE6C9D3F46D5004F38CA37A61B9DF663E0AF738834C44219BAF49FD1026"
+    },
+    {
+        "RelativePath":  "__pycache__\\diagnostics.cpython-312.pyc",
+        "SHA256":  "87778D9D3F9065310BF30858880D419DDA70B73F80CC285A0A32E686B13ADF49"
+    }
+]
